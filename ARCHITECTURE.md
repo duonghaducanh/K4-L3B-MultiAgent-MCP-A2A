@@ -16,14 +16,14 @@ Input → Entity Resolver → Coordinator → Specialists → Conflict Resolver 
 
 | Actor | Input | Trách nhiệm | Tool permission | Output/handoff |
 | --- | --- | --- | --- | --- |
-| Entity/customer | TODO | TODO | TODO | TODO |
-| Coordinator | TODO | TODO | TODO | TODO |
-| Order/product | TODO | TODO | TODO | TODO |
-| Shipment | TODO | TODO | TODO | TODO |
-| Payment/refund | TODO | TODO | TODO | TODO |
-| Policy | TODO | TODO | TODO | TODO |
-| Conflict resolver | TODO | TODO | TODO | TODO |
-| Verifier | TODO | TODO | TODO | TODO |
+| Entity/customer | claimed ID and customer hint | Resolve order against customer history | `get_order`, `get_customer_history` | resolution |
+| Coordinator | case and handoffs | Assign bounded work and assemble evidence | routes only | output draft |
+| Order/product | resolved order | Identify item and seller context | `get_order_items`, `get_product_context` | entities |
+| Shipment | resolved order | Classify delivery timing | `get_shipment_summary` | shipment verdict |
+| Payment/refund | resolved order | Reconcile payment totals | `get_payment_timeline` | payment verdict |
+| Policy | issue and policy version | Select action, refund and party | `get_policy` | policy decision |
+| Conflict resolver | specialist results | Preserve unresolved data | none | investigation state |
+| Verifier | output draft | Validate evidence linkage and schema-facing fields | none | verification event |
 
 Áp dụng least privilege; tool discovery không đồng nghĩa mọi actor đều được gọi mọi tool.
 
@@ -39,10 +39,10 @@ Mô tả cách validate MCP response, lưu `evidence_ref`, chọn source theo po
 
 | Failure | Retry budget | Fallback | Trace event/code |
 | --- | ---: | --- | --- |
-| MCP timeout | TODO | TODO | TODO |
-| Entity not found/ambiguous | TODO | TODO | TODO |
-| Source conflict | TODO | TODO | TODO |
-| Invalid specialist result | TODO | TODO | TODO |
+| MCP timeout/error | 0 automatic retries | Continue with missing evidence and lower confidence | no consumed-evidence event |
+| Entity not found/ambiguous | 0 | `needs_investigation` with `investigate_entity` | entity handoff decision |
+| Source conflict | 0 | Preserve the conflict and apply direct-order precedence | policy decision / conflict output |
+| Invalid specialist result | 0 | Do not consume or cite it | no tool-consumed event |
 
 Nêu query budget/cache strategy để tránh gọi lặp và quét rộng. Retry phải có giới hạn, idempotent và không biến missing evidence thành dữ liệu phỏng đoán.
 
