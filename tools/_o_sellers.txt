@@ -1,0 +1,12 @@
+L3B_CASE_009
+  DECOY  oid=8a5fc33c79bf3f4d9bbcc3dceb6b67c4 status=unavailable purch=2018-06-03
+  ITEM   oid=8a5fc33c79bf3f4d9bbcc3dceb6b67c4 seller=seller-8a5fc33c79bf freight=10.00 price=89.00
+  ITEM   oid=8a5fc33c79bf3f4d9bbcc3dceb6b67c4 seller=seller-8a5fc33c79bf freight=10.00 price=89.00
+  HIST   oid=8a5fc33c79bf3f4d9bbcc3dceb6b67c4 status=unavailable purch=2018-06-03
+  HIST   oid=8a5fc33c79bf3f4d9bbcc3dceb6b67c4 status=unavailable purch=2018-08-28
+L3B_CASE_010
+  DECOY  oid=64a8b3b4c19751b51d211deb32fdc67b status=canceled purch=2018-05-02
+  ITEM   oid=64a8b3b4c19751b51d211deb32fdc67b seller=seller-64a8b3b4c197 freight=10.00 price=79.00
+  ITEM   oid=64a8b3b4c19751b51d211deb32fdc67b seller=seller-64a8b3b4c197 freight=18.00 price=79.00
+  HIST   oid=64a8b3b4c19751b51d211deb32fdc67b status=canceled purch=2018-05-02
+  HIST   oid=64a8b3b4c19751b51d211deb32fdc67b status=delivered purch=2017-12-29

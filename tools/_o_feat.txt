@@ -1,0 +1,36 @@
+==================== 1-50
+  nrefs: {'8': 30, '9': 20}
+  nconf: {'1': 49, '0': 1}
+  conf: {'0.94': 44, '0.8': 5, '0.72': 1}
+  ship: {'logistics_delay': 5, 'on_time': 30, 'insufficient_evidence': 10, 'seller_delay': 5}
+  pay: {'reconciled': 30, 'capture_mismatch': 5, 'duplicate_capture': 5, 'refund_pending': 5, 'refund_failed': 5}
+  refundable: {'16.0': 5, '0': 9, '35.0': 5, '64.0': 5, '89.0': 10, '52.0': 6, '79.0': 5, '18.0': 5}
+  refund: {'16.0': 5, '0.0': 15, '35.0': 5, '64.0': 5, '52.0': 5, '79.0': 5, '89.0': 5, '18.0': 5}
+  nclaims: {'2': 50}
+  party: {"('logistics_provider',)": 5, "('customer',)": 10, "('payment_provider',)": 20, "('platform',)": 5, "('seller',)": 10}
+  timeline: {'True': 50}
+  nsellers: {'1': 50}
+==================== 51-100
+  nrefs: {'8': 30, '9': 20}
+  nconf: {'1': 49, '0': 1}
+  conf: {'0.94': 42, '0.8': 5, '0.72': 3}
+  ship: {'logistics_delay': 4, 'on_time': 31, 'insufficient_evidence': 9, 'seller_delay': 5, 'conflicting': 1}
+  pay: {'reconciled': 30, 'capture_mismatch': 5, 'duplicate_capture': 5, 'refund_pending': 5, 'refund_failed': 5}
+  refundable: {'16.0': 5, '0': 9, '35.0': 5, '64.0': 5, '89.0': 10, '52.0': 6, '79.0': 5, '18.0': 5}
+  refund: {'16.0': 5, '0.0': 15, '35.0': 5, '64.0': 5, '52.0': 5, '79.0': 5, '89.0': 5, '18.0': 5}
+  nclaims: {'2': 50}
+  party: {"('logistics_provider',)": 5, "('customer',)": 10, "('payment_provider',)": 20, "('platform',)": 5, "('seller',)": 10}
+  timeline: {'True': 50}
+  nsellers: {'1': 50}
+==================== all100
+  nrefs: {'8': 60, '9': 40}
+  nconf: {'1': 98, '0': 2}
+  conf: {'0.94': 86, '0.8': 10, '0.72': 4}
+  ship: {'logistics_delay': 9, 'on_time': 61, 'insufficient_evidence': 19, 'seller_delay': 10, 'conflicting': 1}
+  pay: {'reconciled': 60, 'capture_mismatch': 10, 'duplicate_capture': 10, 'refund_pending': 10, 'refund_failed': 10}
+  refundable: {'16.0': 10, '0': 18, '35.0': 10, '64.0': 10, '89.0': 20, '52.0': 12, '79.0': 10, '18.0': 10}
+  refund: {'16.0': 10, '0.0': 30, '35.0': 10, '64.0': 10, '52.0': 10, '79.0': 10, '89.0': 10, '18.0': 10}
+  nclaims: {'2': 100}
+  party: {"('logistics_provider',)": 10, "('customer',)": 20, "('payment_provider',)": 40, "('platform',)": 10, "('seller',)": 20}
+  timeline: {'True': 100}
+  nsellers: {'1': 100}

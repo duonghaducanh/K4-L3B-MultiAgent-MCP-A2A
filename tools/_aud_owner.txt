@@ -1,0 +1,96 @@
+== L3B_CASE_002
+   history:
+     H0 purch=2018-04-10T09:00:00 deliv=2018-04-19T09:00:00 status=delivered    est=2018-04-20T09:00:00
+     H1 purch=2018-01-21T09:00:00 deliv=2018-01-30T09:00:00 status=delivered    est=2018-01-31T09:00:00
+   payment_timeline events:
+     2018-04-10T10:00:00-03:00 captured                 amt=52.00    status=confirmed 
+     2018-01-21T10:00:00-03:00 captured                 amt=44.50    status=confirmed 
+     2018-01-21T11:00:00-03:00 captured                 amt=44.50    status=confirmed 
+   payment_timeline payments: [{"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "52.00"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "44.50"}]
+   get_order_payments: [{"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "52.00"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "44.50"}]
+     REFUND 2018-04-21T09:00:00-03:00 refund_requested     amt=52.00    status=failed
+== L3B_CASE_003
+   history:
+     H0 purch=2018-03-09T09:00:00 deliv=2018-03-18T09:00:00 status=delivered    est=2018-03-19T09:00:00
+     H1 purch=2018-02-19T09:00:00 deliv=2018-02-28T09:00:00 status=delivered    est=2018-03-01T09:00:00
+   payment_timeline events:
+     2018-03-09T10:00:00-03:00 captured                 amt=89.00    status=confirmed 
+     2018-02-19T10:00:00-03:00 captured                 amt=35.00    status=confirmed 
+     2018-02-19T12:00:00-03:00 reconciliation_mismatch  amt=35.00    status=open      
+   payment_timeline payments: [{"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}]
+   get_order_payments: [{"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}]
+     REFUND 2018-03-20T09:00:00-03:00 refund_requested     amt=89.00    status=pending
+== L3B_CASE_004
+   history:
+     H0 purch=2018-02-08T09:00:00 deliv=2018-02-17T09:00:00 status=delivered    est=2018-02-18T09:00:00
+     H1 purch=2018-03-23T09:00:00 deliv=2018-04-01T09:00:00 status=delivered    est=2018-04-02T09:00:00
+   payment_timeline events:
+     2018-02-08T10:00:00-03:00 captured                 amt=64.00    status=confirmed 
+     2018-02-08T11:00:00-03:00 captured                 amt=64.00    status=confirmed 
+     2018-03-23T10:00:00-03:00 captured                 amt=64.00    status=confirmed 
+     2018-03-23T11:00:00-03:00 captured                 amt=64.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "64.00"}]
+   get_order_payments: [{"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "64.00"}, {"order_id": "b04477ada8d2ad7fa9d95358baaa785d", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "64.00"}]
+   refund: ERROR
+== L3B_CASE_005
+   history:
+     H0 purch=2018-01-07T09:00:00 deliv=2018-01-16T09:00:00 status=delivered    est=2018-01-17T09:00:00
+     H1 purch=2018-04-23T09:00:00 deliv=2018-05-02T09:00:00 status=delivered    est=2018-05-03T09:00:00
+   payment_timeline events:
+     2018-01-07T10:00:00-03:00 captured                 amt=35.00    status=confirmed 
+     2018-01-07T12:00:00-03:00 reconciliation_mismatch  amt=35.00    status=open      
+     2018-04-23T10:00:00-03:00 captured                 amt=89.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}, {"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+   get_order_payments: [{"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}, {"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+     REFUND 2018-05-04T09:00:00-03:00 refund_requested     amt=89.00    status=pending
+== L3B_CASE_006
+   history:
+     H0 purch=2018-09-06T09:00:00 deliv=2018-09-15T09:00:00 status=delivered    est=2018-09-16T09:00:00
+     H1 purch=2018-05-25T09:00:00 deliv=2018-06-03T09:00:00 status=delivered    est=2018-06-04T09:00:00
+   payment_timeline events:
+     2018-09-06T10:00:00-03:00 captured                 amt=44.50    status=confirmed 
+     2018-09-06T11:00:00-03:00 captured                 amt=44.50    status=confirmed 
+     2018-05-25T10:00:00-03:00 captured                 amt=52.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "52.00"}]
+   get_order_payments: [{"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "2", "payment_type": "voucher", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "d67b79fea59821fda4d363d337a56c3a", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "52.00"}]
+     REFUND 2018-06-05T09:00:00-03:00 refund_requested     amt=52.00    status=failed
+== L3B_CASE_007
+   history:
+     H0 purch=2018-08-05T09:00:00 deliv=2018-08-20T09:00:00 status=delivered    est=2018-08-15T09:00:00
+     H1 purch=2018-06-25T09:00:00 deliv=2018-07-04T09:00:00 status=delivered    est=2018-07-05T09:00:00
+   payment_timeline events:
+     2018-08-05T10:00:00-03:00 captured                 amt=16.00    status=confirmed 
+     2018-06-25T10:00:00-03:00 captured                 amt=89.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "16.00"}, {"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+   get_order_payments: [{"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "16.00"}, {"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+   refund: ERROR
+== L3B_CASE_008
+   history:
+     H0 purch=2018-07-04T09:00:00 deliv=2018-07-18T09:00:00 status=delivered    est=2018-07-14T09:00:00
+     H1 purch=2018-07-27T09:00:00 deliv=None status=canceled     est=2018-08-06T09:00:00
+   payment_timeline events:
+     2018-07-04T10:00:00-03:00 captured                 amt=18.00    status=confirmed 
+     2018-07-27T10:00:00-03:00 captured                 amt=79.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}, {"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}]
+   get_order_payments: [{"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}, {"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}]
+   refund: ERROR
+== L3B_CASE_009
+   history:
+     H0 purch=2018-06-03T09:00:00 deliv=None status=unavailable  est=2018-06-13T09:00:00
+     H1 purch=2018-08-28T09:00:00 deliv=None status=unavailable  est=2018-09-07T09:00:00
+   payment_timeline events:
+     2018-06-03T10:00:00-03:00 captured                 amt=89.00    status=confirmed 
+     2018-08-28T10:00:00-03:00 captured                 amt=89.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "8a5fc33c79bf3f4d9bbcc3dceb6b67c4", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "8a5fc33c79bf3f4d9bbcc3dceb6b67c4", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+   get_order_payments: [{"order_id": "8a5fc33c79bf3f4d9bbcc3dceb6b67c4", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "8a5fc33c79bf3f4d9bbcc3dceb6b67c4", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+   refund: ERROR
+== L3B_CASE_010
+   history:
+     H0 purch=2018-05-02T09:00:00 deliv=None status=canceled     est=2018-05-12T09:00:00
+     H1 purch=2017-12-29T09:00:00 deliv=2018-01-12T09:00:00 status=delivered    est=2018-01-08T09:00:00
+   payment_timeline events:
+     2018-05-02T10:00:00-03:00 captured                 amt=79.00    status=confirmed 
+     2017-12-29T10:00:00-03:00 captured                 amt=18.00    status=confirmed 
+   payment_timeline payments: [{"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}, {"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}]
+   get_order_payments: [{"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}, {"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}]
+   refund: ERROR

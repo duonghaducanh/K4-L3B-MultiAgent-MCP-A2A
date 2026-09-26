@@ -1,0 +1,14 @@
+our-key: status=200 body='event: message\r\ndata: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{"experimental":{},"prompts":{"listChanged":false},"resources":{"listChanged":false,"subscribe":false},"tools":{"listChanged":false}},"instructions":'
+bogus-key: status=200 body='event: message\r\ndata: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{"experimental":{},"prompts":{"listChanged":false},"resources":{"listChanged":false,"subscribe":false},"tools":{"listChanged":false}},"instructions":'
+no-key: status=200 body='event: message\r\ndata: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{"experimental":{},"prompts":{"listChanged":false},"resources":{"listChanged":false,"subscribe":false},"tools":{"listChanged":false}},"instructions":'
+Traceback (most recent call last):
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\_quota.py", line 50, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\_quota.py", line 47, in main
+    print(f"api {p}: {r.status_code} {r.text[:200]!r}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\miniconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ec5' in position 97: character maps to <undefined>

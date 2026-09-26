@@ -1,0 +1,123 @@
+{
+ "schema_version": "day09-mcp-evidence-v1",
+ "evidence_ref": "ev_vnbTDL3LwNoxIrEabrPC7V5aVaMoeP5e",
+ "result_hash": "sha256:b8c15c57fcbd37b9192b591bd584202ec821cf68009d8f9af3c1b0229a67e62d",
+ "domain": "policy",
+ "data": {
+  "currency": "BRL",
+  "policy_version": "EC_POLICY_V2",
+  "rules": {
+   "canceled_order_paid": {
+    "case_status": "action_required",
+    "recommended_action": "issue_refund",
+    "refund_brl": 79.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "platform"
+     }
+    ]
+   },
+   "duplicate_charge": {
+    "case_status": "action_required",
+    "recommended_action": "refund_duplicate_charge",
+    "refund_brl": 64.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "payment_provider"
+     }
+    ]
+   },
+   "late_delivery_logistics": {
+    "case_status": "action_required",
+    "recommended_action": "refund_freight",
+    "refund_brl": 16.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "logistics_provider"
+     }
+    ]
+   },
+   "late_delivery_seller": {
+    "case_status": "action_required",
+    "recommended_action": "refund_freight",
+    "refund_brl": 18.0,
+    "responsible_parties": [
+     {
+      "party_id": "seller-9b75cdaf2d85",
+      "party_type": "seller"
+     }
+    ]
+   },
+   "payment_mismatch": {
+    "case_status": "action_required",
+    "recommended_action": "reconcile_payment",
+    "refund_brl": 35.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "payment_provider"
+     }
+    ]
+   },
+   "refund_failed": {
+    "case_status": "action_required",
+    "recommended_action": "retry_refund",
+    "refund_brl": 52.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "payment_provider"
+     }
+    ]
+   },
+   "refund_pending": {
+    "case_status": "needs_investigation",
+    "recommended_action": "monitor_refund",
+    "refund_brl": 0.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "payment_provider"
+     }
+    ]
+   },
+   "unavailable_order_paid": {
+    "case_status": "action_required",
+    "recommended_action": "issue_refund",
+    "refund_brl": 89.0,
+    "responsible_parties": [
+     {
+      "party_id": "seller-eb09635680fa",
+      "party_type": "seller"
+     }
+    ]
+   },
+   "unsupported_claim": {
+    "case_status": "no_action",
+    "recommended_action": "document_no_action",
+    "refund_brl": 0.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "customer"
+     }
+    ]
+   },
+   "valid_split_payment": {
+    "case_status": "no_action",
+    "recommended_action": "document_no_action",
+    "refund_brl": 0.0,
+    "responsible_parties": [
+     {
+      "party_id": null,
+      "party_type": "customer"
+     }
+    ]
+   }
+  }
+ },
+ "warnings": []
+}

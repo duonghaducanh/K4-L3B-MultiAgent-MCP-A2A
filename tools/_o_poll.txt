@@ -1,0 +1,29 @@
+team=h209-02859
+[0] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+    semantic      90.9333 x0.40 = 36.3733
+    evidence      87.9475 x0.15 = 13.1921
+    mcp           93.8839 x0.15 = 14.0826
+    consistency   93.8839 x0.10 =  9.3884
+    schema        93.8839 x0.05 =  4.6942
+    calibration   92.9917 x0.05 =  4.6496
+    workflow      93.8839 x0.05 =  4.6942
+    efficiency    83.2438 x0.05 =  4.1622
+[1] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[2] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[3] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[4] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[5] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[6] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[7] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[8] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[9] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[10] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[11] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[12] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[13] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[14] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[15] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[16] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[17] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[18] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z
+[19] rank=24 score=91.2366 gates=0 submitted=2026-09-25T15:21:11.343903Z

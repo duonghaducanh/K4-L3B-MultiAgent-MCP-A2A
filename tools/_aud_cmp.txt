@@ -1,0 +1,184 @@
+======================================================================
+L3B_CASE_001 topic=late_delivery_logistics opened=2018-01-01
+  target purch=2017-12-20 status=delivered deliv=2018-01-04 est=2017-12-30
+  decoy  purch=2018-05-11 status=delivered
+  items total rows=2, target rows=1: freight=18.0 price=79.0 order_total=97.0
+  captured events ALL: [('2018-05-11', '89.00'), ('2017-12-20', '16.00')]
+  captured events TARGET(manual): [('2017-12-20', '16.00')] sum=16.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: [('2018-01-04', 'delivered_late', 'logistics_provider')]
+  shipment events TARGET: [('2018-01-04', 'delivered_late', 'logistics_provider')]
+  POLICY: status=action_required action=refund_freight refund_brl=16.0 parties=[('logistics_provider', None)]
+  OUT: verdict=reconciled captured=16.0 refunded=0 refundable=16.0 rec_refund=16.0
+  OUT shipment: logistics_delay late_seller=[]
+  OUT entities: items=['item-af0bbb47f125'] sellers=['seller-af0bbb47f125'] payrefs=['1'] ship=['af0bbb47f125381ce9f3597dc70ef07b']
+  OUT related_orders=['af0bbb47f125381ce9f3597dc70ef07b']
+  OUT refund_lines=[{'reason_code': 'late_delivery_logistics', 'amount_brl': 16.0, 'entity_id': None}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_002 topic=valid_split_payment opened=2018-02-02
+  target purch=2018-01-21 status=delivered deliv=2018-01-30 est=2018-01-31
+  decoy  purch=2018-04-10 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-04-10', '52.00'), ('2018-01-21', '44.50'), ('2018-01-21', '44.50')]
+  captured events TARGET(manual): [('2018-01-21', '44.50'), ('2018-01-21', '44.50')] sum=89.0
+  other payment events TARGET: []
+  refund events ALL: [('2018-04-21', 'refund_requested', '52.00', 'failed')]
+  refund events TARGET: []
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=no_action action=document_no_action refund_brl=0.0 parties=[('customer', None)]
+  OUT: verdict=reconciled captured=89.0 refunded=0 refundable=0 rec_refund=0.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-5b9e9502eca1'] sellers=['seller-5b9e9502eca1'] payrefs=['1', '2'] ship=['5b9e9502eca103a28ea22a94c65e3950']
+  OUT related_orders=['5b9e9502eca103a28ea22a94c65e3950']
+  OUT refund_lines=[]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_003 topic=payment_mismatch opened=2018-03-03
+  target purch=2018-02-19 status=delivered deliv=2018-02-28 est=2018-03-01
+  decoy  purch=2018-03-09 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-03-09', '89.00'), ('2018-02-19', '35.00')]
+  captured events TARGET(manual): [('2018-02-19', '35.00')] sum=35.0
+  other payment events TARGET: [('2018-02-19', 'reconciliation_mismatch', '35.00', 'open')]
+  refund events ALL: [('2018-03-20', 'refund_requested', '89.00', 'pending')]
+  refund events TARGET: []
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=action_required action=reconcile_payment refund_brl=35.0 parties=[('payment_provider', None)]
+  OUT: verdict=capture_mismatch captured=35.0 refunded=0 refundable=35.0 rec_refund=35.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-adc253f1977c'] sellers=['seller-adc253f1977c'] payrefs=['1'] ship=['adc253f1977c81c2c29dc7b9dd23d538']
+  OUT related_orders=['adc253f1977c81c2c29dc7b9dd23d538']
+  OUT refund_lines=[{'reason_code': 'payment_mismatch', 'amount_brl': 35.0, 'entity_id': None}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_004 topic=duplicate_charge opened=2018-04-04
+  target purch=2018-03-23 status=delivered deliv=2018-04-01 est=2018-04-02
+  decoy  purch=2018-02-08 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-02-08', '64.00'), ('2018-02-08', '64.00'), ('2018-03-23', '64.00'), ('2018-03-23', '64.00')]
+  captured events TARGET(manual): [('2018-03-23', '64.00'), ('2018-03-23', '64.00')] sum=128.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=action_required action=refund_duplicate_charge refund_brl=64.0 parties=[('payment_provider', None)]
+  OUT: verdict=duplicate_capture captured=128.0 refunded=0 refundable=64.0 rec_refund=64.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-b04477ada8d2'] sellers=['seller-b04477ada8d2'] payrefs=['1', '2'] ship=['b04477ada8d2ad7fa9d95358baaa785d']
+  OUT related_orders=['b04477ada8d2ad7fa9d95358baaa785d']
+  OUT refund_lines=[{'reason_code': 'duplicate_charge', 'amount_brl': 64.0, 'entity_id': None}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_005 topic=refund_pending opened=2018-05-05
+  target purch=2018-04-23 status=delivered deliv=2018-05-02 est=2018-05-03
+  decoy  purch=2018-01-07 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-01-07', '35.00'), ('2018-04-23', '89.00')]
+  captured events TARGET(manual): [('2018-04-23', '89.00')] sum=89.0
+  other payment events TARGET: []
+  refund events ALL: [('2018-05-04', 'refund_requested', '89.00', 'pending')]
+  refund events TARGET: [('2018-05-04', 'refund_requested', '89.00', 'pending')]
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=needs_investigation action=monitor_refund refund_brl=0.0 parties=[('payment_provider', None)]
+  OUT: verdict=refund_pending captured=89.0 refunded=0 refundable=89.0 rec_refund=0.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-2208f3a59d70'] sellers=['seller-2208f3a59d70'] payrefs=['1'] ship=['2208f3a59d7067fe62c900692f5fdcaf']
+  OUT related_orders=['2208f3a59d7067fe62c900692f5fdcaf']
+  OUT refund_lines=[]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_006 topic=refund_failed opened=2018-06-06
+  target purch=2018-05-25 status=delivered deliv=2018-06-03 est=2018-06-04
+  decoy  purch=2018-09-06 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-09-06', '44.50'), ('2018-09-06', '44.50'), ('2018-05-25', '52.00')]
+  captured events TARGET(manual): [('2018-05-25', '52.00')] sum=52.0
+  other payment events TARGET: []
+  refund events ALL: [('2018-06-05', 'refund_requested', '52.00', 'failed')]
+  refund events TARGET: [('2018-06-05', 'refund_requested', '52.00', 'failed')]
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=action_required action=retry_refund refund_brl=52.0 parties=[('payment_provider', None)]
+  OUT: verdict=refund_failed captured=52.0 refunded=0 refundable=52.0 rec_refund=52.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-d67b79fea598'] sellers=['seller-d67b79fea598'] payrefs=['1', '2'] ship=['d67b79fea59821fda4d363d337a56c3a']
+  OUT related_orders=['d67b79fea59821fda4d363d337a56c3a']
+  OUT refund_lines=[{'reason_code': 'refund_failed', 'amount_brl': 52.0, 'entity_id': None}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_007 topic=unsupported_claim opened=2018-07-07
+  target purch=2018-06-25 status=delivered deliv=2018-07-04 est=2018-07-05
+  decoy  purch=2018-08-05 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-08-05', '16.00'), ('2018-06-25', '89.00')]
+  captured events TARGET(manual): [('2018-06-25', '89.00')] sum=89.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: [('2018-08-20', 'delivered_late', 'logistics_provider')]
+  shipment events TARGET: []
+  POLICY: status=no_action action=document_no_action refund_brl=0.0 parties=[('customer', None)]
+  OUT: verdict=reconciled captured=89.0 refunded=0 refundable=0 rec_refund=0.0
+  OUT shipment: on_time late_seller=[]
+  OUT entities: items=['item-d671370d1104'] sellers=['seller-d671370d1104'] payrefs=['1'] ship=['d671370d11048a2dab56335d3d91823e']
+  OUT related_orders=['d671370d11048a2dab56335d3d91823e']
+  OUT refund_lines=[]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_008 topic=canceled_order_paid opened=2018-08-08
+  target purch=2018-07-27 status=canceled deliv=None est=2018-08-06
+  decoy  purch=2018-07-04 status=delivered
+  items total rows=2, target rows=1: freight=10.0 price=79.0 order_total=89.0
+  captured events ALL: [('2018-07-04', '18.00'), ('2018-07-27', '79.00')]
+  captured events TARGET(manual): [('2018-07-27', '79.00')] sum=79.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: [('2018-07-18', 'delivered_late', 'seller')]
+  shipment events TARGET: []
+  POLICY: status=action_required action=issue_refund refund_brl=79.0 parties=[('platform', None)]
+  OUT: verdict=reconciled captured=79.0 refunded=0 refundable=79.0 rec_refund=79.0
+  OUT shipment: insufficient_evidence late_seller=[]
+  OUT entities: items=['item-3ef6bcdda619'] sellers=['seller-3ef6bcdda619'] payrefs=['1'] ship=['3ef6bcdda6193f8657168ba7e8b3e948']
+  OUT related_orders=['3ef6bcdda6193f8657168ba7e8b3e948']
+  OUT refund_lines=[{'reason_code': 'canceled_order_paid', 'amount_brl': 79.0, 'entity_id': None}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_009 topic=unavailable_order_paid opened=2018-09-09
+  target purch=2018-08-28 status=unavailable deliv=None est=2018-09-07
+  decoy  purch=2018-06-03 status=unavailable
+  items total rows=2, target rows=1: freight=10.0 price=89.0 order_total=99.0
+  captured events ALL: [('2018-06-03', '89.00'), ('2018-08-28', '89.00')]
+  captured events TARGET(manual): [('2018-08-28', '89.00')] sum=89.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: []
+  shipment events TARGET: []
+  POLICY: status=action_required action=issue_refund refund_brl=89.0 parties=[('seller', 'seller-eb09635680fa')]
+  OUT: verdict=reconciled captured=89.0 refunded=0 refundable=89.0 rec_refund=89.0
+  OUT shipment: insufficient_evidence late_seller=[]
+  OUT entities: items=['item-8a5fc33c79bf'] sellers=['seller-8a5fc33c79bf'] payrefs=['1'] ship=['8a5fc33c79bf3f4d9bbcc3dceb6b67c4']
+  OUT related_orders=['8a5fc33c79bf3f4d9bbcc3dceb6b67c4']
+  OUT refund_lines=[{'reason_code': 'unavailable_order_paid', 'amount_brl': 89.0, 'entity_id': 'seller-8a5fc33c79bf'}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]
+======================================================================
+L3B_CASE_010 topic=late_delivery_seller opened=2018-01-10
+  target purch=2017-12-29 status=delivered deliv=2018-01-12 est=2018-01-08
+  decoy  purch=2018-05-02 status=canceled
+  items total rows=2, target rows=1: freight=18.0 price=79.0 order_total=97.0
+  captured events ALL: [('2018-05-02', '79.00'), ('2017-12-29', '18.00')]
+  captured events TARGET(manual): [('2017-12-29', '18.00')] sum=18.0
+  other payment events TARGET: []
+  refund: ERROR
+  shipment events ALL: [('2018-01-12', 'delivered_late', 'seller')]
+  shipment events TARGET: [('2018-01-12', 'delivered_late', 'seller')]
+  POLICY: status=action_required action=refund_freight refund_brl=18.0 parties=[('seller', 'seller-9b75cdaf2d85')]
+  OUT: verdict=reconciled captured=18.0 refunded=0 refundable=18.0 rec_refund=18.0
+  OUT shipment: seller_delay late_seller=['seller-64a8b3b4c197']
+  OUT entities: items=['item-64a8b3b4c197'] sellers=['seller-64a8b3b4c197'] payrefs=['1'] ship=['64a8b3b4c19751b51d211deb32fdc67b']
+  OUT related_orders=['64a8b3b4c19751b51d211deb32fdc67b']
+  OUT refund_lines=[{'reason_code': 'late_delivery_seller', 'amount_brl': 18.0, 'entity_id': 'seller-64a8b3b4c197'}]
+  OUT conflicts=[('order_timeline.order_status', 'get_customer_history')]

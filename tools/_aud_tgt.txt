@@ -1,0 +1,60 @@
+== L3B_CASE_001 opened_at=2018-01-01T09:00:00-03:00 claimed=af0bbb47f125381ce9f3597dc70ef07b
+   history purchases: ['2018-05-11T09:00:00-03:00', '2017-12-20T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-05-20T09:00:00-03:00', '2018-01-04T09:00:00-03:00']
+   get_order status=delivered purch=2018-05-11T09:00:00-03:00 deliv=2018-05-20T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_002 opened_at=2018-02-02T09:00:00-03:00 claimed=5b9e9502eca103a28ea22a94c65e3950
+   history purchases: ['2018-04-10T09:00:00-03:00', '2018-01-21T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-04-19T09:00:00-03:00', '2018-01-30T09:00:00-03:00']
+   get_order status=delivered purch=2018-04-10T09:00:00-03:00 deliv=2018-04-19T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_003 opened_at=2018-03-03T09:00:00-03:00 claimed=adc253f1977c81c2c29dc7b9dd23d538
+   history purchases: ['2018-03-09T09:00:00-03:00', '2018-02-19T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-03-18T09:00:00-03:00', '2018-02-28T09:00:00-03:00']
+   get_order status=delivered purch=2018-03-09T09:00:00-03:00 deliv=2018-03-18T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_004 opened_at=2018-04-04T09:00:00-03:00 claimed=b04477ada8d2ad7fa9d95358baaa785d
+   history purchases: ['2018-02-08T09:00:00-03:00', '2018-03-23T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-02-17T09:00:00-03:00', '2018-04-01T09:00:00-03:00']
+   get_order status=delivered purch=2018-02-08T09:00:00-03:00 deliv=2018-02-17T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_005 opened_at=2018-05-05T09:00:00-03:00 claimed=2208f3a59d7067fe62c900692f5fdcaf
+   history purchases: ['2018-01-07T09:00:00-03:00', '2018-04-23T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-01-16T09:00:00-03:00', '2018-05-02T09:00:00-03:00']
+   get_order status=delivered purch=2018-01-07T09:00:00-03:00 deliv=2018-01-16T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_006 opened_at=2018-06-06T09:00:00-03:00 claimed=d67b79fea59821fda4d363d337a56c3a
+   history purchases: ['2018-09-06T09:00:00-03:00', '2018-05-25T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-09-15T09:00:00-03:00', '2018-06-03T09:00:00-03:00']
+   get_order status=delivered purch=2018-09-06T09:00:00-03:00 deliv=2018-09-15T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_007 opened_at=2018-07-07T09:00:00-03:00 claimed=d671370d11048a2dab56335d3d91823e
+   history purchases: ['2018-08-05T09:00:00-03:00', '2018-06-25T09:00:00-03:00']
+   history statuses : ['delivered', 'delivered']
+   history deliv    : ['2018-08-20T09:00:00-03:00', '2018-07-04T09:00:00-03:00']
+   get_order status=delivered purch=2018-08-05T09:00:00-03:00 deliv=2018-08-20T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_008 opened_at=2018-08-08T09:00:00-03:00 claimed=3ef6bcdda6193f8657168ba7e8b3e948
+   history purchases: ['2018-07-04T09:00:00-03:00', '2018-07-27T09:00:00-03:00']
+   history statuses : ['delivered', 'canceled']
+   history deliv    : ['2018-07-18T09:00:00-03:00', None]
+   get_order status=delivered purch=2018-07-04T09:00:00-03:00 deliv=2018-07-18T09:00:00-03:00
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_009 opened_at=2018-09-09T09:00:00-03:00 claimed=8a5fc33c79bf3f4d9bbcc3dceb6b67c4
+   history purchases: ['2018-06-03T09:00:00-03:00', '2018-08-28T09:00:00-03:00']
+   history statuses : ['unavailable', 'unavailable']
+   history deliv    : [None, None]
+   get_order status=unavailable purch=2018-06-03T09:00:00-03:00 deliv=None
+   get_order == hist[0]? True ; == hist[1]? False
+== L3B_CASE_010 opened_at=2018-01-10T09:00:00-03:00 claimed=64a8b3b4c19751b51d211deb32fdc67b
+   history purchases: ['2018-05-02T09:00:00-03:00', '2017-12-29T09:00:00-03:00']
+   history statuses : ['canceled', 'delivered']
+   history deliv    : [None, '2018-01-12T09:00:00-03:00']
+   get_order status=canceled purch=2018-05-02T09:00:00-03:00 deliv=None
+   get_order == hist[0]? True ; == hist[1]? False

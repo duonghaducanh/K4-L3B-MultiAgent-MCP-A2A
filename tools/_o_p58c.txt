@@ -1,0 +1,7 @@
+tools: ['get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary']
+  L3B_CASE_058 get_customer_history: is_error=True text='Error executing tool get_customer_history'
+  L3B_CASE_058 get_policy: is_error=True text='Error executing tool get_policy'
+  L3B_CASE_058 get_order: is_error=True text='Error executing tool get_order'
+  L3B_CASE_001 get_customer_history: is_error=True text='Error executing tool get_customer_history'
+  L3B_CASE_001 get_policy: is_error=True text='Error executing tool get_policy'
+  L3B_CASE_001 get_order: is_error=True text='Error executing tool get_order'

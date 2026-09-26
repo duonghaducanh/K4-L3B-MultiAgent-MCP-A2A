@@ -1,0 +1,18 @@
+topic                      policy   ours(distinct)
+late_delivery_logistics     16.00   {16.0: 10}
+valid_split_payment          0.00   {0.0: 10}
+payment_mismatch            35.00   {35.0: 10}
+duplicate_charge            64.00   {64.0: 10}
+refund_pending               0.00   {0.0: 10}
+refund_failed               52.00   {52.0: 10}
+unsupported_claim            0.00   {0.0: 10}
+canceled_order_paid         79.00   {79.0: 10}
+unavailable_order_paid      89.00   {89.0: 10}
+late_delivery_seller        18.00   {18.0: 10}
+
+affected_entities keys seen: {'order_ids': 100, 'item_ids': 100, 'seller_ids': 100, 'payment_references': 100, 'shipment_ids': 100}
+cases with empty shipment_ids: 100
+cases with empty seller_ids: 0
+payment_analysis.verdict: {'reconciled': 60, 'capture_mismatch': 10, 'duplicate_capture': 10, 'refund_pending': 10, 'refund_failed': 10}
+shipment_analysis.verdict: {'logistics_delay': 9, 'on_time': 61, 'insufficient_evidence': 19, 'seller_delay': 10, 'conflicting': 1}
+entity_resolution.status: {'resolved': 100}

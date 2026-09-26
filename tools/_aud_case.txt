@@ -1,0 +1,78 @@
+=== trace events for L3B_CASE_012 ===
+  case_received                1
+  task_assigned                5
+  tool_result_consumed         8
+  handoff                      6
+  policy_decided               1
+  verification_completed       1
+  case_finalized               1
+
+--- case_received
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_DQcBL_3zEZQcNExbwrJwuQaV", "case_id": "L3B_CASE_012", "event_type": "case_received", "occurred_at": "2026-09-25T14:29:43.186362Z", "actor": "coordinator"}
+
+--- task_assigned
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_iij7YGes7qh2pmdiRrGWXt9M", "case_id": "L3B_CASE_012", "event_type": "task_assigned", "occurred_at": "2026-09-25T14:29:43.188041Z", "actor": "coordinator", "target": "entity-agent", "decision_code": "resolve_order_identity"}
+
+--- task_assigned
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_iaPj2H_Y7fyo7jQUXlPsrQLr", "case_id": "L3B_CASE_012", "event_type": "task_assigned", "occurred_at": "2026-09-25T14:29:44.509432Z", "actor": "coordinator", "target": "order-agent", "decision_code": "collect_order_product"}
+
+--- task_assigned
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_Tt8SwvBVfW3BYt9gpE0wgjOp", "case_id": "L3B_CASE_012", "event_type": "task_assigned", "occurred_at": "2026-09-25T14:29:45.097546Z", "actor": "coordinator", "target": "shipment-agent", "decision_code": "collect_delivery_timeline"}
+
+--- task_assigned
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_TBZNdNkrxu_irnxA2otYKvqi", "case_id": "L3B_CASE_012", "event_type": "task_assigned", "occurred_at": "2026-09-25T14:29:45.401946Z", "actor": "coordinator", "target": "payment-agent", "decision_code": "collect_payment_lifecycle"}
+
+--- task_assigned
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_HlXPR2utBkym5tTUAcKSQhlQ", "case_id": "L3B_CASE_012", "event_type": "task_assigned", "occurred_at": "2026-09-25T14:29:45.994742Z", "actor": "coordinator", "target": "policy-agent", "decision_code": "load_policy_rules"}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_PcfIIb0M4JsQ3y1k_em6GzsH", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:44.231452Z", "actor": "entity-agent", "tool_name": "get_customer_history", "evidence_refs": ["ev_XyMRATT-Xvubbg-puZSoSPz-KdmEUgJN"], "attributes": {"domain": "customer", "call_index": 1}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_tdcrScFhnzRj-cQUHsiV0ZNc", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:44.506686Z", "actor": "entity-agent", "tool_name": "get_order", "evidence_refs": ["ev_uGiNK7pOKIcRCE6Hc7kRsLM9o-iwR6Pk"], "attributes": {"domain": "order", "call_index": 2}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_0wUeI4S2O2Bvdm-6pHHJqRan", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:44.818759Z", "actor": "order-agent", "tool_name": "get_order_items", "evidence_refs": ["ev_2oyYMbyWT7neKr2ZxYACm-zkdCW-bemR"], "attributes": {"domain": "item", "call_index": 3}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_7WIgUbJAGlJdZcC-6i1gJghg", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:45.094791Z", "actor": "order-agent", "tool_name": "get_sellers", "evidence_refs": ["ev__VNGU8e--C9YD21gB2b3E6mJjh2ezuAS"], "attributes": {"domain": "seller", "call_index": 4}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_SR2ujXDYwwI6vhvIYJw4K3VJ", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:45.399031Z", "actor": "shipment-agent", "tool_name": "get_shipment_summary", "evidence_refs": ["ev_lQh_gj50gweqSmUPhMYmT3yJ_NFSl3rf"], "attributes": {"domain": "shipment", "call_index": 5}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_hFY_Hx0eTvxtMzaI0QPS-tmU", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:45.699471Z", "actor": "payment-agent", "tool_name": "get_payment_timeline", "evidence_refs": ["ev_mzhbAh1HDYixJHvejCn4SG-nf9lmjkxL"], "attributes": {"domain": "payment", "call_index": 6}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_d4xp-_2SW5ilbNqzAf7YGDt3", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:45.992704Z", "actor": "payment-agent", "tool_name": "get_refund_timeline", "evidence_refs": ["ev_OM3s_2CY79lYo43L77uGcUCUEpRf7MTp"], "attributes": {"domain": "refund", "call_index": 7}}
+
+--- tool_result_consumed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_lXa60md9aSjmo7x9Ph3KuTqs", "case_id": "L3B_CASE_012", "event_type": "tool_result_consumed", "occurred_at": "2026-09-25T14:29:46.302906Z", "actor": "policy-agent", "tool_name": "get_policy", "evidence_refs": ["ev_W4c8LodoB0OMaQPS9sONmycOcehFcni4"], "attributes": {"domain": "policy", "call_index": 8}}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_TyEeCIG4u34h56N2Ygu-TCzG", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:44.508205Z", "actor": "entity-agent", "target": "coordinator", "decision_code": "entity_resolved", "evidence_refs": ["ev_XyMRATT-Xvubbg-puZSoSPz-KdmEUgJN", "ev_uGiNK7pOKIcRCE6Hc7kRsLM9o-iwR6Pk"], "attributes": {"history_orders": 2}}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_ucClTk0zpupUjLkzPpjzNcMh", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:45.096493Z", "actor": "order-agent", "target": "coordinator", "decision_code": "order_context_ready", "evidence_refs": ["ev_2oyYMbyWT7neKr2ZxYACm-zkdCW-bemR", "ev__VNGU8e--C9YD21gB2b3E6mJjh2ezuAS"]}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_OD2mPTrc3DMiiIr9zRznxDuW", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:45.400723Z", "actor": "shipment-agent", "target": "coordinator", "decision_code": "delivery_timeline_ready", "evidence_refs": ["ev_lQh_gj50gweqSmUPhMYmT3yJ_NFSl3rf"]}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_VzImsb6dPCHXwMGbWtB_kB04", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:45.993944Z", "actor": "payment-agent", "target": "coordinator", "decision_code": "payment_lifecycle_ready", "evidence_refs": ["ev_mzhbAh1HDYixJHvejCn4SG-nf9lmjkxL", "ev_OM3s_2CY79lYo43L77uGcUCUEpRf7MTp"]}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt__mA8e0h12zYOjGFaQ4OT4KNv", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:46.305243Z", "actor": "coordinator", "target": "conflict-resolver", "decision_code": "specialists_complete", "attributes": {"calls": 8}}
+
+--- handoff
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_rOZ4zjbFYNtT6qf1e9ULfDcs", "case_id": "L3B_CASE_012", "event_type": "handoff", "occurred_at": "2026-09-25T14:29:46.308074Z", "actor": "coordinator", "target": "verifier", "decision_code": "ready_for_verification"}
+
+--- policy_decided
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_tljt6UIPZTtRyqO_2xWFjJiK", "case_id": "L3B_CASE_012", "event_type": "policy_decided", "occurred_at": "2026-09-25T14:29:46.306978Z", "actor": "conflict-resolver", "decision_code": "valid_split_payment", "evidence_refs": ["ev_W4c8LodoB0OMaQPS9sONmycOcehFcni4"], "attributes": {"selected_source": "get_customer_history"}}
+
+--- verification_completed
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_98lOFta2t3JFjycEK6ZxqRJQ", "case_id": "L3B_CASE_012", "event_type": "verification_completed", "occurred_at": "2026-09-25T14:29:46.308981Z", "actor": "verifier", "decision_code": "verification_downgraded", "evidence_refs": ["ev_XyMRATT-Xvubbg-puZSoSPz-KdmEUgJN", "ev_uGiNK7pOKIcRCE6Hc7kRsLM9o-iwR6Pk", "ev_2oyYMbyWT7neKr2ZxYACm-zkdCW-bemR", "ev__VNGU8e--C9YD21gB2b3E6mJjh2ezuAS", "ev_lQh_gj50gweqSmUPhMYmT3yJ_NFSl3rf", "ev_mzhbAh1HDYixJHvejCn4SG-nf9lmjkxL", "ev_OM3s_2CY79lYo43L77uGcUCUEpRf7MTp", "ev_W4c8LodoB0OMaQPS9sONmycOcehFcni4"], "attributes": {"checks": 6, "passed": false, "calls": 8}}
+
+--- case_finalized
+{"schema_version": "day09-trace-event-v1", "event_id": "evt_VLrPA5SMkpTrD5vxEasFSFUY", "case_id": "L3B_CASE_012", "event_type": "case_finalized", "occurred_at": "2026-09-25T14:29:46.313404Z", "actor": "coordinator"}
+

@@ -1,0 +1,36 @@
+competitions: [{"variant_id": "l3a", "status": "open", "opens_at": null, "closes_at": null, "submission_quota": 0, "case_set_version": "l3a-competition-v1"}, {"variant_id": "l3b", "status": "open", "opens_at": null, "closes_at": null, "submission_quota": 0, "case_set_version": "l3b-competition-v1"}]
+
+MY ENTRY: {"rank": 39, "team_code": "h209-02859", "display_name": "Soopi", "class_id": "H209", "score": 88.6419, "submitted_at": "2026-09-25T10:42:01.405394Z", "components": {"semantic": 90.8216, "evidence": 84.624, "mcp": 93.7687, "consistency": 93.7687, "schema": 93.7687, "calibration": 92.8775, "workflow": 93.7687, "efficiency": 43.1336}, "weighted_components": {"semantic": 36.3287, "evidence": 12.6936, "mcp": 14.0653, "consistency": 9.3769, "schema": 4.6884, "calibration": 4.6439, "workflow": 4.6884, "efficiency": 2.1567}, "hard_gate_count": 0}
+
+leaderboard n=245
+
+#1 h210-02513 score=93.3012 g=0
+   semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+#2 h209-02470 score=93.2887 g=0
+   semantic=93.9707 evidence=89.5019 mcp=93.9707 consistency=93.9707 schema=93.9707 calibration=93.7358 workflow=93.9707 efficiency=93.9707
+
+#3 h209-02798 score=93.2629 g=0
+   semantic=93.9696 evidence=89.5008 mcp=93.9696 consistency=93.9696 schema=93.9696 calibration=93.8680 workflow=93.9696 efficiency=93.3432
+
+#4 h210-02723 score=92.9148 g=0
+   semantic=92.3445 evidence=91.3927 mcp=93.9552 consistency=93.9552 schema=93.9552 calibration=93.7203 workflow=93.9552 efficiency=93.9552
+
+#5 h210-02647 score=92.4321 g=0
+   semantic=91.6089 evidence=91.0695 mcp=93.9350 consistency=93.9350 schema=93.9350 calibration=93.5874 workflow=93.9350 efficiency=91.4300
+
+#6 h209-02627 score=92.3894 g=0
+   semantic=93.9332 evidence=88.0371 mcp=93.9332 consistency=93.9332 schema=93.9332 calibration=93.8956 workflow=93.9332 efficiency=80.7825
+
+BEST OBSERVED per component: {'semantic': 93.9713, 'evidence': 92.4292, 'mcp': 93.9713, 'consistency': 93.9713, 'schema': 93.9713, 'calibration': 93.9619, 'workflow': 93.9713, 'efficiency': 93.9713}
+Traceback (most recent call last):
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\_recon.py", line 52, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\_recon.py", line 41, in main
+    print("implied ceiling score:", round(sum(WEIGHTS[k] * best[k] for k in ORDER), 4))
+                                          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\_recon.py", line 41, in <genexpr>
+    print("implied ceiling score:", round(sum(WEIGHTS[k] * best[k] for k in ORDER), 4))
+                                              ~~~~~~~~~~~^~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'

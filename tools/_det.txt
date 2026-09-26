@@ -1,0 +1,37 @@
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4 -> 404
+{"detail":"Không tìm thấy lượt nộp."}
+
+--- GET /api/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4 -> 404
+{"detail":"Không tìm thấy lượt nộp."}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/report -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/cases -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/gates -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/me/submissions?detail=1 -> 200
+[{"submission_id":"sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4","status":"completed","variant_id":"l3b","score":45.9335,"submitted_at":"2026-09-25T09:39:31.694932Z"},{"submission_id":"sub_8NRHZDLkJ3VZQ22hNgt4hCxujh5pM8KX","status":"completed","variant_id":"l3b","score":0.0,"submitted_at":"2026-09-25T09:11:09.356409Z"},{"submission_id":"sub_Xyw0I-d2EB5nbUBR1YrDUzR-NR2oImaU","status":"completed","variant_id":"l3b","score":0.0,"submitted_at":"2026-09-25T09:00:49.518543Z"}]
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4 -> 404
+{"detail":"Không tìm thấy lượt nộp."}
+
+--- GET /api/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4 -> 404
+{"detail":"Không tìm thấy lượt nộp."}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/report -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/cases -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/submissions/sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4/gates -> 404
+{"detail":"Not Found"}
+
+--- GET /api/v2/me/submissions?detail=1 -> 200
+[{"submission_id":"sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4","status":"completed","variant_id":"l3b","score":45.9335,"submitted_at":"2026-09-25T09:39:31.694932Z"},{"submission_id":"sub_8NRHZDLkJ3VZQ22hNgt4hCxujh5pM8KX","status":"completed","variant_id":"l3b","score":0.0,"submitted_at":"2026-09-25T09:11:09.356409Z"},{"submission_id":"sub_Xyw0I-d2EB5nbUBR1YrDUzR-NR2oImaU","status":"completed","variant_id":"l3b","score":0.0,"submitted_at":"2026-09-25T09:00:49.518543Z"}]
+
+=== BUNDLE hard_gate @ 225104
+en:[J.toFixed(2)," · +",(r.weighted_components[U]||0).toFixed(2)," điểm"]})]}),i.jsx("div",{className:"breakdown-meter","aria-hidden":"true",children:i.jsx("span",{style:{width:`${J}%`}})})]},U)})}),i.jsxs("p",{className:"v2-breakdown-note",children:["Hard gates public: ",i.jsx("strong",{children:r.hard_gate_count}),". Điểm private chỉ hiển thị sau khi competition kết thúc."]})]})]})})}function Wd({variant:r}){const A=`day09-${r}-team-key`,[M,d]=_.useState(()=>sessionStorage.getItem(A)||""),[H,U]=_.useState(M),[X,J]=_.useState(null),[N,x]=_.useState(null),[q,B]=_.useState(!1),[Y,C]=_.useState(!1),[ll,hl]=_.useState(null),[W,dl]=_.useState(""),[ul,jl]=_.useState(null),[zl,vl]=_.useState([]),[

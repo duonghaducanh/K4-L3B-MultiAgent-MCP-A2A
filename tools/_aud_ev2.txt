@@ -1,0 +1,13 @@
+=== SCORED RUN (4593): evidence_refs coverage per output ===
+
+nref distribution: {8: 60, 9: 40}
+unknown-ref counts: {0: 100}
+
+=== UNCITED-DOMAIN signatures across all 100 ===
+  x100 ()
+
+=== is the product ref present anywhere in any output? ===
+product refs cited: 100 of 100 product calls
+
+=== refund-domain citation ===
+cases that called get_refund_timeline: 40 | of those citing a refund ref: 40

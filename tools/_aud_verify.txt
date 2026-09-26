@@ -1,0 +1,39 @@
+=== derived-vs-claimed disagreement (extra primary_issue conflict) & conf 0.72 ===
+ L3B_CASE_012 topic=valid_split_payment    conf=0.72  ship=on_time              cap=141.0   rec=0.0   
+ L3B_CASE_062 topic=valid_split_payment    conf=0.72  ship=on_time              cap=141.0   rec=0.0   
+ L3B_CASE_071 topic=late_delivery_logistics conf=0.72  ship=on_time              cap=89.0    rec=16.0  
+ L3B_CASE_098 topic=canceled_order_paid    conf=0.72  ship=conflicting          cap=18.0    rec=79.0  
+
+=== rec == policy constant for all 100? ===
+ mismatches: NONE (all 100 match the policy constant)
+
+=== refund_lines vs rec ===
+ (no output above => refund_lines always sum to rec)
+
+=== refundable_total_brl vs rec, grouped ===
+  late_delivery_logistics  {(16.0, 16.0): 10}
+  valid_split_payment      {(0, 0.0): 8, (52.0, 0.0): 2}
+  payment_mismatch         {(35.0, 35.0): 10}
+  duplicate_charge         {(64.0, 64.0): 10}
+  refund_pending           {(89.0, 0.0): 10}
+  refund_failed            {(52.0, 52.0): 10}
+  unsupported_claim        {(0, 0.0): 10}
+  canceled_order_paid      {(79.0, 79.0): 10}
+  unavailable_order_paid   {(89.0, 89.0): 10}
+  late_delivery_seller     {(18.0, 18.0): 10}
+
+=== shipment_ids ===
+[(('af0bbb47f125381ce9f3597dc70ef07b',), 1)]
+  outputs where shipment_ids == order_ids: 100/100
+
+=== secondary_issues values ===
+Counter({('requested_full_refund',): 100})
+
+=== resolution_actions values ===
+Counter({('refund_freight',): 20, ('document_no_action',): 20, ('issue_refund',): 20, ('reconcile_payment',): 10, ('refund_duplicate_charge',): 10, ('monitor_refund',): 10, ('retry_refund',): 10})
+
+=== rejected_candidates ===
+Counter({('candidate-001',): 1, ('candidate-002',): 1, ('candidate-003',): 1, ('candidate-004',): 1, ('candidate-005',): 1, ('candidate-006',): 1, ('candidate-007',): 1, ('candidate-008',): 1, ('candidate-009',): 1, ('candidate-010',): 1, ('candidate-011',): 1, ('candidate-012',): 1, ('candidate-013',): 1, ('candidate-014',): 1, ('candidate-015',): 1, ('candidate-016',): 1, ('candidate-017',): 1, ('candidate-018',): 1, ('candidate-019',): 1, ('candidate-020',): 1, ('candidate-021',): 1, ('candidate-022',): 1, ('candidate-023',): 1, ('candidate-024',): 1, ('candidate-025',): 1, ('candidate-026',): 1, ('candidate-027',): 1, ('candidate-028',): 1, ('candidate-029',): 1, ('candidate-030',): 1, ('candidate-031',): 1, ('candidate-032',): 1, ('candidate-033',): 1, ('candidate-034',): 1, ('candidate-035',): 1, ('candidate-036',): 1, ('candidate-037',): 1, ('candidate-038',): 1, ('candidate-039',): 1, ('candidate-040',): 1, ('candidate-041',): 1, ('candidate-042',): 1, ('candidate-043',): 1, ('candidate-044',): 1, ('candidate-045',): 1, ('candidate-046',): 1, ('candidate-047',): 1, ('candidate-048',): 1, ('candidate-049',): 1, ('candidate-050',): 1, ('candidate-051',): 1, ('candidate-052',): 1, ('candidate-053',): 1, ('candidate-054',): 1, ('candidate-055',): 1, ('candidate-056',): 1, ('candidate-057',): 1, ('candidate-058',): 1, ('candidate-059',): 1, ('candidate-060',): 1, ('candidate-061',): 1, ('candidate-062',): 1, ('candidate-063',): 1, ('candidate-064',): 1, ('candidate-065',): 1, ('candidate-066',): 1, ('candidate-067',): 1, ('candidate-068',): 1, ('candidate-069',): 1, ('candidate-070',): 1, ('candidate-071',): 1, ('candidate-072',): 1, ('candidate-073',): 1, ('candidate-074',): 1, ('candidate-075',): 1, ('candidate-076',): 1, ('candidate-077',): 1, ('candidate-078',): 1, ('candidate-079',): 1, ('candidate-080',): 1, ('candidate-081',): 1, ('candidate-082',): 1, ('candidate-083',): 1, ('candidate-084',): 1, ('candidate-085',): 1, ('candidate-086',): 1, ('candidate-087',): 1, ('candidate-088',): 1, ('candidate-089',): 1, ('candidate-090',): 1, ('candidate-091',): 1, ('candidate-092',): 1, ('candidate-093',): 1, ('candidate-094',): 1, ('candidate-095',): 1, ('candidate-096',): 1, ('candidate-097',): 1, ('candidate-098',): 1, ('candidate-099',): 1, ('candidate-100',): 1})
+
+=== related_order_ids length ===
+Counter({1: 100})

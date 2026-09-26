@@ -1,0 +1,110 @@
+== late_delivery_logistics
+   L3B_CASE_001 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_011 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_021 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_031 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_041 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_051 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_061 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_071 cap=89.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.72
+   L3B_CASE_081 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_091 cap=16.0    refd=0     refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      late_sellers=[] nconf=1 conf=0.94
+== valid_split_payment
+   L3B_CASE_002 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_012 cap=141.0   refd=0     refble=52.0    rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.72
+   L3B_CASE_022 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_032 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_042 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_052 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_062 cap=141.0   refd=0     refble=52.0    rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.72
+   L3B_CASE_072 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_082 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_092 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+== payment_mismatch
+   L3B_CASE_003 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_013 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_023 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_033 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_043 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_053 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_063 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_073 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_083 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_093 cap=35.0    refd=0     refble=35.0    rec=35.0   payv=capture_mismatch ship=on_time              late_sellers=[] nconf=1 conf=0.94
+== duplicate_charge
+   L3B_CASE_004 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_014 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_024 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_034 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_044 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_054 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_064 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_074 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_084 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_094 cap=128.0   refd=0     refble=64.0    rec=64.0   payv=duplicate_capture ship=on_time              late_sellers=[] nconf=1 conf=0.94
+== refund_pending
+   L3B_CASE_005 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_015 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_025 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_035 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_045 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_055 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_065 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_075 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_085 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+   L3B_CASE_095 cap=89.0    refd=0     refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              late_sellers=[] nconf=1 conf=0.8
+== refund_failed
+   L3B_CASE_006 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_016 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_026 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_036 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_046 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_056 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_066 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_076 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_086 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_096 cap=52.0    refd=0     refble=52.0    rec=52.0   payv=refund_failed    ship=on_time              late_sellers=[] nconf=1 conf=0.94
+== unsupported_claim
+   L3B_CASE_007 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_017 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_027 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_037 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_047 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_057 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_067 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_077 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_087 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_097 cap=89.0    refd=0     refble=0       rec=0.0    payv=reconciled       ship=on_time              late_sellers=[] nconf=1 conf=0.94
+== canceled_order_paid
+   L3B_CASE_008 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_018 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_028 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_038 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_048 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_058 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_068 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_078 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_088 cap=79.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_098 cap=18.0    refd=0     refble=79.0    rec=79.0   payv=reconciled       ship=conflicting          late_sellers=[] nconf=1 conf=0.72
+== unavailable_order_paid
+   L3B_CASE_009 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_019 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_029 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_039 cap=178.0   refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=0 conf=0.94
+   L3B_CASE_049 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_059 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_069 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_079 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+   L3B_CASE_089 cap=178.0   refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=0 conf=0.94
+   L3B_CASE_099 cap=89.0    refd=0     refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence late_sellers=[] nconf=1 conf=0.94
+== late_delivery_seller
+   L3B_CASE_010 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-64a8b3b4c197'] nconf=1 conf=0.94
+   L3B_CASE_020 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-4274ff4a5df6'] nconf=1 conf=0.94
+   L3B_CASE_030 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-13d341318c77'] nconf=1 conf=0.94
+   L3B_CASE_040 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-2636a02ee7de'] nconf=1 conf=0.94
+   L3B_CASE_050 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-e2a03ccf5ea8'] nconf=1 conf=0.94
+   L3B_CASE_060 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-614bc59c7d5e'] nconf=1 conf=0.94
+   L3B_CASE_070 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-72fa449394ed'] nconf=1 conf=0.94
+   L3B_CASE_080 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-cc8778d76e56'] nconf=1 conf=0.94
+   L3B_CASE_090 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-113e41a438f0'] nconf=1 conf=0.94
+   L3B_CASE_100 cap=18.0    refd=0     refble=18.0    rec=18.0   payv=reconciled       ship=seller_delay         late_sellers=['seller-9b75cdaf2d85'] nconf=1 conf=0.94

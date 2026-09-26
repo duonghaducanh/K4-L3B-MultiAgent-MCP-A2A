@@ -1,0 +1,2 @@
+status: 400
+body: {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Bad Request: Missing session ID"}}

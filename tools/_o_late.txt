@@ -1,0 +1,12 @@
+L3B_CASE_001 purch=2017-12-20 carrier=2017-12-22 minlimit=2017-12-23 event=logistics_provider fallback=logistics_provider OK
+L3B_CASE_002 purch=2018-01-21 carrier=2018-01-23 minlimit=2018-01-24 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_003 purch=2018-02-19 carrier=2018-02-21 minlimit=2018-02-22 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_004 purch=2018-03-23 carrier=2018-03-25 minlimit=2018-03-26 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_005 purch=2018-04-23 carrier=2018-04-25 minlimit=2018-04-26 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_006 purch=2018-05-25 carrier=2018-05-27 minlimit=2018-05-28 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_007 purch=2018-06-25 carrier=2018-06-27 minlimit=2018-06-28 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_008 purch=2018-07-27 carrier=2018-07-29 minlimit=2018-07-30 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_009 purch=2018-08-28 carrier=2018-08-30 minlimit=2018-08-31 event=None fallback=logistics_provider MISMATCH
+L3B_CASE_010 purch=2017-12-29 carrier=2018-01-05 minlimit=2018-01-01 event=seller fallback=seller OK
+
+agreement: 2/10

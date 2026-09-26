@@ -1,0 +1,7 @@
+primary_issue late_delivery_logistics conf 0.94
+payment {"verdict": "reconciled", "captured_total_brl": 16.0, "refunded_total_brl": 0, "refundable_total_brl": 16.0}
+shipment {"verdict": "logistics_delay", "late_seller_ids": [], "timeline_complete": true}
+financial {"currency": "BRL", "recommended_refund_brl": 16.0, "refund_lines": [{"reason_code": "late_delivery_logistics", "amount_brl": 16.0, "entity_id": null}]}
+entities {"order_ids": ["af0bbb47f125381ce9f3597dc70ef07b"], "item_ids": ["item-af0bbb47f125"], "seller_ids": ["seller-af0bbb47f125"], "payment_references": ["1"], "shipment_ids": []}
+n_refs 5
+refs ["ev_V1QSRo0UUNF7MyV1RR7jmI29wgLe2Pgt", "ev_DPjanjKBDh-6jY-c-TUnLlLRLJ1KrXgs", "ev_1DZKimyYMpIAEoJ60iLNORvFiXKYF7ce", "ev_eR99lyuMsYXfMJa82oclp0SwJ5SN2jFM", "ev_9UJ8z0aK65T2Yvx3HaOjq1x_1I5Iil2x"]

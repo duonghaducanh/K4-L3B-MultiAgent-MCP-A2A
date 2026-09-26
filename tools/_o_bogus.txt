@@ -1,0 +1,3 @@
+OURS: is_error=False text='{\n  "schema_version": "day09-mcp-evidence-v1",\n  "evidence_ref": "ev_DWSLJfBdaWgt56wRraCCnuKXFA80yg3j",\n  "result_hash": "sha256:f35aeef04fd5adbadd3beda6e597e87'
+BOGUS: is_error=True text='Error executing tool get_order'
+NONE: is_error=True text='Error executing tool get_order'

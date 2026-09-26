@@ -1,0 +1,117 @@
+case             topic                    captured   refund  ni refundbl  conf
+L3B_CASE_001     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_002     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_003     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_004     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_005     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_006     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_007     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_008     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_009     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_010     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_011     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_012     valid_split_payment        141.00     0.00   1    52.00  0.72
+L3B_CASE_013     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_014     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_015     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_016     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_017     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_018     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_019     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_020     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_021     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_022     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_023     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_024     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_025     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_026     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_027     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_028     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_029     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_030     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_031     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_032     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_033     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_034     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_035     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_036     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_037     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_038     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_039     unavailable_order_paid     178.00    89.00   1    89.00  0.94
+L3B_CASE_040     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_041     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_042     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_043     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_044     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_045     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_046     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_047     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_048     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_049     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_050     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_051     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_052     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_053     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_054     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_055     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_056     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_057     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_058     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_059     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_060     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_061     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_062     valid_split_payment        141.00     0.00   1    52.00  0.72
+L3B_CASE_063     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_064     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_065     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_066     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_067     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_068     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_069     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_070     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_071     late_delivery_logistics     89.00    16.00   1    16.00  0.72
+L3B_CASE_072     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_073     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_074     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_075     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_076     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_077     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_078     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_079     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_080     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_081     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_082     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_083     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_084     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_085     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_086     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_087     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_088     canceled_order_paid         79.00    79.00   1    79.00  0.94
+L3B_CASE_089     unavailable_order_paid     178.00    89.00   1    89.00  0.94
+L3B_CASE_090     late_delivery_seller        18.00    18.00   1    18.00  0.94
+L3B_CASE_091     late_delivery_logistics     16.00    16.00   1    16.00  0.94
+L3B_CASE_092     valid_split_payment         89.00     0.00   1     0.00  0.94
+L3B_CASE_093     payment_mismatch            35.00    35.00   1    35.00  0.94
+L3B_CASE_094     duplicate_charge           128.00    64.00   1    64.00  0.94
+L3B_CASE_095     refund_pending              89.00     0.00   1    89.00   0.8
+L3B_CASE_096     refund_failed               52.00    52.00   1    52.00  0.94
+L3B_CASE_097     unsupported_claim           89.00     0.00   1     0.00  0.94
+L3B_CASE_098     canceled_order_paid         18.00    79.00   1    79.00  0.72
+L3B_CASE_099     unavailable_order_paid      89.00    89.00   1    89.00  0.94
+L3B_CASE_100     late_delivery_seller        18.00    18.00   1    18.00  0.94
+
+(topic, captured_total) frequencies:
+   canceled_order_paid         18.00 x1
+   canceled_order_paid         79.00 x9
+   duplicate_charge           128.00 x10
+   late_delivery_logistics     16.00 x9
+   late_delivery_logistics     89.00 x1
+   late_delivery_seller        18.00 x10
+   payment_mismatch            35.00 x10
+   refund_failed               52.00 x10
+   refund_pending              89.00 x10
+   unavailable_order_paid      89.00 x8
+   unavailable_order_paid     178.00 x2
+   unsupported_claim           89.00 x10
+   valid_split_payment         89.00 x8
+   valid_split_payment        141.00 x2

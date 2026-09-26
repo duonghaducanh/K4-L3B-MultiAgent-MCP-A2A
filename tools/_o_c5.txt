@@ -1,0 +1,29 @@
+===== L3B_CASE_005
+claims: [{"claim_id": "claim-005-a", "topic": "refund_pending"}, {"claim_id": "claim-005-b", "topic": "requested_full_refund"}]
+opened_at: 2018-05-05T09:00:00-03:00
+assessment: {"primary_issue": "refund_pending", "secondary_issues": ["requested_full_refund"], "case_status": "needs_investigation", "confidence": 0.8}
+shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+payment: {"verdict": "refund_pending", "captured_total_brl": 89.0, "refunded_total_brl": 0, "refundable_total_brl": 89.0}
+financial: {"currency": "BRL", "recommended_refund_brl": 0.0, "refund_lines": []}
+causes: {"ranked_causes": [{"cause_code": "REFUND_PENDING", "rank": 1}], "responsible_parties": [{"party_type": "payment_provider", "party_id": null}]}
+actions: ["monitor_refund"]
+
+===== L3B_CASE_015
+claims: [{"claim_id": "claim-015-a", "topic": "refund_pending"}, {"claim_id": "claim-015-b", "topic": "requested_full_refund"}]
+opened_at: 2018-06-15T09:00:00-03:00
+assessment: {"primary_issue": "refund_pending", "secondary_issues": ["requested_full_refund"], "case_status": "needs_investigation", "confidence": 0.8}
+shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+payment: {"verdict": "refund_pending", "captured_total_brl": 89.0, "refunded_total_brl": 0, "refundable_total_brl": 89.0}
+financial: {"currency": "BRL", "recommended_refund_brl": 0.0, "refund_lines": []}
+causes: {"ranked_causes": [{"cause_code": "REFUND_PENDING", "rank": 1}], "responsible_parties": [{"party_type": "payment_provider", "party_id": null}]}
+actions: ["monitor_refund"]
+
+===== L3B_CASE_025
+claims: [{"claim_id": "claim-025-a", "topic": "refund_pending"}, {"claim_id": "claim-025-b", "topic": "requested_full_refund"}]
+opened_at: 2018-07-25T09:00:00-03:00
+assessment: {"primary_issue": "refund_pending", "secondary_issues": ["requested_full_refund"], "case_status": "needs_investigation", "confidence": 0.8}
+shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+payment: {"verdict": "refund_pending", "captured_total_brl": 89.0, "refunded_total_brl": 0, "refundable_total_brl": 89.0}
+financial: {"currency": "BRL", "recommended_refund_brl": 0.0, "refund_lines": []}
+causes: {"ranked_causes": [{"cause_code": "REFUND_PENDING", "rank": 1}], "responsible_parties": [{"party_type": "payment_provider", "party_id": null}]}
+actions: ["monitor_refund"]

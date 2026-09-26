@@ -1,0 +1,28 @@
+status=200
+n=249
+top 20:
+  {"rank": 1, "team_code": "h209-02470", "display_name": "Devtamin", "class_id": "H209", "score": 93.2887, "submitted_at": "2026-09-25T10:18:49.344245Z"}
+  {"rank": 2, "team_code": "h209-02798", "display_name": "hdd", "class_id": "H209", "score": 93.2629, "submitted_at": "2026-09-25T10:38:28.293626Z"}
+  {"rank": 3, "team_code": "h209-02769", "display_name": "Duy Còm TV - ngao", "class_id": "H209", "score": 92.446, "submitted_at": "2026-09-25T15:18:13.945087Z"}
+  {"rank": 4, "team_code": "h210-02647", "display_name": "K4-L3B-ColdBrew", "class_id": "H210", "score": 92.4321, "submitted_at": "2026-09-25T12:09:24.120713Z"}
+  {"rank": 5, "team_code": "h209-02627", "display_name": "Czpl", "class_id": "H209", "score": 92.3894, "submitted_at": "2026-09-25T09:42:35.095438Z"}
+  {"rank": 6, "team_code": "h210-02723", "display_name": "K4-L3B-ColdBrew", "class_id": "H210", "score": 92.3549, "submitted_at": "2026-09-25T15:12:49.244897Z"}
+  {"rank": 7, "team_code": "h210-02983", "display_name": "AIGANG", "class_id": "H210", "score": 92.1127, "submitted_at": "2026-09-25T09:50:49.346102Z"}
+  {"rank": 8, "team_code": "h209-02671", "display_name": "intel", "class_id": "H209", "score": 92.0788, "submitted_at": "2026-09-25T14:07:45.325445Z"}
+  {"rank": 9, "team_code": "h209-02844", "display_name": "TooSweeet", "class_id": "H209", "score": 92.067, "submitted_at": "2026-09-25T10:20:49.642099Z"}
+  {"rank": 10, "team_code": "h209-02476", "display_name": "anam", "class_id": "H209", "score": 92.0092, "submitted_at": "2026-09-25T12:37:07.196938Z"}
+  {"rank": 11, "team_code": "h210-02619", "display_name": "Enigma", "class_id": "H210", "score": 91.9913, "submitted_at": "2026-09-25T10:19:39.484439Z"}
+  {"rank": 12, "team_code": "h210-02394", "display_name": "K4-L3B-botusieudang", "class_id": "H210", "score": 91.9766, "submitted_at": "2026-09-25T09:58:12.455432Z"}
+  {"rank": 13, "team_code": "h209-02468", "display_name": "Studio.h", "class_id": "H209", "score": 91.9397, "submitted_at": "2026-09-25T15:13:52.652909Z"}
+  {"rank": 14, "team_code": "h209-02852", "display_name": "ThieuNu", "class_id": "H209", "score": 91.8971, "submitted_at": "2026-09-25T10:48:04.425132Z"}
+  {"rank": 15, "team_code": "h210-02921", "display_name": "K4-L3B-THTrueMi", "class_id": "H210", "score": 91.853, "submitted_at": "2026-09-25T10:33:20.071141Z"}
+  {"rank": 16, "team_code": "h210-02756", "display_name": "K4-L3B-Nhóm 1", "class_id": "H210", "score": 91.8097, "submitted_at": "2026-09-25T11:30:43.836437Z"}
+  {"rank": 17, "team_code": "h210-03001", "display_name": "K4-L3B-ColdBrew", "class_id": "H210", "score": 91.7213, "submitted_at": "2026-09-25T10:19:50.760895Z"}
+  {"rank": 18, "team_code": "h210-02535", "display_name": "K4-L3B-Kocoten", "class_id": "H210", "score": 91.6925, "submitted_at": "2026-09-25T10:55:54.334929Z"}
+  {"rank": 19, "team_code": "h209-02507", "display_name": "ThienAn", "class_id": "H209", "score": 91.6411, "submitted_at": "2026-09-25T10:03:27.863214Z"}
+  {"rank": 20, "team_code": "h209-02503", "display_name": "ThienAn", "class_id": "H209", "score": 91.6411, "submitted_at": "2026-09-25T10:41:28.585162Z"}
+--- our key submissions ---
+  {"rank": 36, "team_code": "h210-03002", "display_name": "K4L3B - F4", "class_id": "H210", "score": 89.2841, "submitted_at": "2026-09-25T09:08:58.704906Z"}
+  {"rank": 69, "team_code": "h210-02987", "display_name": "F4", "class_id": "H210", "score": 84.9368, "submitted_at": "2026-09-25T09:00:58.120526Z"}
+  {"rank": 103, "team_code": "h210-03017", "display_name": "F4", "class_id": "H210", "score": 65.6533, "submitted_at": "2026-09-25T09:23:47.563424Z"}
+  {"rank": 156, "team_code": "h201-02962", "display_name": "K4L3B - F4", "class_id": "H201", "score": 0.0, "submitted_at": "2026-09-25T10:04:42.642974Z"}

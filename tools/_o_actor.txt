@@ -1,0 +1,10 @@
+L3B_CASE_001 late=True  limit=2017-12-23 carrier=2017-12-22 cust=2018-01-04 est=2017-12-30 | HYP=logistics_provider   TRUTH=logistics_provider
+L3B_CASE_002 late=False limit=2018-01-24 carrier=2018-01-23 cust=2018-01-30 est=2018-01-31 | HYP=-                    TRUTH=None
+L3B_CASE_003 late=False limit=2018-02-22 carrier=2018-02-21 cust=2018-02-28 est=2018-03-01 | HYP=-                    TRUTH=None
+L3B_CASE_004 late=False limit=2018-03-26 carrier=2018-03-25 cust=2018-04-01 est=2018-04-02 | HYP=-                    TRUTH=None
+L3B_CASE_005 late=False limit=2018-04-26 carrier=2018-04-25 cust=2018-05-02 est=2018-05-03 | HYP=-                    TRUTH=None
+L3B_CASE_006 late=False limit=2018-05-28 carrier=2018-05-27 cust=2018-06-03 est=2018-06-04 | HYP=-                    TRUTH=None
+L3B_CASE_007 late=False limit=2018-06-28 carrier=2018-06-27 cust=2018-07-04 est=2018-07-05 | HYP=-                    TRUTH=logistics_provider
+L3B_CASE_008 late=False limit=2018-07-07 carrier=2018-07-29 cust=None est=2018-08-06 | HYP=-                    TRUTH=seller
+L3B_CASE_009 late=False limit=2018-08-31 carrier=2018-08-30 cust=None est=2018-09-07 | HYP=-                    TRUTH=None
+L3B_CASE_010 late=True  limit=2018-01-01 carrier=2018-01-05 cust=2018-01-12 est=2018-01-08 | HYP=seller               TRUTH=seller

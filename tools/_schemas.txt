@@ -1,0 +1,10 @@
+get_order | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_order_items | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_order_payments | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_shipment_summary | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_sellers | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_policy | required=['case_id', 'policy_version'] | props={"case_id": {"title": "Case Id", "type": "string"}, "policy_version": {"title": "Policy Version", "type": "string"}}
+get_customer_history | required=['case_id', 'customer_unique_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "customer_unique_id": {"title": "Customer Unique Id", "type": "string"}}
+get_product_context | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_payment_timeline | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}
+get_refund_timeline | required=['case_id', 'order_id'] | props={"case_id": {"title": "Case Id", "type": "string"}, "order_id": {"title": "Order Id", "type": "string"}}

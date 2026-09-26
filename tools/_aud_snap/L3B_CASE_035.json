@@ -1,0 +1,125 @@
+{
+  "schema_version": "day09-l3b-output-v2",
+  "case_id": "L3B_CASE_035",
+  "assessment": {
+    "primary_issue": "refund_pending",
+    "secondary_issues": [
+      "requested_full_refund"
+    ],
+    "case_status": "needs_investigation",
+    "confidence": 0.8
+  },
+  "affected_entities": {
+    "order_ids": [
+      "a88edef387e2a7e457695664bf0ddfc0"
+    ],
+    "item_ids": [
+      "item-a88edef387e2"
+    ],
+    "seller_ids": [
+      "seller-a88edef387e2"
+    ],
+    "payment_references": [
+      "1"
+    ],
+    "shipment_ids": [
+      "a88edef387e2a7e457695664bf0ddfc0"
+    ]
+  },
+  "claim_assessments": [
+    {
+      "claim_id": "claim-035-a",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "evidence_refs": [
+        "ev_a6VWuc0gXDg24FtMBO3hRbm4AhPSxBBr",
+        "ev_hNEpFD6VKb1tk5g2elaYAk6ksoDiIzjS",
+        "ev_3vxnHwWWzh4lU0ivwtycbs0QJM--gR1Z",
+        "ev_w0X9BM9DtwnH0zdaqzM3-qhBVSjDcN0U",
+        "ev_G_gIcL4WtFhktMNUcK8jspEGpf366IYq",
+        "ev_okOn_w3QaVKm2hDpOCFK0QvtrkNN5gHn",
+        "ev_WYTAaszfyqAjYQpqD42prbNt9vYPpisX"
+      ]
+    },
+    {
+      "claim_id": "claim-035-b",
+      "verdict": "partially_supported",
+      "confidence": 0.6,
+      "evidence_refs": [
+        "ev_G_gIcL4WtFhktMNUcK8jspEGpf366IYq",
+        "ev_okOn_w3QaVKm2hDpOCFK0QvtrkNN5gHn",
+        "ev_WYTAaszfyqAjYQpqD42prbNt9vYPpisX"
+      ]
+    }
+  ],
+  "entity_resolution": {
+    "status": "resolved",
+    "resolved_order_ids": [
+      "a88edef387e2a7e457695664bf0ddfc0"
+    ],
+    "rejected_candidates": [
+      "candidate-035"
+    ],
+    "confidence": 0.95
+  },
+  "customer_context": {
+    "customer_unique_id": "customer-5664bf0ddfc0",
+    "related_order_ids": [
+      "a88edef387e2a7e457695664bf0ddfc0"
+    ]
+  },
+  "shipment_analysis": {
+    "verdict": "on_time",
+    "late_seller_ids": [],
+    "timeline_complete": true
+  },
+  "payment_analysis": {
+    "verdict": "refund_pending",
+    "captured_total_brl": 89.0,
+    "refunded_total_brl": 0,
+    "refundable_total_brl": 89.0
+  },
+  "root_cause_analysis": {
+    "ranked_causes": [
+      {
+        "cause_code": "REFUND_PENDING",
+        "rank": 1
+      }
+    ],
+    "responsible_parties": [
+      {
+        "party_type": "payment_provider",
+        "party_id": null
+      }
+    ]
+  },
+  "evidence_refs": [
+    "ev_a6VWuc0gXDg24FtMBO3hRbm4AhPSxBBr",
+    "ev_hNEpFD6VKb1tk5g2elaYAk6ksoDiIzjS",
+    "ev_3vxnHwWWzh4lU0ivwtycbs0QJM--gR1Z",
+    "ev_ASDf6XHbbMlzLWne2JVgj3AfDR5pysNs",
+    "ev_w0X9BM9DtwnH0zdaqzM3-qhBVSjDcN0U",
+    "ev_G_gIcL4WtFhktMNUcK8jspEGpf366IYq",
+    "ev_okOn_w3QaVKm2hDpOCFK0QvtrkNN5gHn",
+    "ev_WYTAaszfyqAjYQpqD42prbNt9vYPpisX"
+  ],
+  "data_conflicts": [
+    {
+      "field": "order_timeline.order_status",
+      "sources": [
+        "get_order",
+        "get_customer_history"
+      ],
+      "selected_source": "get_customer_history",
+      "resolution_code": "authoritative_customer_timeline"
+    }
+  ],
+  "financial_resolution": {
+    "currency": "BRL",
+    "recommended_refund_brl": 0.0,
+    "refund_lines": []
+  },
+  "resolution_actions": [
+    "monitor_refund"
+  ]
+}

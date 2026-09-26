@@ -1,0 +1,119 @@
+case            topic                       pol      cap     refd  refbl verdict          ship           cause          conf  nref 
+L3B_CASE_001    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_002    valid_split_payment         0.0     89.0        0      0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_003    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_004    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_005    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_006    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_007    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+L3B_CASE_008    canceled_order_paid        79.0     79.0        0   79.0 reconciled       insufficient_evidence CANCELED_ORDER_CAPTURED 1     7    
+L3B_CASE_009    unavailable_order_paid     89.0     89.0        0   89.0 reconciled       insufficient_evidence UNAVAILABLE_ORDER_CAPTURED 1     7    
+L3B_CASE_010    late_delivery_seller       18.0     18.0        0   18.0 reconciled       seller_delay   SELLER_HANDOFF_LATE 1     7    
+L3B_CASE_011    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_012    valid_split_payment         0.0    141.0        0   52.0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_013    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_014    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_015    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_016    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_017    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+L3B_CASE_018    canceled_order_paid        79.0     79.0        0   79.0 reconciled       insufficient_evidence CANCELED_ORDER_CAPTURED 1     7    
+L3B_CASE_019    unavailable_order_paid     89.0     89.0        0   89.0 reconciled       insufficient_evidence UNAVAILABLE_ORDER_CAPTURED 1     7    
+L3B_CASE_020    late_delivery_seller       18.0     18.0        0   18.0 reconciled       seller_delay   SELLER_HANDOFF_LATE 1     7    
+L3B_CASE_021    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_022    valid_split_payment         0.0     89.0        0      0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_023    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_024    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_025    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_026    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_027    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+L3B_CASE_028    canceled_order_paid        79.0     79.0        0   79.0 reconciled       insufficient_evidence CANCELED_ORDER_CAPTURED 1     7    
+L3B_CASE_029    unavailable_order_paid     89.0     89.0        0   89.0 reconciled       insufficient_evidence UNAVAILABLE_ORDER_CAPTURED 1     7    
+L3B_CASE_030    late_delivery_seller       18.0     18.0        0   18.0 reconciled       seller_delay   SELLER_HANDOFF_LATE 1     7    
+L3B_CASE_031    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_032    valid_split_payment         0.0     89.0        0      0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_033    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_034    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_035    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_036    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_037    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+L3B_CASE_038    canceled_order_paid        79.0     79.0        0   79.0 reconciled       insufficient_evidence CANCELED_ORDER_CAPTURED 1     7    
+L3B_CASE_039    unavailable_order_paid     89.0    178.0        0   89.0 reconciled       insufficient_evidence UNAVAILABLE_ORDER_CAPTURED 0     7    
+L3B_CASE_040    late_delivery_seller       18.0     18.0        0   18.0 reconciled       seller_delay   SELLER_HANDOFF_LATE 1     7    
+L3B_CASE_041    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_042    valid_split_payment         0.0     89.0        0      0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_043    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_044    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_045    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_046    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_047    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+L3B_CASE_048    canceled_order_paid        79.0     79.0        0   79.0 reconciled       insufficient_evidence CANCELED_ORDER_CAPTURED 1     7    
+L3B_CASE_049    unavailable_order_paid     89.0     89.0        0   89.0 reconciled       insufficient_evidence UNAVAILABLE_ORDER_CAPTURED 1     7    
+L3B_CASE_050    late_delivery_seller       18.0     18.0        0   18.0 reconciled       seller_delay   SELLER_HANDOFF_LATE 1     7    
+L3B_CASE_051    late_delivery_logistics    16.0     16.0        0   16.0 reconciled       logistics_delay LOGISTICS_HANDOFF_LATE 1     7    
+L3B_CASE_052    valid_split_payment         0.0     89.0        0      0 reconciled       on_time        SPLIT_PAYMENT_RECONCILED 1     8    
+L3B_CASE_053    payment_mismatch           35.0     35.0        0   35.0 capture_mismatch on_time        PAYMENT_RECONCILIATION_MISMATCH 1     8    
+L3B_CASE_054    duplicate_charge           64.0    128.0        0   64.0 duplicate_capture on_time        DUPLICATE_CAPTURE 1     7    
+L3B_CASE_055    refund_pending              0.0     89.0        0   89.0 refund_pending   on_time        REFUND_PENDING 1     8    
+L3B_CASE_056    refund_failed              52.0     52.0        0   52.0 refund_failed    on_time        REFUND_FAILED  1     8    
+L3B_CASE_057    unsupported_claim           0.0     89.0        0      0 reconciled       on_time        NO_ANOMALY_FOUND 1     7    
+
+--- mismatches vs expected policy/status/action ---
+
+--- captured_total vs policy constant vs refundable ---
+ L3B_CASE_001 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_002 valid_split_payment      cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_003 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_004 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_005 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_006 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_007 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_008 canceled_order_paid      cap=79.0     refble=79.0     rec=79.0   verdict=reconciled
+ L3B_CASE_009 unavailable_order_paid   cap=89.0     refble=89.0     rec=89.0   verdict=reconciled
+ L3B_CASE_010 late_delivery_seller     cap=18.0     refble=18.0     rec=18.0   verdict=reconciled
+ L3B_CASE_011 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_012 valid_split_payment      cap=141.0    refble=52.0     rec=0.0    verdict=reconciled
+ L3B_CASE_013 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_014 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_015 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_016 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_017 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_018 canceled_order_paid      cap=79.0     refble=79.0     rec=79.0   verdict=reconciled
+ L3B_CASE_019 unavailable_order_paid   cap=89.0     refble=89.0     rec=89.0   verdict=reconciled
+ L3B_CASE_020 late_delivery_seller     cap=18.0     refble=18.0     rec=18.0   verdict=reconciled
+ L3B_CASE_021 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_022 valid_split_payment      cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_023 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_024 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_025 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_026 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_027 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_028 canceled_order_paid      cap=79.0     refble=79.0     rec=79.0   verdict=reconciled
+ L3B_CASE_029 unavailable_order_paid   cap=89.0     refble=89.0     rec=89.0   verdict=reconciled
+ L3B_CASE_030 late_delivery_seller     cap=18.0     refble=18.0     rec=18.0   verdict=reconciled
+ L3B_CASE_031 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_032 valid_split_payment      cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_033 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_034 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_035 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_036 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_037 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_038 canceled_order_paid      cap=79.0     refble=79.0     rec=79.0   verdict=reconciled
+ L3B_CASE_039 unavailable_order_paid   cap=178.0    refble=89.0     rec=89.0   verdict=reconciled
+ L3B_CASE_040 late_delivery_seller     cap=18.0     refble=18.0     rec=18.0   verdict=reconciled
+ L3B_CASE_041 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_042 valid_split_payment      cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_043 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_044 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_045 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_046 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_047 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_048 canceled_order_paid      cap=79.0     refble=79.0     rec=79.0   verdict=reconciled
+ L3B_CASE_049 unavailable_order_paid   cap=89.0     refble=89.0     rec=89.0   verdict=reconciled
+ L3B_CASE_050 late_delivery_seller     cap=18.0     refble=18.0     rec=18.0   verdict=reconciled
+ L3B_CASE_051 late_delivery_logistics  cap=16.0     refble=16.0     rec=16.0   verdict=reconciled
+ L3B_CASE_052 valid_split_payment      cap=89.0     refble=0        rec=0.0    verdict=reconciled
+ L3B_CASE_053 payment_mismatch         cap=35.0     refble=35.0     rec=35.0   verdict=capture_mismatch
+ L3B_CASE_054 duplicate_charge         cap=128.0    refble=64.0     rec=64.0   verdict=duplicate_capture
+ L3B_CASE_055 refund_pending           cap=89.0     refble=89.0     rec=0.0    verdict=refund_pending
+ L3B_CASE_056 refund_failed            cap=52.0     refble=52.0     rec=52.0   verdict=refund_failed
+ L3B_CASE_057 unsupported_claim        cap=89.0     refble=0        rec=0.0    verdict=reconciled

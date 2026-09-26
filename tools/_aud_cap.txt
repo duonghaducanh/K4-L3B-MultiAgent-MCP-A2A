@@ -1,0 +1,72 @@
+=== case001 top-level keys ===
+['get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary']
+
+== L3B_CASE_001  claimed={}
+   candidate_get_order=null
+   per-owner captured: {"af0bbb47f125381ce9f3597dc70ef07b": 105.0}
+      af0bbb47 purch=2018-05-11T09:00:00 deliv=2018-05-20T09:00:00 status=delivered   cap=105.0
+      af0bbb47 purch=2017-12-20T09:00:00 deliv=2018-01-04T09:00:00 status=delivered   cap=105.0
+   OUTPUT captured=16.0 refundable=16.0 rec=16.0 verdict=reconciled issue=late_delivery_logistics
+
+== L3B_CASE_002  claimed="5b9e9502eca103a28ea22a94c65e3950"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"5b9e9502eca103a28ea22a94c65e3950": 141.0}
+      5b9e9502 purch=2018-04-10T09:00:00 deliv=2018-04-19T09:00:00 status=delivered   cap=141.0
+      5b9e9502 purch=2018-01-21T09:00:00 deliv=2018-01-30T09:00:00 status=delivered   cap=141.0
+   OUTPUT captured=89.0 refundable=0 rec=0.0 verdict=reconciled issue=valid_split_payment
+
+== L3B_CASE_003  claimed="adc253f1977c81c2c29dc7b9dd23d538"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"adc253f1977c81c2c29dc7b9dd23d538": 124.0}
+      adc253f1 purch=2018-03-09T09:00:00 deliv=2018-03-18T09:00:00 status=delivered   cap=124.0
+      adc253f1 purch=2018-02-19T09:00:00 deliv=2018-02-28T09:00:00 status=delivered   cap=124.0
+   OUTPUT captured=35.0 refundable=35.0 rec=35.0 verdict=capture_mismatch issue=payment_mismatch
+
+== L3B_CASE_004  claimed="b04477ada8d2ad7fa9d95358baaa785d"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"b04477ada8d2ad7fa9d95358baaa785d": 256.0}
+      b04477ad purch=2018-02-08T09:00:00 deliv=2018-02-17T09:00:00 status=delivered   cap=256.0
+      b04477ad purch=2018-03-23T09:00:00 deliv=2018-04-01T09:00:00 status=delivered   cap=256.0
+   OUTPUT captured=128.0 refundable=64.0 rec=64.0 verdict=duplicate_capture issue=duplicate_charge
+
+== L3B_CASE_005  claimed="2208f3a59d7067fe62c900692f5fdcaf"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"2208f3a59d7067fe62c900692f5fdcaf": 124.0}
+      2208f3a5 purch=2018-01-07T09:00:00 deliv=2018-01-16T09:00:00 status=delivered   cap=124.0
+      2208f3a5 purch=2018-04-23T09:00:00 deliv=2018-05-02T09:00:00 status=delivered   cap=124.0
+   OUTPUT captured=89.0 refundable=89.0 rec=0.0 verdict=refund_pending issue=refund_pending
+
+== L3B_CASE_006  claimed="d67b79fea59821fda4d363d337a56c3a"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"d67b79fea59821fda4d363d337a56c3a": 141.0}
+      d67b79fe purch=2018-09-06T09:00:00 deliv=2018-09-15T09:00:00 status=delivered   cap=141.0
+      d67b79fe purch=2018-05-25T09:00:00 deliv=2018-06-03T09:00:00 status=delivered   cap=141.0
+   OUTPUT captured=52.0 refundable=52.0 rec=52.0 verdict=refund_failed issue=refund_failed
+
+== L3B_CASE_007  claimed="d671370d11048a2dab56335d3d91823e"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"d671370d11048a2dab56335d3d91823e": 105.0}
+      d671370d purch=2018-08-05T09:00:00 deliv=2018-08-20T09:00:00 status=delivered   cap=105.0
+      d671370d purch=2018-06-25T09:00:00 deliv=2018-07-04T09:00:00 status=delivered   cap=105.0
+   OUTPUT captured=89.0 refundable=0 rec=0.0 verdict=reconciled issue=unsupported_claim
+
+== L3B_CASE_008  claimed="3ef6bcdda6193f8657168ba7e8b3e948"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"3ef6bcdda6193f8657168ba7e8b3e948": 97.0}
+      3ef6bcdd purch=2018-07-04T09:00:00 deliv=2018-07-18T09:00:00 status=delivered   cap=97.0
+      3ef6bcdd purch=2018-07-27T09:00:00 deliv=None status=canceled    cap=97.0
+   OUTPUT captured=79.0 refundable=79.0 rec=79.0 verdict=reconciled issue=canceled_order_paid
+
+== L3B_CASE_009  claimed="8a5fc33c79bf3f4d9bbcc3dceb6b67c4"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"8a5fc33c79bf3f4d9bbcc3dceb6b67c4": 178.0}
+      8a5fc33c purch=2018-06-03T09:00:00 deliv=None status=unavailable cap=178.0
+      8a5fc33c purch=2018-08-28T09:00:00 deliv=None status=unavailable cap=178.0
+   OUTPUT captured=89.0 refundable=89.0 rec=89.0 verdict=reconciled issue=unavailable_order_paid
+
+== L3B_CASE_010  claimed="64a8b3b4c19751b51d211deb32fdc67b"
+   candidate_get_order={"isError": true, "text": ["Error executing tool get_order"]}
+   per-owner captured: {"64a8b3b4c19751b51d211deb32fdc67b": 97.0}
+      64a8b3b4 purch=2018-05-02T09:00:00 deliv=None status=canceled    cap=97.0
+      64a8b3b4 purch=2017-12-29T09:00:00 deliv=2018-01-12T09:00:00 status=delivered   cap=97.0
+   OUTPUT captured=18.0 refundable=18.0 rec=18.0 verdict=reconciled issue=late_delivery_seller

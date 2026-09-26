@@ -1,0 +1,75 @@
+=== tools called per case (current trace, 57 cases) ===
+  x33  ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_sellers', 'get_shipment_summary')
+  x24  ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+  x1   ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+
+=== distinct tools ===
+{'get_customer_history': 58, 'get_order': 58, 'get_order_items': 58, 'get_sellers': 57, 'get_shipment_summary': 57, 'get_payment_timeline': 58, 'get_policy': 58, 'get_refund_timeline': 24}
+
+=== per-case evidence domains ===
+  x33  ('customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment')
+  x24  ('customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment')
+  x1   ('customer', 'item', 'order', 'payment', 'policy')
+
+=== evidence_refs in output vs domains (all outputs) ===
+ L3B_CASE_001 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_002 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_003 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_004 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_005 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_006 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_007 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_008 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_009 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_010 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_011 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_012 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_013 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_014 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_015 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_016 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_017 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_018 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_019 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_020 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_021 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_022 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_023 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_024 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_025 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_026 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_027 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_028 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_029 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_030 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_031 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_032 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_033 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_034 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_035 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_036 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_037 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_038 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_039 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_040 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_041 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_042 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_043 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_044 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_045 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_046 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_047 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_048 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_049 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_050 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_051 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_052 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_053 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_054 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+ L3B_CASE_055 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_056 nref=8  doms=['customer', 'item', 'order', 'payment', 'policy', 'refund', 'seller', 'shipment'] missing=['product'] unknown=0
+ L3B_CASE_057 nref=7  doms=['customer', 'item', 'order', 'payment', 'policy', 'seller', 'shipment'] missing=['product', 'refund'] unknown=0
+
+=== missing-domain signatures ===
+  x33  ('product', 'refund')
+  x24  ('product',)

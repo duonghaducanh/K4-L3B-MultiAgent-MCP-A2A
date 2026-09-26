@@ -1,0 +1,8 @@
+server: name='Day09 Evidence Gateway' title=None version='' description=None website_url=None icons=None
+instructions: 'Use the smallest evidence tool needed for the active case. Preserve every evidence_ref used by the final answer. Tools are read-only and do not reveal scoring oracles.'
+
+RESOURCES: meta=None ttl_ms=0 cache_scope='private' next_cursor=None resources=[] result_type='complete'
+
+RESOURCE TEMPLATES: meta=None ttl_ms=0 cache_scope='private' next_cursor=None resource_templates=[] result_type='complete'
+
+PROMPTS: meta=None ttl_ms=0 cache_scope='private' next_cursor=None prompts=[] result_type='complete'

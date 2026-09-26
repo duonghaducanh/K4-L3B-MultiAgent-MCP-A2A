@@ -1,0 +1,246 @@
+h210-02513     Trâu TV                 93.3012 | sem 93.9713 ev 89.5073 mcp 93.9713 cons 93.9713 sch 93.9713 cal 93.9619 wf 93.9713 eff 93.9713 | gates 0
+h209-02470     Devtamin                93.2887 | sem 93.9707 ev 89.5019 mcp 93.9707 cons 93.9707 sch 93.9707 cal 93.7358 wf 93.9707 eff 93.9707 | gates 0
+h209-02798     hdd                     93.2629 | sem 93.9696 ev 89.5008 mcp 93.9696 cons 93.9696 sch 93.9696 cal  93.868 wf 93.9696 eff 93.3432 | gates 0
+h210-02723     K4-L3B-ColdBrew         92.9148 | sem 92.3445 ev 91.3927 mcp 93.9552 cons 93.9552 sch 93.9552 cal 93.7203 wf 93.9552 eff 93.9552 | gates 0
+h210-02647     K4-L3B-ColdBrew         92.4321 | sem 91.6089 ev 91.0695 mcp  93.935 cons  93.935 sch  93.935 cal 93.5874 wf  93.935 eff   91.43 | gates 0
+h209-02627     Czpl                    92.3894 | sem 93.9332 ev 88.0371 mcp 93.9332 cons 93.9332 sch 93.9332 cal 93.8956 wf 93.9332 eff 80.7825 | gates 0
+h210-02983     AIGANG                  92.1127 | sem 90.9696 ev 90.1646 mcp 93.9214 cons 93.9214 sch 93.9214 cal 93.8839 wf 93.9214 eff 92.6692 | gates 0
+h209-02844     TooSweeet                92.067 | sem 90.9678 ev 89.4531 mcp 93.9196 cons 93.9196 sch 93.9196 cal  93.882 wf 93.9196 eff 93.9196 | gates 0
+h209-02476     anam                    92.0092 | sem 90.9653 ev 91.0521 mcp  93.917 cons  93.917 sch  93.917 cal 92.9779 wf  93.917 eff 88.9082 | gates 0
+h210-02619     Enigma                  91.9913 | sem 90.9646 ev 89.0327 mcp 93.9163 cons 93.9163 sch 93.9163 cal 93.6815 wf 93.9163 eff 93.9163 | gates 0
+h210-02394     K4-L3B-botusieudang     91.9766 | sem  90.964 ev 89.1725 mcp 93.9157 cons 93.9157 sch 93.9157 cal 93.9157 wf 93.9157 eff 92.9765 | gates 0
+h209-02852     ThieuNu                 91.8971 | sem 90.9607 ev 89.7865 mcp 93.9123 cons 93.9123 sch 93.9123 cal  92.729 wf 93.9123 eff 90.7819 | gates 0
+h209-02769     Duy Còm TV - ngao        91.883 | sem 90.9601 ev 88.3453 mcp 93.9117 cons 93.9117 sch 93.9117 cal 93.6487 wf 93.9117 eff 93.9117 | gates 0
+h209-02468     Studio.h                91.8744 | sem 90.9598 ev 89.3694 mcp 93.9113 cons 93.9113 sch 93.9113 cal 93.5413 wf 93.9113 eff  90.781 | gates 0
+h210-02921     K4-L3B-THTrueMi          91.853 | sem 90.9589 ev  88.344 mcp 93.9104 cons 93.9104 sch 93.9104 cal 93.3869 wf 93.9104 eff 93.5974 | gates 0
+h210-02756     K4-L3B-Nhóm 1           91.8097 | sem 91.7621 ev  90.393 mcp 93.9086 cons 93.9086 sch 93.9086 cal 90.2931 wf 93.9086 eff 83.2655 | gates 0
+h210-03001     K4-L3B-ColdBrew         91.7213 | sem 90.9534 ev 88.7958 mcp 93.9048 cons 93.9048 sch 93.9048 cal 93.8672 wf 93.9048 eff 89.2095 | gates 0
+h210-02535     K4-L3B-Kocoten          91.6925 | sem 93.9036 ev 83.7278 mcp 93.9036 cons 88.8954 sch 93.9036 cal 93.6688 wf 93.9036 eff 90.4604 | gates 0
+h210-02395     K4-L3B-1PROMPT          91.6497 | sem 90.9505 ev 87.0712 mcp 93.9017 cons 93.9017 sch 93.9017 cal 92.9627 wf 93.9017 eff 93.9017 | gates 0
+h209-02507     ThienAn                 91.6411 | sem 90.9501 ev 88.6845 mcp 93.9013 cons 93.9013 sch 93.9013 cal 93.5914 wf 93.9013 eff 88.2672 | gates 0
+h209-02503     ThienAn                 91.6411 | sem 90.9501 ev 88.6845 mcp 93.9013 cons 93.9013 sch 93.9013 cal 93.5914 wf 93.9013 eff 88.2672 | gates 0
+h209-02671     intel                   91.5324 | sem 93.8967 ev  84.536 mcp 93.8967 cons 93.8967 sch 93.8967 cal 93.7854 wf 93.8967 eff 74.8043 | gates 0
+h210-02524     K4-L3B-anhbaygiagan     91.5232 | sem 90.9452 ev 87.0931 mcp 93.8962 cons 93.8962 sch 93.8962 cal 92.9573 wf 93.8962 eff 91.3923 | gates 0
+h209-02652     ThienAn                 91.4451 | sem 90.9419 ev 88.6766 mcp 93.8929 cons 93.8929 sch 93.8929 cal  93.583 wf 93.8929 eff 84.5036 | gates 0
+h209-02467     promaxima                91.372 | sem 92.2802 ev 92.4292 mcp 93.8897 cons 93.8897 sch 93.8897 cal  93.655 wf 93.8897 eff 61.0283 | gates 0
+h209-02534     Skynet                  91.1597 | sem 89.8572 ev 88.9089 mcp 93.8806 cons 93.8806 sch 93.8806 cal 92.8245 wf 93.8806 eff 87.6219 | gates 0
+h201-02378     TooSweet                 90.912 | sem 90.9196 ev 89.2774 mcp 93.8698 cons 93.8698 sch 93.8698 cal 92.7434 wf 93.8698 eff 73.2185 | gates 0
+h209-02684     Khá là OK                90.705 | sem 90.9108 ev 82.9568 mcp 93.8608 cons 93.8608 sch 93.8608 cal 93.6261 wf 93.8608 eff 87.2905 | gates 0
+h210-02793     K4-L3B-FourGuys         90.5483 | sem 87.9546 ev   88.09 mcp 93.8539 cons 93.8539 sch 93.8539 cal 92.2291 wf 93.8539 eff 93.8539 | gates 0
+h210-03012     K4-L3B-Agent            90.0213 | sem 90.8817 ev  84.592 mcp 93.8307 cons 93.8307 sch 93.8307 cal 90.2181 wf 93.8307 eff 72.5624 | gates 0
+h209-02768     TooSweet                 89.834 | sem 90.8736 ev 87.5675 mcp 93.8224 cons 93.8224 sch 93.8224 cal 92.6871 wf 93.8224 eff 57.5445 | gates 0
+h209-02449     TooSweet                89.5774 | sem 90.8626 ev 81.3711 mcp  93.811 cons  93.811 sch  93.811 cal 92.8729 wf  93.811 eff 70.9836 | gates 0
+h210-02490     K4-L3B-anhbaygiagan     89.3977 | sem 90.0508 ev  84.215 mcp 93.8029 cons 93.8029 sch 93.8029 cal 91.3707 wf 93.8029 eff 66.9127 | gates 0
+h210-02473     TDCH                     89.388 | sem 90.8543 ev 84.3741 mcp 93.8024 cons 90.6757 sch 93.8024 cal 84.2732 wf 93.8024 eff 73.1659 | gates 0
+h210-03002     K4L3B - F4              89.2841 | sem 90.3138 ev 84.3698 mcp 93.7977 cons 88.7952 sch 93.7977 cal 93.7602 wf 93.7977 eff  69.723 | gates 0
+h209-02599     D9_JQK                  89.2795 | sem 90.8496 ev 84.8699 mcp 93.7975 cons 93.7975 sch 93.7975 cal 93.1972 wf 93.7975 eff 54.4026 | gates 0
+h209-02923     BKT                     88.9855 | sem 90.8367 ev 83.6157 mcp 93.7843 cons 93.7843 sch 93.7843 cal 92.8464 wf 93.7843 eff 52.8318 | gates 0
+h210-02413     K4-L3B-KhongBiet        88.9504 | sem  92.175 ev 84.4681 mcp 93.7827 cons 90.6567 sch 93.7827 cal 93.2733 wf 93.7827 eff 44.7031 | gates 0
+h210-02661     K4-L3B-MotMinh           88.934 | sem 92.1743 ev 84.4674 mcp  93.782 cons 90.6559 sch  93.782 cal 93.2725 wf  93.782 eff 44.3901 | gates 0
+h210-02504     K4-THE LIEMS            88.7313 | sem 90.8255 ev 83.2344 mcp 93.7727 cons 93.7727 sch 93.7727 cal  92.835 wf 93.7727 eff 49.0744 | gates 0
+h209-02859     Soopi                   88.6419 | sem 90.8216 ev  84.624 mcp 93.7687 cons 93.7687 sch 93.7687 cal 92.8775 wf 93.7687 eff 43.1336 | gates 0
+h210-02719     Enigma                  88.5463 | sem 85.1915 ev 88.7927 mcp 93.7643 cons 90.6388 sch 93.7643 cal 85.0911 wf 93.7643 eff 87.8259 | gates 0
+h209-02600     green                   88.5278 | sem 88.6734 ev  84.339 mcp 93.7635 cons 93.7635 sch 93.7635 cal 84.9219 wf 93.7635 eff 66.8846 | gates 0
+h210-02956     K4-L3B-Kocoten          88.4899 | sem 88.6718 ev 85.6022 mcp 93.7617 cons 90.6364 sch 93.7617 cal 93.5273 wf 93.7617 eff 60.0075 | gates 0
+h210-02842     K4-L3B-KhongBiet        88.4486 | sem  90.813 ev 88.8161 mcp 93.7598 cons 90.6345 sch 93.7598 cal 93.7598 wf 93.7598 eff 32.1908 | gates 0
+h209-02822     AGI                     88.3399 | sem  84.915 ev 91.1978 mcp 93.7548 cons 88.7546 sch 93.7548 cal 89.4709 wf 93.7548 eff  78.129 | gates 0
+h210-02739     K4-L3B-ConKhiDot        87.9222 | sem 89.7183 ev 84.4256 mcp 93.7355 cons 93.7355 sch 93.7355 cal  92.217 wf 93.7355 eff 39.0565 | gates 0
+h209-02816     ThieuNu                 87.8309 | sem 90.7854 ev 64.6462 mcp 93.7313 cons 93.7313 sch 93.7313 cal 93.7313 wf 93.7313 eff 86.5452 | gates 0
+h210-02700     Enigma                  87.6955 | sem 84.8881 ev 84.3044 mcp  93.725 cons  93.725 sch  93.725 cal 89.8995 wf  93.725 eff 75.9173 | gates 0
+h210-02929     TDCH                    87.6955 | sem 84.8881 ev 84.3044 mcp  93.725 cons  93.725 sch  93.725 cal 89.8995 wf  93.725 eff 75.9173 | gates 0
+h209-02689     Manngusidan             87.6351 | sem 82.2077 ev 88.5153 mcp 93.7222 cons 90.5981 sch 93.7222 cal  91.276 wf 93.7222 eff 88.4112 | gates 0
+h209-02580     intel                   87.6295 | sem 90.5085 ev 83.2389 mcp 93.7219 cons 88.7234 sch 93.7219 cal 93.3845 wf 93.7219 eff 39.3632 | gates 0
+h210-02882     K4-L3B-1PROMPT          87.4358 | sem 90.7676 ev 86.8961 mcp 93.7129 cons 93.7129 sch 93.7129 cal 92.7757 wf 93.7129 eff 13.1198 | gates 0
+h209-02556     DeltaX                  87.1777 | sem 85.6692 ev 89.5097 mcp 93.7007 cons 88.7033 sch 93.7007 cal 90.6648 wf 93.7007 eff 53.0971 | gates 0
+h209-02616     N3                       87.144 | sem 90.2188 ev  83.511 mcp 93.6991 cons 88.7018 sch 93.6991 cal 93.4648 wf 93.6991 eff  31.233 | gates 0
+h209-02608     Manngusidan             87.1287 | sem 82.1869 ev 88.4929 mcp 93.6984 cons 90.5751 sch 93.6984 cal 91.2528 wf 93.6984 eff 78.7066 | gates 0
+h210-02936     K4-L3B-1PROMPT          86.7497 | sem 90.7362 ev 86.8661 mcp 93.6805 cons 93.6805 sch 93.6805 cal 92.7437 wf 93.6805 eff     0.0 | gates 0
+h209-02623     dino                    86.5806 | sem 90.7283 ev 82.5281 mcp 93.6723 cons 93.6723 sch 93.6723 cal 93.4382 wf 93.6723 eff   9.055 | gates 0
+h209-02873     Duy Còm TV - ngao        86.345 | sem  88.309 ev 66.2408 mcp 93.6611 cons  90.539 sch 93.6611 cal 89.2762 wf 93.6611 eff 83.0462 | gates 0
+h209-02548     K4-L3B-Agent            86.2873 | sem 82.4193 ev 90.1347 mcp 93.6583 cons 88.6632 sch 93.6583 cal 92.9268 wf 93.6583 eff 57.4437 | gates 0
+h209-02745     DeltaX                  86.1495 | sem 90.1731 ev 84.2384 mcp 93.6517 cons 93.6517 sch 93.6517 cal 93.3265 wf 93.6517 eff     0.0 | gates 0
+h209-02456     ViSoul                   85.803 | sem 88.5518 ev 81.8107 mcp 93.6349 cons 93.6349 sch 93.6349 cal 93.0356 wf 93.6349 eff 13.7332 | gates 0
+h201-02626     TranGiaThanh            85.6721 | sem 88.5458 ev 84.4975 mcp 93.6286 cons 88.6351 sch 93.6286 cal 86.5074 wf 93.6286 eff  19.662 | gates 0
+h201-02694     K4-L3B-anhbaygiagan     85.5413 | sem 89.3423 ev 83.1008 mcp 93.6221 cons 93.6221 sch 93.6221 cal 91.4315 wf 93.6221 eff     0.0 | gates 0
+h209-02880     K4-Team91-BLTS          85.5023 | sem 86.9331 ev 83.7083 mcp 93.6202 cons 88.6272 sch 93.6202 cal 91.8882 wf 93.6202 eff 26.2137 | gates 0
+h209-02492     Truongle                85.0011 | sem 86.9102 ev 84.4677 mcp 93.5955 cons 88.6038 sch 93.5955 cal 93.3615 wf 93.5955 eff 12.7914 | gates 0
+h209-02587     Vinh                    84.9724 | sem 81.5606 ev 84.3595 mcp 93.5941 cons 88.6024 sch 93.5941 cal 85.6901 wf 93.5941 eff   63.02 | gates 0
+h210-02987     F4                      84.9368 | sem 85.3919 ev 83.4159 mcp 93.5924 cons 88.6008 sch 93.5924 cal 93.3584 wf 93.5924 eff 26.8298 | gates 0
+h201-02851     KK                      84.8964 | sem 86.9054 ev 83.4141 mcp 93.5904 cons 88.5989 sch 93.5904 cal  92.942 wf 93.5904 eff 14.3506 | gates 0
+h209-02402     Nguyễn Bảo Sơn          84.3305 | sem 82.3346 ev 83.4233 mcp 93.5621 cons 88.5721 sch 93.5621 cal 93.4124 wf 93.5621 eff 39.2961 | gates 0
+h210-02970     EasyGame                84.2586 | sem 80.2821 ev 84.2662 mcp 93.5585 cons 93.5585 sch 93.5585 cal 90.6108 wf 93.5585 eff 44.5963 | gates 0
+h210-02644     K4-TeamXX-Doraemon       84.235 | sem 82.3305 ev 83.3847 mcp 93.5573 cons 93.5573 sch 93.5573 cal  89.815 wf 93.5573 eff 31.1857 | gates 0
+h209-02749     BLS                     84.2093 | sem 84.0222 ev 83.3835 mcp  93.556 cons  93.556 sch  93.556 cal 92.6205 wf  93.556 eff 14.3453 | gates 0
+h209-02930     Mark45                  84.1178 | sem 78.0487 ev 85.4102 mcp 93.5514 cons 93.5514 sch 93.5514 cal 92.6159 wf 93.5514 eff 54.2598 | gates 0
+h209-02557     Nguyễn Thị Hồng Nhung   84.0034 | sem 74.8365 ev  90.668 mcp 93.5456 cons 90.4275 sch 93.5456 cal 86.5765 wf 93.5456 eff 74.2128 | gates 0
+h210-03008     soopi                   83.0799 | sem 80.4086 ev 84.9986 mcp 86.0186 cons  81.032 sch 86.0186 cal 85.1584 wf 86.0186 eff 86.0186 | gates 4
+h209-02896     BH                      82.9884 | sem 84.1443 ev 83.3279 mcp 93.4936 cons 88.5073 sch 93.4936 cal 92.1473 wf 93.4936 eff     0.0 | gates 0
+h209-02454     sunset                  82.8016 | sem 80.9303 ev 63.4558 mcp 93.4839 cons 88.4981 sch 93.4839 cal 86.5554 wf 93.4839 eff 87.2516 | gates 0
+h210-02978     K4-L3B-5changlinhngula  82.7326 | sem 80.6601 ev 81.3783 mcp 93.4803 cons 88.4947 sch 93.4803 cal 89.0613 wf 93.4803 eff 31.7833 | gates 0
+h209-02787     K4-TeamXX-ArrogantIdio  80.5806 | sem 66.4229 ev 89.3449 mcp 93.3654 cons 93.3654 sch 93.3654 cal 93.2814 wf 93.3654 eff 65.3558 | gates 0
+h201-02857     SoloLeveling            80.1263 | sem 76.6724 ev 82.9526 mcp 93.3403 cons 91.4735 sch 93.3403 cal 86.2838 wf 93.3403 eff  4.3559 | gates 0
+h209-02614     Skynet                   79.294 | sem 75.7013 ev 80.2189 mcp 93.2938 cons 91.4279 sch 93.2938 cal 85.3125 wf 93.2938 eff  4.9756 | gates 0
+h210-02974     K4-L3B-ColdBrew         79.1332 | sem 67.9646 ev 82.8012 mcp 93.2847 cons 93.2847 sch 93.2847 cal 76.6054 wf 93.2847 eff  60.946 | gates 0
+h209-02888     SKT                     78.4635 | sem 65.5389 ev 83.1419 mcp 93.2464 cons   87.03 sch 93.2464 cal 64.4799 wf 93.2464 eff 90.7598 | gates 0
+h209-02853     Trike                   77.8513 | sem 72.7045 ev 81.1506 mcp 93.2109 cons 93.2109 sch 93.2109 cal 79.4623 wf 93.2109 eff     0.0 | gates 0
+h209-27012     BLS                     77.7361 | sem 62.0472 ev 84.9786 mcp 93.2041 cons 88.8545 sch 93.2041 cal 92.5723 wf 93.2041 eff 67.1069 | gates 0
+h209-02590     ozon                    77.3281 | sem 71.6154 ev 80.8237 mcp   93.18 cons 85.1043 sch   93.18 cal 70.2111 wf   93.18 eff  24.848 | gates 0
+h210-02452     K4-L3B-5changlinhngula  77.0714 | sem 62.5535 ev 81.1036 mcp 93.1648 cons  88.196 sch 93.1648 cal 66.9659 wf 93.1648 eff 88.5065 | gates 0
+h209-02620     BLS                     75.1431 | sem 59.8159 ev 84.2516 mcp 93.0469 cons 93.0469 sch 93.0469 cal 67.8358 wf 93.0469 eff 52.4164 | gates 0
+h210-02578     Team03                  73.3404 | sem 54.9624 ev 82.6593 mcp 92.9315 cons 92.9315 sch 92.9315 cal 69.7544 wf 92.9315 eff 58.8567 | gates 0
+h209-02639     Team main               72.7476 | sem 54.6738 ev 83.4004 mcp 87.3188 cons 84.8416 sch 87.3188 cal 73.7641 wf 87.3188 eff 87.3188 | gates 3
+h209-02807     BKT                     72.6817 | sem 55.9982 ev 82.4492 mcp  92.888 cons  92.888 sch  92.888 cal 92.2935 wf  92.888 eff  15.791 | gates 0
+h209-02716     DuSoul                  70.5217 | sem 47.1648 ev 82.3177 mcp 92.7398 cons 92.7398 sch 92.7398 cal 90.9221 wf 92.7398 eff 46.0608 | gates 0
+h209-02729     KINGPRO                 70.0197 | sem 53.7684 ev 83.6632 mcp 92.7041 cons 87.7599 sch 92.7041 cal 80.2169 wf 92.7041 eff     0.0 | gates 0
+h209-02566     so1                     68.6135 | sem 55.9673 ev 82.5328 mcp 92.6016 cons 83.3414 sch 92.6016 cal 45.6989 wf 92.6016 eff  1.5434 | gates 0
+h210-02643     K4-L3B-anhbaygiagan     68.1635 | sem 44.4326 ev 80.2929 mcp 92.5679 cons 92.5679 sch 92.5679 cal 41.8152 wf 92.5679 eff 77.1399 | gates 0
+h210-03018     soopi                   67.9409 | sem 42.2209 ev 84.1028 mcp 92.5511 cons 92.5511 sch 92.5511 cal 43.7581 wf 92.5511 eff 77.1259 | gates 0
+h210-02939     Agent                   67.9106 | sem 44.6878 ev 81.0931 mcp 92.5487 cons 92.5487 sch 92.5487 cal 63.6226 wf 92.5487 eff 45.9659 | gates 0
+h210-02437     TDCH                    67.7181 | sem 46.0027 ev 82.3439 mcp 92.5342 cons 88.8328 sch 92.5342 cal 58.2577 wf 92.5342 eff  40.715 | gates 0
+h209-02901     so1                     67.5571 | sem 45.4679 ev 81.2887 mcp 92.5219 cons 92.5219 sch 92.5219 cal 82.0001 wf 92.5219 eff 13.8783 | gates 0
+h210-02726     aoi                     67.0027 | sem 50.7314 ev 82.4237 mcp 92.4791 cons 86.3138 sch 92.4791 cal 51.9085 wf 92.4791 eff     0.0 | gates 0
+h210-02596     K4-L3B-AI               66.3655 | sem  44.366 ev 83.4151 mcp 92.4291 cons 86.2672 sch 92.4291 cal 43.0905 wf 92.4291 eff  44.366 | gates 0
+h209-02913     K4-TeamXX-Nova          66.1771 | sem 43.3026 ev 86.0488 mcp 92.4141 cons 92.4141 sch 92.4141 cal 47.7411 wf 92.4141 eff 24.3357 | gates 0
+h209-02856     BLS..                   65.8904 | sem 40.3882 ev 82.0082 mcp 92.3913 cons 92.3913 sch 92.3913 cal 69.2934 wf 92.3913 eff  32.645 | gates 0
+h210-03017     F4                      65.6533 | sem 42.4912 ev 80.9383 mcp 92.3721 cons 86.2139 sch 92.3721 cal 87.4121 wf 92.3721 eff  8.6214 | gates 0
+h209-02384     Nova-1                  65.4356 | sem 64.1204 ev 60.9203 mcp 68.3423 cons 68.3423 sch 68.3423 cal 68.0962 wf 68.3423 eff 66.4952 | gates 13
+h210-02611     K4-L3B-FrostyAshe       65.0599 | sem 44.3154 ev 80.4035 mcp 92.3237 cons 92.3237 sch 92.3237 cal  59.198 wf 92.3237 eff     0.0 | gates 0
+h209-02832     BotVN                     64.92 | sem 46.9474 ev 64.9884 mcp 92.3123 cons 92.3123 sch 92.3123 cal 57.0536 wf 92.3123 eff 24.6165 | gates 0
+h210-02837     K4-L3B-IpadKids         64.5612 | sem 39.2859 ev 79.0206 mcp 92.2825 cons 92.2825 sch 92.2825 cal 47.7562 wf 92.2825 eff 46.1412 | gates 0
+h210-02738     K4-L3B-ABU              64.5117 | sem 33.4838 ev  81.908 mcp 92.2783 cons 92.2783 sch 92.2783 cal 69.1718 wf 92.2783 eff 61.5189 | gates 0
+h209-02794     K4 - Team00 - Oke       64.3745 | sem 44.0245 ev 80.0317 mcp 92.2669 cons 92.2669 sch 92.2669 cal 43.1809 wf 92.2669 eff  6.1512 | gates 0
+h210-02903     botusieudang            64.2886 | sem 40.0859 ev 82.7783 mcp 92.2597 cons  85.494 sch 92.2597 cal 27.2627 wf 92.2597 eff  57.201 | gates 0
+h209-02523     Team03                  64.1129 | sem 36.6344 ev 81.3842 mcp 92.2448 cons 92.2448 sch 92.2448 cal 69.1836 wf 92.2448 eff 30.1332 | gates 0
+h201-02738     K4-L3B-ABU              63.8763 | sem 32.4104 ev 81.8605 mcp 92.2248 cons 92.2248 sch 92.2248 cal 69.2931 wf 92.2248 eff 57.7943 | gates 0
+h210-02915     sixthsense                63.69 | sem 36.0932 ev 81.8464 mcp 92.2089 cons 92.2089 sch 92.2089 cal 47.9486 wf 92.2089 eff 46.1045 | gates 0
+h209-02899     02899                   63.4584 | sem 42.7236 ev 82.1651 mcp  92.189 cons 89.1161 sch  92.189 cal 26.9561 wf  92.189 eff 14.7502 | gates 0
+h209-02506     Solo                    63.4412 | sem 40.8259 ev 77.2736 mcp 92.1875 cons 92.1875 sch 92.1875 cal 65.0843 wf 92.1875 eff     0.0 | gates 0
+h209-02678     SlopperBabiboo          63.3494 | sem 52.6741 ev 66.4753 mcp 73.7437 cons 73.7437 sch 73.7437 cal 73.4271 wf 73.7437 eff 56.5368 | gates 10
+h209-02932     HelloWorld              63.3323 | sem 39.2415 ev 62.5694 mcp 92.1782 cons 92.1782 sch 92.1782 cal 46.0153 wf 92.1782 eff 73.7425 | gates 0
+h209-02561     K4-L3B-Sonic            62.9493 | sem 38.1743 ev 84.8985 mcp 92.1448 cons 92.1448 sch 92.1448 cal 53.8817 wf 92.1448 eff     0.0 | gates 0
+h210-02938     K4-L3B-ABU              62.7792 | sem 40.0108 ev 82.1125 mcp   92.13 cons 85.9879 sch   92.13 cal  56.535 wf   92.13 eff     0.0 | gates 0
+h210-02811     K4-L3B-ABU              62.4168 | sem 39.9968 ev 80.6981 mcp 92.0979 cons 92.0979 sch 92.0979 cal 30.5305 wf 92.0979 eff 11.0518 | gates 0
+h209-02651     team3                   62.3362 | sem 37.0994 ev 82.0775 mcp 92.0907 cons 92.0907 sch 92.0907 cal 44.0194 wf 92.0907 eff 15.0415 | gates 0
+h210-02835     FourGuys                62.2162 | sem 34.9904 ev 78.8471 mcp 92.0799 cons 92.0799 sch 92.0799 cal 70.4089 wf 92.0799 eff 12.8912 | gates 0
+h210-02424     sixthsense              62.1278 | sem 36.0396 ev 83.0929 mcp 92.0721 cons 92.0721 sch 92.0721 cal 60.4546 wf 92.0721 eff     0.0 | gates 0
+h210-02390     K4-L3B-Kocoten          61.8913 | sem 34.7163 ev  82.042 mcp 92.0508 cons 84.0731 sch 92.0508 cal  85.569 wf 92.0508 eff     0.0 | gates 0
+h209-02879     sieunhandienquang       61.6677 | sem 37.3381 ev  80.639 mcp 92.0305 cons 92.0305 sch 92.0305 cal 38.3951 wf 92.0305 eff 10.1234 | gates 0
+h210-02984     Onnimi                   61.202 | sem 46.5195 ev  48.447 mcp 91.9878 cons 61.3253 sch 91.9878 cal 31.9658 wf 91.9878 eff 91.9878 | gates 0
+h210-02971     K4-L3B-ACE              60.9419 | sem 30.4794 ev 81.9645 mcp 91.9639 cons 91.9639 sch 91.9639 cal 70.3413 wf 91.9639 eff 15.0208 | gates 0
+h210-02909     LinhLinh                 58.097 | sem  21.481 ev 80.4692 mcp 91.6873 cons 91.6873 sch 91.6873 cal   85.48 wf 91.6873 eff 21.3937 | gates 0
+h209-02797     Team A                  55.8185 | sem 25.8664 ev 81.5036 mcp 91.4468 cons 91.4468 sch 91.4468 cal 24.8004 wf 91.4468 eff     0.0 | gates 0
+h209-02761     alteam                  55.7841 | sem 25.8653 ev 81.5003 mcp  91.443 cons  91.443 sch  91.443 cal  8.9157 wf  91.443 eff 15.2405 | gates 0
+h210-02884     K4-L3B-SapHoaQua        55.6213 | sem 18.0238 ev 81.4843 mcp 91.4251 cons 91.4251 sch 91.4251 cal 68.5688 wf 91.4251 eff 15.2375 | gates 0
+h209-02412     Hehe                    55.3959 | sem 25.8532 ev 82.4865 mcp 91.4002 cons 60.9335 sch 91.4002 cal 29.0653 wf 91.4002 eff 45.7001 | gates 0
+h210-02420     Latentia                52.2478 | sem 19.2465 ev 61.6682 mcp 89.2102 cons 89.2102 sch 89.2102 cal 81.6592 wf 88.7551 eff  0.3034 | gates 1
+h201-03006     Marshall                 49.921 | sem  4.9254 ev 47.7846 mcp 90.7302 cons 90.7302 sch 90.7302 cal 89.8229 wf 90.7302 eff 90.7302 | gates 0
+h209-02735     khogadetem              44.4295 | sem 44.9528 ev 41.4656 mcp 44.9528 cons 44.9528 sch 44.9528 cal 44.9483 wf 44.9528 eff 44.9528 | gates 25
+h210-02784     K4-L3B-THTrueMi         22.9746 | sem  17.409 ev 25.1455 mcp 28.3791 cons 28.3791 sch 28.3791 cal 28.0454 wf 28.3791 eff 18.0847 | gates 33
+h209-02403     SKT                      20.139 | sem 13.5489 ev 24.1651 mcp 27.7987 cons 27.7987 sch 27.7987 cal 13.1308 wf 27.7987 eff 14.1718 | gates 33
+h209-02828     l1lp3pp3r               13.9462 | sem 13.4907 ev 13.6451 mcp 15.2314 cons 15.2314 sch 15.2314 cal 14.3047 wf 15.2314 eff  9.1389 | gates 40
+h209-02821     chande                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02415     H20                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02407     ThieuNu                     0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02667     K4-L3B-THTrueMi             0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02367     K4-L3B-OHappy               0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02748     kiên                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02574     team số 4                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02855     FourGuys                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02941     K4-L3B-Agent                0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-12345     N7                          0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02459     toibingu                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02373     K4-L3B-Sonic                0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02917     Duy Còm TV - ngao           0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02962     K4L3B - F4                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02664     idontknow                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02984     K4-L3B-Onlimi               0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02544     sunset                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02680     Nhóm VinHạnd                0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02364     ThieuNu                     0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02594     K4-L3B-botusieudang         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02995     K4-L3B-AI                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02813     Enigma                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-00001     FourGuys                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02630     K4-L3B-1PROMPT              0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-03016     The Passion of Joan of      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02656     Team 043                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02866     Codexprox20                 0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02412     Heheh                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02943     K4-L3B-ACE                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02754     K4-L3B-Kocoten              0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02573     ABC                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02969     K4-L3B-Gene                 0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h202-02573     ABC                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02573     ABC                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-03007     K4-L3B-PheDaHutThuocLa      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02450     SoulVP                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02808     Kingpro                     0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02862     ozon                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02826     K4-L3B-IpadKids             0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02708     onedayonename               0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02631     Duy Còm TV - ngao           0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02489     t-rex                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02427     SKT                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02430     Skynet                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02362     HTMD                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02791     TDCH                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02378     TooSweet                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02558     Yuzusoft                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02375     acer                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02417     A100                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02376     K4 - L3B - Gone Angel       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02359     K4-TeamO7                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02650     sieunhandienquang           0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02717     Team Đụt                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02391     ThienAn                     0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02406     solo                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02530     K4-SKT                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02911     Lonely                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02586     HTMD                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-03010     K4-L3B-ACE                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02795     HTMD                        0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02701     sunset                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02846     Team Đụt                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02977     Soopi                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02576     Team03                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02732     AIGANG                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02765     Sloppers                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02555     PKA35                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02536     rapunzel                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02509     AIGAN                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02601     Nova1                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02396     Starl1ght                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02688     Promaxima                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02679     team3                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02607     K4-TeamXX-Doraemon          0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02847     K4-L3B-ACE                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02633     K4-L3B-Limbo                0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02694     K4-L3B-anhbaygiagan         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02415     K4_L3B_H2O                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02737     lốp trưởng                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02721     EasyGame                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02870     LaoGaKho                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02687     K4-TeamXX-Doraemon          0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02657     Buddy                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02528     ABC                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02565     TranKimPhuong               0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h201-02629     K4-L3B-ACE                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02505     Studio.h                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02715     Studio.h                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02965     K4-THE LIEMS                0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02579     sunset                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02418     VŨ VĂN ĐIỀN                 0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h209-02827     N17                         0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02997     onedayonename               0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02864     sixthsense                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02629     K4-L3B-ACE                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02992     K4-TeamXX-Doraemon          0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02986     sixthsense                  0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02841     FourGuys                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02718     Buddy                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02670     IpadKids                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-03006     Marshal                     0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02706     Latentia                    0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02368     AIGANG                      0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02474     Buddy                       0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50
+h210-02914     K4-L3B-AI                   0.0 | sem     0.0 ev     0.0 mcp     0.0 cons     0.0 sch     0.0 cal     0.0 wf     0.0 eff     0.0 | gates 50

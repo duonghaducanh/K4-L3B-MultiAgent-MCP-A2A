@@ -1,0 +1,51 @@
+=== item_ids shape ===
+Counter({1: 100})
+ samples: [['item-af0bbb47f125'], ['item-5b9e9502eca1'], ['item-adc253f1977c']]
+
+=== payment_references values ===
+[(('1',), 70), (('1', '2'), 30)]
+
+=== order_ids always == claimed ===
+ non-singleton order_ids: none
+
+=== seller_ids ===
+Counter({1: 100})
+
+=== root_cause ranked_causes length ===
+Counter({1: 100})
+
+=== responsible_parties by topic ===
+  late_delivery_logistics  x10 [{"party_type": "logistics_provider", "party_id": null}]
+  valid_split_payment      x10 [{"party_type": "customer", "party_id": null}]
+  payment_mismatch         x10 [{"party_type": "payment_provider", "party_id": null}]
+  duplicate_charge         x10 [{"party_type": "payment_provider", "party_id": null}]
+  refund_pending           x10 [{"party_type": "payment_provider", "party_id": null}]
+  refund_failed            x10 [{"party_type": "payment_provider", "party_id": null}]
+  unsupported_claim        x10 [{"party_type": "customer", "party_id": null}]
+  canceled_order_paid      x10 [{"party_type": "platform", "party_id": null}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-8a5fc33c79bf"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-c4dad201936e"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-1f7565efbb90"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-103de323ece5"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-8067c5e4834f"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-0c65eb5a1415"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-d3782eb2976a"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-ca0400dec2c2"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-73628c6d02ed"}]
+  unavailable_order_paid   x1 [{"party_type": "seller", "party_id": "seller-eb09635680fa"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-64a8b3b4c197"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-4274ff4a5df6"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-13d341318c77"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-2636a02ee7de"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-e2a03ccf5ea8"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-614bc59c7d5e"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-72fa449394ed"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-cc8778d76e56"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-113e41a438f0"}]
+  late_delivery_seller     x1 [{"party_type": "seller", "party_id": "seller-9b75cdaf2d85"}]
+
+=== claim_assessments count ===
+Counter({2: 100})
+
+=== claim ids ===
+[(('claim-001-a', 'claim-001-b'), 1), (('claim-002-a', 'claim-002-b'), 1), (('claim-003-a', 'claim-003-b'), 1), (('claim-004-a', 'claim-004-b'), 1)]

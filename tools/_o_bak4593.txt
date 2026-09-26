@@ -1,0 +1,6 @@
+cases 100
+60 ('customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment')
+40 ('customer', 'item', 'order', 'payment', 'policy', 'product', 'refund', 'seller', 'shipment')
+
+60 ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+40 ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')

@@ -1,0 +1,49 @@
+occurrences of "shipment_id" in captured evidence: 0
+keys seen in shipment data: ['actor', 'amount_brl', 'canceled_order_paid', 'candidate_get_order', 'candidates', 'case_status', 'category_name_english', 'claimed', 'currency', 'customer_id', 'customer_unique_id', 'data', 'delivered_carrier_at', 'delivered_customer_at', 'domain', 'duplicate_charge', 'estimated_delivery_at', 'event_at', 'event_type', 'events', 'evidence_ref', 'freight_value', 'get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary', 'late_delivery_logistics', 'late_delivery_seller', 'order_approved_at', 'order_delivered_carrier_date', 'order_delivered_customer_date', 'order_estimated_delivery_date', 'order_id', 'order_item_id', 'order_purchase_timestamp', 'order_status', 'orders', 'party_id', 'party_type', 'payment_installments', 'payment_mismatch', 'payment_sequential', 'payment_type', 'payment_value', 'payments', 'policy_version', 'price', 'product', 'product_category_name', 'product_id', 'recommended_action', 'refund_brl', 'refund_failed', 'refund_pending', 'responsible_parties', 'result_hash', 'rules', 'schema_version', 'seller_city', 'seller_id', 'seller_state', 'seller_zip_code_prefix', 'shipping_limit_at', 'shipping_limit_date', 'shipping_limits', 'status', 'text', 'unavailable_order_paid', 'unsupported_claim', 'valid_split_payment', 'warnings']
+
+workflow lines mentioning self.payments:
+  221: self.payments: list[dict[str, Any]] = []
+  351: self.payments = list(data.get("payments") or [])
+  616: for p in self.payments
+
+_payment_agent excerpt:
+async def payment_agent(self) -> None:
+        self.trace.emit(
+            case_id=self.case_id,
+            event_type="task_assigned",
+            actor="coordinator",
+            target="payment-agent",
+            decision_code="collect_payment_lifecycle",
+        )
+        timeline = await self.ledger.fetch(
+            "payment-agent", "get_payment_timeline", order_id=self.claimed_order_id
+        )
+        refund = await self.ledger.fetch(
+            "payment-agent", "get_refund_timeline", order_id=self.claimed_order_id
+        )
+        if timeline:
+            data = timeline.get("data") or {}
+            self.payment_events = _rows_for(
+                list(data.get("events") or []), "event_at", self.history, self.target
+            )
+            self.payments = list(data.get("payments") or [])
+        if refund:
+            self.refunds = _rows_for(
+                list((refund.get("data") or {}).get("events") or []),
+                "event_at",
+                self.history,
+                self.target,
+            )
+        self.trace.emit(
+            case_id=self.case_id,
+            event_type="handoff",
+            actor="payment-agent",
+            target="coordinator",
+            decision_code="payment_lifecycle_ready",
+            evidence_refs=self.ledger.refs_for("get_payment_timeline", "get_refund_timeline"),
+        )
+
+    async def policy_agent(self) -> None:
+        self.trace.emit(
+            case_id=self.case_id,
+            event_type="task_ass

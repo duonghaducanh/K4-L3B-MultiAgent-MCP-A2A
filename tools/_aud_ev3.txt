@@ -1,0 +1,21 @@
+=== SCORED 4593 (100 outputs) ===
+  nref distribution: {8: 60, 9: 40}
+  cited-domain sets: {('customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment'): 60, ('customer', 'item', 'order', 'payment', 'policy', 'product', 'refund', 'seller', 'shipment'): 40}
+  uncited domains:   {(): 100}
+  tools per case:    {('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary'): 60, ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary'): 40}
+
+=== CURRENT (14 outputs) ===
+  nref distribution: {5: 5, 6: 9}
+  cited-domain sets: {('customer', 'item', 'order', 'payment', 'policy', 'shipment'): 3, ('customer', 'item', 'order', 'payment', 'policy', 'refund'): 6, ('customer', 'item', 'order', 'payment', 'policy'): 5}
+  uncited domains:   {(): 14}
+  tools per case:    {('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary'): 3, ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline'): 6, ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy'): 5}
+
+=== CURRENT case 001 output refs ===
+  ev_2UM-F4tlfq205dsQ06PkU-M-gUvukBV1 -> ('L3B_CASE_001', 'get_customer_history', 'customer')
+  ev_M6JHYD_8KhNIGfMBksM6vE6gcWdkRh6o -> ('L3B_CASE_001', 'get_order', 'order')
+  ev_uWXQSVgxHusQyaLnlKde-L-MixF61Pxb -> ('L3B_CASE_001', 'get_order_items', 'item')
+  ev_Ps06HXgS7s5eANOn2IsG7KQ59cKVf-6k -> ('L3B_CASE_001', 'get_shipment_summary', 'shipment')
+  ev_Qosc07nY8um0mppRy2SE-k5IVW9uW71o -> ('L3B_CASE_001', 'get_payment_timeline', 'payment')
+  ev_f55Sjo-VjIcQP5OdqfRcJGEJ6VQ4uzUC -> ('L3B_CASE_001', 'get_policy', 'policy')
+  shipment_ids=[]
+  refundable=16.0 rec=16.0

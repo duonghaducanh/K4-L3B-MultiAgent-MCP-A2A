@@ -1,0 +1,7 @@
+top keys: ['$schema', '$id', 'title', 'type', 'additionalProperties', 'required', 'properties']
+=== grep properties ===
+.properties.shipment_analysis.properties.verdict -> {"enum": ["on_time", "seller_delay", "logistics_delay", "lost", "returned", "conflicting", "insufficient_evidence"]}
+.properties.payment_analysis.properties.verdict -> {"enum": ["reconciled", "capture_mismatch", "duplicate_capture", "refund_pending", "refund_failed", "refunded", "insufficient_evidence"]}
+.properties.payment_analysis.properties.captured_total_brl -> {"type": ["number", "null"], "minimum": 0}
+.properties.payment_analysis.properties.refunded_total_brl -> {"type": ["number", "null"], "minimum": 0}
+.properties.payment_analysis.properties.refundable_total_brl -> {"type": ["number", "null"], "minimum": 0}

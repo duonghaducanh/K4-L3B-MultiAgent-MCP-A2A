@@ -1,0 +1,238 @@
+############################################################
+L3B_CASE_001 claimed= None cands= None
+ HISTORY:
+   af0bbb47f125381c delivered P 2018-05-11 D 2018-05-20 E 2018-05-21
+   af0bbb47f125381c delivered P 2017-12-20 D 2018-01-04 E 2017-12-30
+ GET_ORDER: status=delivered P=2018-05-11 D=2018-05-20 E=2018-05-21
+ ITEMS:
+   item=item-af0bbb47f125 seller=seller-af0bbb47f125 ship_limit=2018-05-14 price=79.00 freight=10.00
+   item=item-af0bbb47f125 seller=seller-af0bbb47f125 ship_limit=2017-12-23 price=79.00 freight=18.00
+ SHIP: status=delivered dcarr=2018-05-13 dcust=2018-05-20 est=2018-05-21
+   lim item=item-af0bbb47f125 seller=seller-af0bbb47f125 at=2018-05-14
+   lim item=item-af0bbb47f125 seller=seller-af0bbb47f125 at=2017-12-23
+   ev at=2018-01-04 type=delivered_late actor=logistics_provider status=confirmed
+ PAY_TIMELINE events:
+   ev at=2018-05-11 type=captured amt=89.00 status=confirmed
+   ev at=2017-12-20 type=captured amt=16.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=16.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=16.00
+############################################################
+L3B_CASE_002 claimed= 5b9e9502eca103a28ea22a94c65e3950 cands= ['candidate-002']
+ HISTORY:
+   5b9e9502eca103a2 delivered P 2018-04-10 D 2018-04-19 E 2018-04-20
+   5b9e9502eca103a2 delivered P 2018-01-21 D 2018-01-30 E 2018-01-31
+ GET_ORDER: status=delivered P=2018-04-10 D=2018-04-19 E=2018-04-20
+ ITEMS:
+   item=item-5b9e9502eca1 seller=seller-5b9e9502eca1 ship_limit=2018-04-13 price=79.00 freight=10.00
+   item=item-5b9e9502eca1 seller=seller-5b9e9502eca1 ship_limit=2018-01-24 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-04-12 dcust=2018-04-19 est=2018-04-20
+   lim item=item-5b9e9502eca1 seller=seller-5b9e9502eca1 at=2018-04-13
+   lim item=item-5b9e9502eca1 seller=seller-5b9e9502eca1 at=2018-01-24
+ PAY_TIMELINE events:
+   ev at=2018-04-10 type=captured amt=52.00 status=confirmed
+   ev at=2018-01-21 type=captured amt=44.50 status=confirmed
+   ev at=2018-01-21 type=captured amt=44.50 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=52.00
+   pm seq=1 type=credit_card val=44.50
+   pm seq=2 type=voucher val=44.50
+   ref at=2018-04-21 type=refund_requested amt=52.00 status=failed
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=52.00
+   pm seq=1 type=credit_card val=44.50
+   pm seq=2 type=voucher val=44.50
+############################################################
+L3B_CASE_003 claimed= adc253f1977c81c2c29dc7b9dd23d538 cands= ['candidate-003']
+ HISTORY:
+   adc253f1977c81c2 delivered P 2018-03-09 D 2018-03-18 E 2018-03-19
+   adc253f1977c81c2 delivered P 2018-02-19 D 2018-02-28 E 2018-03-01
+ GET_ORDER: status=delivered P=2018-03-09 D=2018-03-18 E=2018-03-19
+ ITEMS:
+   item=item-adc253f1977c seller=seller-adc253f1977c ship_limit=2018-03-12 price=79.00 freight=10.00
+   item=item-adc253f1977c seller=seller-adc253f1977c ship_limit=2018-02-22 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-03-11 dcust=2018-03-18 est=2018-03-19
+   lim item=item-adc253f1977c seller=seller-adc253f1977c at=2018-03-12
+   lim item=item-adc253f1977c seller=seller-adc253f1977c at=2018-02-22
+ PAY_TIMELINE events:
+   ev at=2018-03-09 type=captured amt=89.00 status=confirmed
+   ev at=2018-02-19 type=captured amt=35.00 status=confirmed
+   ev at=2018-02-19 type=reconciliation_mismatch amt=35.00 status=open
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=35.00
+   ref at=2018-03-20 type=refund_requested amt=89.00 status=pending
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=35.00
+############################################################
+L3B_CASE_004 claimed= b04477ada8d2ad7fa9d95358baaa785d cands= ['candidate-004']
+ HISTORY:
+   b04477ada8d2ad7f delivered P 2018-02-08 D 2018-02-17 E 2018-02-18
+   b04477ada8d2ad7f delivered P 2018-03-23 D 2018-04-01 E 2018-04-02
+ GET_ORDER: status=delivered P=2018-02-08 D=2018-02-17 E=2018-02-18
+ ITEMS:
+   item=item-b04477ada8d2 seller=seller-b04477ada8d2 ship_limit=2018-02-11 price=79.00 freight=10.00
+   item=item-b04477ada8d2 seller=seller-b04477ada8d2 ship_limit=2018-03-26 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-02-10 dcust=2018-02-17 est=2018-02-18
+   lim item=item-b04477ada8d2 seller=seller-b04477ada8d2 at=2018-02-11
+   lim item=item-b04477ada8d2 seller=seller-b04477ada8d2 at=2018-03-26
+ PAY_TIMELINE events:
+   ev at=2018-02-08 type=captured amt=64.00 status=confirmed
+   ev at=2018-02-08 type=captured amt=64.00 status=confirmed
+   ev at=2018-03-23 type=captured amt=64.00 status=confirmed
+   ev at=2018-03-23 type=captured amt=64.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=64.00
+   pm seq=2 type=voucher val=64.00
+   pm seq=1 type=credit_card val=64.00
+   pm seq=2 type=voucher val=64.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=64.00
+   pm seq=2 type=voucher val=64.00
+   pm seq=1 type=credit_card val=64.00
+   pm seq=2 type=voucher val=64.00
+############################################################
+L3B_CASE_005 claimed= 2208f3a59d7067fe62c900692f5fdcaf cands= ['candidate-005']
+ HISTORY:
+   2208f3a59d7067fe delivered P 2018-01-07 D 2018-01-16 E 2018-01-17
+   2208f3a59d7067fe delivered P 2018-04-23 D 2018-05-02 E 2018-05-03
+ GET_ORDER: status=delivered P=2018-01-07 D=2018-01-16 E=2018-01-17
+ ITEMS:
+   item=item-2208f3a59d70 seller=seller-2208f3a59d70 ship_limit=2018-01-10 price=79.00 freight=10.00
+   item=item-2208f3a59d70 seller=seller-2208f3a59d70 ship_limit=2018-04-26 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-01-09 dcust=2018-01-16 est=2018-01-17
+   lim item=item-2208f3a59d70 seller=seller-2208f3a59d70 at=2018-01-10
+   lim item=item-2208f3a59d70 seller=seller-2208f3a59d70 at=2018-04-26
+ PAY_TIMELINE events:
+   ev at=2018-01-07 type=captured amt=35.00 status=confirmed
+   ev at=2018-01-07 type=reconciliation_mismatch amt=35.00 status=open
+   ev at=2018-04-23 type=captured amt=89.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=35.00
+   pm seq=1 type=credit_card val=89.00
+   ref at=2018-05-04 type=refund_requested amt=89.00 status=pending
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=35.00
+   pm seq=1 type=credit_card val=89.00
+############################################################
+L3B_CASE_006 claimed= d67b79fea59821fda4d363d337a56c3a cands= ['candidate-006']
+ HISTORY:
+   d67b79fea59821fd delivered P 2018-09-06 D 2018-09-15 E 2018-09-16
+   d67b79fea59821fd delivered P 2018-05-25 D 2018-06-03 E 2018-06-04
+ GET_ORDER: status=delivered P=2018-09-06 D=2018-09-15 E=2018-09-16
+ ITEMS:
+   item=item-d67b79fea598 seller=seller-d67b79fea598 ship_limit=2018-09-09 price=79.00 freight=10.00
+   item=item-d67b79fea598 seller=seller-d67b79fea598 ship_limit=2018-05-28 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-09-08 dcust=2018-09-15 est=2018-09-16
+   lim item=item-d67b79fea598 seller=seller-d67b79fea598 at=2018-09-09
+   lim item=item-d67b79fea598 seller=seller-d67b79fea598 at=2018-05-28
+ PAY_TIMELINE events:
+   ev at=2018-09-06 type=captured amt=44.50 status=confirmed
+   ev at=2018-09-06 type=captured amt=44.50 status=confirmed
+   ev at=2018-05-25 type=captured amt=52.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=44.50
+   pm seq=2 type=voucher val=44.50
+   pm seq=1 type=credit_card val=52.00
+   ref at=2018-06-05 type=refund_requested amt=52.00 status=failed
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=44.50
+   pm seq=2 type=voucher val=44.50
+   pm seq=1 type=credit_card val=52.00
+############################################################
+L3B_CASE_007 claimed= d671370d11048a2dab56335d3d91823e cands= ['candidate-007']
+ HISTORY:
+   d671370d11048a2d delivered P 2018-08-05 D 2018-08-20 E 2018-08-15
+   d671370d11048a2d delivered P 2018-06-25 D 2018-07-04 E 2018-07-05
+ GET_ORDER: status=delivered P=2018-08-05 D=2018-08-20 E=2018-08-15
+ ITEMS:
+   item=item-d671370d1104 seller=seller-d671370d1104 ship_limit=2018-08-08 price=79.00 freight=18.00
+   item=item-d671370d1104 seller=seller-d671370d1104 ship_limit=2018-06-28 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-08-07 dcust=2018-08-20 est=2018-08-15
+   lim item=item-d671370d1104 seller=seller-d671370d1104 at=2018-08-08
+   lim item=item-d671370d1104 seller=seller-d671370d1104 at=2018-06-28
+   ev at=2018-08-20 type=delivered_late actor=logistics_provider status=confirmed
+ PAY_TIMELINE events:
+   ev at=2018-08-05 type=captured amt=16.00 status=confirmed
+   ev at=2018-06-25 type=captured amt=89.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=16.00
+   pm seq=1 type=credit_card val=89.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=16.00
+   pm seq=1 type=credit_card val=89.00
+############################################################
+L3B_CASE_008 claimed= 3ef6bcdda6193f8657168ba7e8b3e948 cands= ['candidate-008']
+ HISTORY:
+   3ef6bcdda6193f86 delivered P 2018-07-04 D 2018-07-18 E 2018-07-14
+   3ef6bcdda6193f86 canceled P 2018-07-27 D None E 2018-08-06
+ GET_ORDER: status=delivered P=2018-07-04 D=2018-07-18 E=2018-07-14
+ ITEMS:
+   item=item-3ef6bcdda619 seller=seller-3ef6bcdda619 ship_limit=2018-07-07 price=79.00 freight=18.00
+   item=item-3ef6bcdda619 seller=seller-3ef6bcdda619 ship_limit=2018-07-30 price=79.00 freight=10.00
+ SHIP: status=delivered dcarr=2018-07-11 dcust=2018-07-18 est=2018-07-14
+   lim item=item-3ef6bcdda619 seller=seller-3ef6bcdda619 at=2018-07-07
+   lim item=item-3ef6bcdda619 seller=seller-3ef6bcdda619 at=2018-07-30
+   ev at=2018-07-18 type=delivered_late actor=seller status=confirmed
+ PAY_TIMELINE events:
+   ev at=2018-07-04 type=captured amt=18.00 status=confirmed
+   ev at=2018-07-27 type=captured amt=79.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=18.00
+   pm seq=1 type=credit_card val=79.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=18.00
+   pm seq=1 type=credit_card val=79.00
+############################################################
+L3B_CASE_009 claimed= 8a5fc33c79bf3f4d9bbcc3dceb6b67c4 cands= ['candidate-009']
+ HISTORY:
+   8a5fc33c79bf3f4d unavailable P 2018-06-03 D None E 2018-06-13
+   8a5fc33c79bf3f4d unavailable P 2018-08-28 D None E 2018-09-07
+ GET_ORDER: status=unavailable P=2018-06-03 D=None E=2018-06-13
+ ITEMS:
+   item=item-8a5fc33c79bf seller=seller-8a5fc33c79bf ship_limit=2018-06-06 price=89.00 freight=10.00
+   item=item-8a5fc33c79bf seller=seller-8a5fc33c79bf ship_limit=2018-08-31 price=89.00 freight=10.00
+ SHIP: status=unavailable dcarr=2018-06-05 dcust= est=2018-06-13
+   lim item=item-8a5fc33c79bf seller=seller-8a5fc33c79bf at=2018-06-06
+   lim item=item-8a5fc33c79bf seller=seller-8a5fc33c79bf at=2018-08-31
+ PAY_TIMELINE events:
+   ev at=2018-06-03 type=captured amt=89.00 status=confirmed
+   ev at=2018-08-28 type=captured amt=89.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=89.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=89.00
+   pm seq=1 type=credit_card val=89.00
+############################################################
+L3B_CASE_010 claimed= 64a8b3b4c19751b51d211deb32fdc67b cands= ['candidate-010']
+ HISTORY:
+   64a8b3b4c19751b5 canceled P 2018-05-02 D None E 2018-05-12
+   64a8b3b4c19751b5 delivered P 2017-12-29 D 2018-01-12 E 2018-01-08
+ GET_ORDER: status=canceled P=2018-05-02 D=None E=2018-05-12
+ ITEMS:
+   item=item-64a8b3b4c197 seller=seller-64a8b3b4c197 ship_limit=2018-05-05 price=79.00 freight=10.00
+   item=item-64a8b3b4c197 seller=seller-64a8b3b4c197 ship_limit=2018-01-01 price=79.00 freight=18.00
+ SHIP: status=canceled dcarr=2018-05-04 dcust= est=2018-05-12
+   lim item=item-64a8b3b4c197 seller=seller-64a8b3b4c197 at=2018-05-05
+   lim item=item-64a8b3b4c197 seller=seller-64a8b3b4c197 at=2018-01-01
+   ev at=2018-01-12 type=delivered_late actor=seller status=confirmed
+ PAY_TIMELINE events:
+   ev at=2018-05-02 type=captured amt=79.00 status=confirmed
+   ev at=2017-12-29 type=captured amt=18.00 status=confirmed
+ PAY_TIMELINE payments:
+   pm seq=1 type=credit_card val=79.00
+   pm seq=1 type=credit_card val=18.00
+ REFUND: ERROR
+ PAYMENTS(get_order_payments):
+   pm seq=1 type=credit_card val=79.00
+   pm seq=1 type=credit_card val=18.00

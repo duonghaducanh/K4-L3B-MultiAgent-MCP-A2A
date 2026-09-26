@@ -1,0 +1,82 @@
+affected_entities.item_ids                     100 variants
+      x1    ["item-af0bbb47f125"]
+      x1    ["item-5b9e9502eca1"]
+      x1    ["item-adc253f1977c"]
+      x1    ["item-b04477ada8d2"]
+      x1    ["item-2208f3a59d70"]
+      x1    ["item-d67b79fea598"]
+affected_entities.order_ids                    100 variants
+      x1    ["af0bbb47f125381ce9f3597dc70ef07b"]
+      x1    ["5b9e9502eca103a28ea22a94c65e3950"]
+      x1    ["adc253f1977c81c2c29dc7b9dd23d538"]
+      x1    ["b04477ada8d2ad7fa9d95358baaa785d"]
+      x1    ["2208f3a59d7067fe62c900692f5fdcaf"]
+      x1    ["d67b79fea59821fda4d363d337a56c3a"]
+affected_entities.payment_references            2 variants
+      x70   ["1"]
+      x30   ["1", "2"]
+affected_entities.seller_ids                   100 variants
+      x1    ["seller-af0bbb47f125"]
+      x1    ["seller-5b9e9502eca1"]
+      x1    ["seller-adc253f1977c"]
+      x1    ["seller-b04477ada8d2"]
+      x1    ["seller-2208f3a59d70"]
+      x1    ["seller-d67b79fea598"]
+affected_entities.shipment_ids                  1 variants
+      x100  []
+assessment.secondary_issues                     1 variants
+      x100  ["requested_full_refund"]
+claim_assessments                               1 variants
+      x100  ('claim_id', 'confidence', 'evidence_refs', 'verdict')
+customer_context.related_order_ids             100 variants
+      x1    ["af0bbb47f125381ce9f3597dc70ef07b"]
+      x1    ["5b9e9502eca103a28ea22a94c65e3950"]
+      x1    ["adc253f1977c81c2c29dc7b9dd23d538"]
+      x1    ["b04477ada8d2ad7fa9d95358baaa785d"]
+      x1    ["2208f3a59d7067fe62c900692f5fdcaf"]
+      x1    ["d67b79fea59821fda4d363d337a56c3a"]
+data_conflicts                                  2 variants
+      x98   ('field', 'resolution_code', 'selected_source', 'sources')
+      x2    []
+entity_resolution.rejected_candidates          100 variants
+      x1    ["candidate-001"]
+      x1    ["candidate-002"]
+      x1    ["candidate-003"]
+      x1    ["candidate-004"]
+      x1    ["candidate-005"]
+      x1    ["candidate-006"]
+entity_resolution.resolved_order_ids           100 variants
+      x1    ["af0bbb47f125381ce9f3597dc70ef07b"]
+      x1    ["5b9e9502eca103a28ea22a94c65e3950"]
+      x1    ["adc253f1977c81c2c29dc7b9dd23d538"]
+      x1    ["b04477ada8d2ad7fa9d95358baaa785d"]
+      x1    ["2208f3a59d7067fe62c900692f5fdcaf"]
+      x1    ["d67b79fea59821fda4d363d337a56c3a"]
+evidence_refs                                  100 variants
+      x1    ["ev_2UM-F4tlfq205dsQ06PkU-M-gUvukBV1", "ev_M6JHYD_8KhNIGfMBksM6vE6gcWdkRh6o", "ev_uWXQSVgxHusQyaLnlKde-L-MixF
+      x1    ["ev_n39XLkj_jV7KapHKHV79KtA-q83TsUdt", "ev_cWnUoTpm6QjKC3Pd0OPHjDUK8M8jsI1b", "ev_W16e1YGKuC22vfiEfX2aATAMe2a
+      x1    ["ev_9kqEaC0ufWTGABCdaCf3EIUM4SkSBUee", "ev_zczide7jQWpeESizRqoE0zpwEoHePkaT", "ev_57DmSUWJa8SXCPykNO__aNMdzBn
+      x1    ["ev_dNVJbVNy1uSRk5q3-u6USE5wVOvj7MSO", "ev_aVK2aTdkZIEj50AwIRY2sd8CbdF29zmg", "ev_YopDAS0b7KX-ctXwwOkVlDqsVvG
+      x1    ["ev_AEK20HTrPE_gaSG5eMdIlksxC4cQ7uuF", "ev_LFN6omdxiG94XVRodq9K-11uyEblw5Uh", "ev_PeKTZ9MJIlPe-qAcNP-T2X_Jzd2
+      x1    ["ev_crICqZ9WdrrzeDZKl1XMt3RLIr06hkbT", "ev_uefyI6gwfCEaiKrkJefScJkpT_BkcOpW", "ev_lg2g1DSKz4qM0347oAeaqGe6aEB
+financial_resolution.refund_lines               2 variants
+      x70   ('amount_brl', 'entity_id', 'reason_code')
+      x30   []
+resolution_actions                              7 variants
+      x20   ["refund_freight"]
+      x20   ["document_no_action"]
+      x20   ["issue_refund"]
+      x10   ["reconcile_payment"]
+      x10   ["refund_duplicate_charge"]
+      x10   ["monitor_refund"]
+root_cause_analysis.ranked_causes               1 variants
+      x100  ('cause_code', 'rank')
+root_cause_analysis.responsible_parties         1 variants
+      x100  ('party_id', 'party_type')
+shipment_analysis.late_seller_ids              11 variants
+      x90   []
+      x1    ["seller-64a8b3b4c197"]
+      x1    ["seller-4274ff4a5df6"]
+      x1    ["seller-13d341318c77"]
+      x1    ["seller-2636a02ee7de"]
+      x1    ["seller-e2a03ccf5ea8"]

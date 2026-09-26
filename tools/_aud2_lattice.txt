@@ -1,0 +1,40 @@
+mcp          distinct=139  max=93.9713   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+schema       distinct=139  max=93.9713   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+workflow     distinct=139  max=93.9713   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+consistency  distinct=139  max=93.9713   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+semantic     distinct=139  max=93.9713   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+calibration  distinct=139  max=93.9619   min=0.0       lattice_spacing~0.000100  (1/spacing=10000.0)
+
+max mcp = 93.9713  100-max = 6.0287
+  max*D/100 with D=100: 93.971300  (near int? False)
+  max*D/100 with D=200: 187.942600  (near int? False)
+  max*D/100 with D=500: 469.856500  (near int? False)
+  max*D/100 with D=1000: 939.713000  (near int? False)
+  max*D/100 with D=2000: 1879.426000  (near int? False)
+  max*D/100 with D=5000: 4698.565000  (near int? False)
+
+ours=93.7687  loss vs max = 0.2026
+ratio loss/max_loss = 0.0336
+   n_bad=1   per-case loss=0.20260   (max_loss/n=6.02870)
+   n_bad=2   per-case loss=0.10130   (max_loss/n=3.01435)
+   n_bad=3   per-case loss=0.06753   (max_loss/n=2.00957)
+   n_bad=4   per-case loss=0.05065   (max_loss/n=1.50718)
+   n_bad=5   per-case loss=0.04052   (max_loss/n=1.20574)
+   n_bad=6   per-case loss=0.03377   (max_loss/n=1.00478)
+   n_bad=7   per-case loss=0.02894   (max_loss/n=0.86124)
+   n_bad=8   per-case loss=0.02533   (max_loss/n=0.75359)
+   n_bad=9   per-case loss=0.02251   (max_loss/n=0.66986)
+   n_bad=10  per-case loss=0.02026   (max_loss/n=0.60287)
+   n_bad=11  per-case loss=0.01842   (max_loss/n=0.54806)
+   n_bad=12  per-case loss=0.01688   (max_loss/n=0.50239)
+   n_bad=13  per-case loss=0.01558   (max_loss/n=0.46375)
+   n_bad=14  per-case loss=0.01447   (max_loss/n=0.43062)
+   n_bad=15  per-case loss=0.01351   (max_loss/n=0.40191)
+   n_bad=16  per-case loss=0.01266   (max_loss/n=0.37679)
+   n_bad=17  per-case loss=0.01192   (max_loss/n=0.35463)
+   n_bad=18  per-case loss=0.01126   (max_loss/n=0.33493)
+   n_bad=19  per-case loss=0.01066   (max_loss/n=0.31730)
+   n_bad=20  per-case loss=0.01013   (max_loss/n=0.30144)
+
+-- all distinct mcp values --
+[0.0, 15.2314, 27.7987, 28.3791, 44.9528, 68.3423, 73.7437, 86.0186, 87.3188, 89.2102, 90.7302, 91.4002, 91.4251, 91.443, 91.4468, 91.6873, 91.9639, 91.9878, 92.0305, 92.0508, 92.0721, 92.0799, 92.0907, 92.0979, 92.13, 92.1448, 92.1782, 92.1875, 92.189, 92.2089, 92.2248, 92.2448, 92.2597, 92.2669, 92.2783, 92.2825, 92.3123, 92.3237, 92.3721, 92.3913, 92.4141, 92.4291, 92.4791, 92.5219, 92.5342, 92.5487, 92.5511, 92.5679, 92.6016, 92.7041, 92.7398, 92.888, 92.9315, 93.0469, 93.1648, 93.18, 93.2041, 93.2109, 93.2464, 93.2847, 93.2938, 93.3403, 93.3654, 93.4803, 93.4839, 93.4936, 93.5456, 93.5514, 93.556, 93.5573, 93.5585, 93.5621, 93.5904, 93.5924, 93.5941, 93.5955, 93.6202, 93.6221, 93.6286, 93.6349, 93.6517, 93.6583, 93.6611, 93.6723, 93.6805, 93.6984, 93.6991, 93.7007, 93.7129, 93.7219, 93.7222, 93.725, 93.7313, 93.7355, 93.7548, 93.7598, 93.7617, 93.7635, 93.7643, 93.7687, 93.7727, 93.782, 93.7827, 93.7843, 93.7975, 93.7977, 93.8024, 93.8029, 93.811, 93.8224, 93.8307, 93.8539, 93.8608, 93.8698, 93.8806, 93.8897, 93.8929, 93.8962, 93.8967, 93.9013, 93.9017, 93.9036, 93.9048, 93.9086, 93.9104, 93.9113, 93.9117, 93.9123, 93.9157, 93.9163, 93.917, 93.9196, 93.9214, 93.9332, 93.935, 93.9552, 93.9696, 93.9707, 93.9713]

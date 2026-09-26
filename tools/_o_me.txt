@@ -1,0 +1,2 @@
+me status=404
+{"detail":"Team chưa có kết quả trên leaderboard."}

@@ -1,0 +1,94 @@
+teams=246
+
+MAX semantic     =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX evidence     =   92.4292  team=h209-02467 g=0 score=91.372
+    semantic=92.2802 evidence=92.4292 mcp=93.8897 consistency=93.8897 schema=93.8897 calibration=93.6550 workflow=93.8897 efficiency=61.0283
+
+MAX mcp          =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX consistency  =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX schema       =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX calibration  =   93.9619  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX workflow     =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+MAX efficiency   =   93.9713  team=h210-02513 g=0 score=93.3012
+    semantic=93.9713 evidence=89.5073 mcp=93.9713 consistency=93.9713 schema=93.9713 calibration=93.9619 workflow=93.9713 efficiency=93.9713
+
+EFFICIENCY distribution (deciles):
+  p 0:   0.0000 h201-00001 score=0.0
+  p10:   0.0000 h209-02430 score=0.0
+  p20:   0.0000 h209-02717 score=0.0
+  p30:   0.0000 h210-02528 score=0.0
+  p40:   0.0000 h210-02826 score=0.0
+  p50:   4.9756 h209-02614 score=79.294
+  p60:  24.3357 h209-02913 score=66.1771
+  p70:  46.1412 h210-02837 score=64.5612
+  p80:  70.9836 h209-02449 score=89.5774
+  p90:  88.2672 h209-02507 score=91.6411
+
+EFFICIENCY histogram by 10-point bins:
+  [  0, 10):  128
+  [ 10, 20):   18
+  [ 20, 30):    6
+  [ 30, 40):    9
+  [ 40, 50):   13
+  [ 50, 60):   11
+  [ 60, 70):   11
+  [ 70, 80):   13
+  [ 80, 90):   17
+  [ 90,100):   20
+
+TOP by efficiency (with score):
+  h210-02513     eff= 93.9713 score= 93.3012 g=0 sema=93.97 evid=89.51 mcp=93.97 cons=93.97 sche=93.97 cali=93.96 work=93.97
+  h209-02470     eff= 93.9707 score= 93.2887 g=0 sema=93.97 evid=89.50 mcp=93.97 cons=93.97 sche=93.97 cali=93.74 work=93.97
+  h210-02723     eff= 93.9552 score= 92.9148 g=0 sema=92.34 evid=91.39 mcp=93.96 cons=93.96 sche=93.96 cali=93.72 work=93.96
+  h209-02844     eff= 93.9196 score= 92.0670 g=0 sema=90.97 evid=89.45 mcp=93.92 cons=93.92 sche=93.92 cali=93.88 work=93.92
+  h210-02619     eff= 93.9163 score= 91.9913 g=0 sema=90.96 evid=89.03 mcp=93.92 cons=93.92 sche=93.92 cali=93.68 work=93.92
+  h209-02769     eff= 93.9117 score= 91.8830 g=0 sema=90.96 evid=88.35 mcp=93.91 cons=93.91 sche=93.91 cali=93.65 work=93.91
+  h210-02395     eff= 93.9017 score= 91.6497 g=0 sema=90.95 evid=87.07 mcp=93.90 cons=93.90 sche=93.90 cali=92.96 work=93.90
+  h210-02793     eff= 93.8539 score= 90.5483 g=0 sema=87.95 evid=88.09 mcp=93.85 cons=93.85 sche=93.85 cali=92.23 work=93.85
+  h210-02921     eff= 93.5974 score= 91.8530 g=0 sema=90.96 evid=88.34 mcp=93.91 cons=93.91 sche=93.91 cali=93.39 work=93.91
+  h209-02798     eff= 93.3432 score= 93.2629 g=0 sema=93.97 evid=89.50 mcp=93.97 cons=93.97 sche=93.97 cali=93.87 work=93.97
+  h210-02394     eff= 92.9765 score= 91.9766 g=0 sema=90.96 evid=89.17 mcp=93.92 cons=93.92 sche=93.92 cali=93.92 work=93.92
+  h210-02983     eff= 92.6692 score= 92.1127 g=0 sema=90.97 evid=90.16 mcp=93.92 cons=93.92 sche=93.92 cali=93.88 work=93.92
+
+identity groups (exact equality among components):
+  n= 106  equal-to-mcp: ['calibration', 'consistency', 'efficiency', 'evidence', 'mcp', 'schema', 'semantic', 'workflow']
+  n=  77  equal-to-mcp: ['consistency', 'mcp', 'schema', 'workflow']
+  n=  42  equal-to-mcp: ['mcp', 'schema', 'workflow']
+  n=   7  equal-to-mcp: ['consistency', 'efficiency', 'mcp', 'schema', 'workflow']
+  n=   3  equal-to-mcp: ['consistency', 'efficiency', 'mcp', 'schema', 'semantic', 'workflow']
+  n=   3  equal-to-mcp: ['consistency', 'mcp', 'schema', 'semantic', 'workflow']
+  n=   3  equal-to-mcp: ['efficiency', 'mcp', 'schema', 'workflow']
+  n=   2  equal-to-mcp: ['calibration', 'consistency', 'mcp', 'schema', 'workflow']
+  n=   1  equal-to-mcp: ['mcp', 'schema', 'semantic', 'workflow']
+  n=   1  equal-to-mcp: ['calibration', 'mcp', 'schema', 'workflow']
+
+max component value overall = 93.971300
+top-12 distinct largest values: [93.9713, 93.9707, 93.9696, 93.9619, 93.9552, 93.935, 93.9332, 93.9214, 93.9196, 93.917, 93.9163, 93.9157]
+
+EVIDENCE top-10:
+  h209-02467     ev= 92.4292 score= 91.3720 sema=92.280 evid=92.429 mcp=93.890 cons=93.890 sche=93.890 cali=93.655 work=93.890 effi=61.028
+  h210-02723     ev= 91.3927 score= 92.9148 sema=92.344 evid=91.393 mcp=93.955 cons=93.955 sche=93.955 cali=93.720 work=93.955 effi=93.955
+  h209-02822     ev= 91.1978 score= 88.3399 sema=84.915 evid=91.198 mcp=93.755 cons=88.755 sche=93.755 cali=89.471 work=93.755 effi=78.129
+  h210-02647     ev= 91.0695 score= 92.4321 sema=91.609 evid=91.070 mcp=93.935 cons=93.935 sche=93.935 cali=93.587 work=93.935 effi=91.430
+  h209-02476     ev= 91.0521 score= 92.0092 sema=90.965 evid=91.052 mcp=93.917 cons=93.917 sche=93.917 cali=92.978 work=93.917 effi=88.908
+  h209-02557     ev= 90.6680 score= 84.0034 sema=74.837 evid=90.668 mcp=93.546 cons=90.427 sche=93.546 cali=86.576 work=93.546 effi=74.213
+  h210-02756     ev= 90.3930 score= 91.8097 sema=91.762 evid=90.393 mcp=93.909 cons=93.909 sche=93.909 cali=90.293 work=93.909 effi=83.266
+  h210-02983     ev= 90.1646 score= 92.1127 sema=90.970 evid=90.165 mcp=93.921 cons=93.921 sche=93.921 cali=93.884 work=93.921 effi=92.669
+  h209-02548     ev= 90.1347 score= 86.2873 sema=82.419 evid=90.135 mcp=93.658 cons=88.663 sche=93.658 cali=92.927 work=93.658 effi=57.444
+  h209-02852     ev= 89.7865 score= 91.8971 sema=90.961 evid=89.787 mcp=93.912 cons=93.912 sche=93.912 cali=92.729 work=93.912 effi=90.782
+
+MINE {"semantic": 90.8216, "evidence": 84.624, "mcp": 93.7687, "consistency": 93.7687, "schema": 93.7687, "calibration": 92.8775, "workflow": 93.7687, "efficiency": 43.1336}
+teams sharing our mcp value 93.7687: 1
+  h209-02859     score= 88.6419 sema=90.822 evid=84.624 mcp=93.769 cons=93.769 sche=93.769 cali=92.877 work=93.769 effi=43.134

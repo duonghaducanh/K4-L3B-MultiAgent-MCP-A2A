@@ -1,0 +1,6 @@
+cases whose OUTPUT refs are not all in trace: 0 []
+cases whose CLAIM refs are not all in trace: 0 []
+cases with 0 trace refs: []
+
+output refs count distribution: {8: 60, 9: 40}
+trace refs count distribution: {8: 60, 9: 40}

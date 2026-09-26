@@ -1,0 +1,31 @@
+team=h209-02859  class=H209  members=3
+
+submissions (newest first):
+   88.6419  completed  2026-09-25T10:41:59.464968Z  sub_2DoWaUSfFmqgyQZ_ge4Ignz5NLd1KsOv
+    0.0000  completed  2026-09-25T10:14:55.165794Z  sub_aFqvSzRaVcT_2w2iRquuIpNtLLgnecJk
+   45.9335  completed  2026-09-25T09:39:31.694932Z  sub_QdhpOPoypS5eF9n1saoa1GF-AnlmRbB4
+    0.0000  completed  2026-09-25T09:11:09.356409Z  sub_8NRHZDLkJ3VZQ22hNgt4hCxujh5pM8KX
+    0.0000  completed  2026-09-25T09:00:49.518543Z  sub_Xyw0I-d2EB5nbUBR1YrDUzR-NR2oImaU
+
+=== MY BREAKDOWN ===
+
+  rank 37  h209-02859  (Soopi, H209)
+  submitted_at 2026-09-25T10:42:01.405394Z
+  SCORE 88.6419   hard_gate_count=0
+
+  component           raw  weight   points   label
+  -------------- -------- ------- --------   --------------------------
+Traceback (most recent call last):
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\score.py", line 107, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\score.py", line 95, in main
+    render(entry.json())
+    ~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nguye\Documents\K20\K4-L3B-MultiAgent-MCP-A2A\tools\score.py", line 70, in render
+    print(f"  {k:<14} {comps[k]:>8.4f} {w:>6.0%} {weighted.get(k, 0.0):>8.4f}   {label}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\miniconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 44-45: character maps to <undefined>

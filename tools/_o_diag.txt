@@ -1,0 +1,8 @@
+confidence distribution: [(0.72, 4), (0.8, 10), (0.94, 86)]
+case_status distribution: [('action_required', 70), ('needs_investigation', 10), ('no_action', 20)]
+resolution_actions distribution: [('document_no_action', 20), ('issue_refund', 20), ('monitor_refund', 10), ('reconcile_payment', 10), ('refund_duplicate_charge', 10), ('refund_freight', 20), ('retry_refund', 10)]
+responsible party_type distribution: [('customer', 20), ('logistics_provider', 10), ('payment_provider', 40), ('platform', 10), ('seller', 20)]
+
+status/action mismatches vs policy: 0
+
+nonzero refund on a no-refund topic: 0

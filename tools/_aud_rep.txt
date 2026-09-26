@@ -1,0 +1,89 @@
+=== 6 ANOMALY CASES (current outputs = submitted V2) ===
+
+L3B_CASE_012  claimed/out issue=valid_split_payment  conf=0.72  status=no_action
+   payment: verdict=reconciled cap=141.0 refunded=0 refundable=52.0
+   shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=0.0 lines=[]
+   root_cause: {"ranked_causes": [{"cause_code": "SPLIT_PAYMENT_RECONCILED", "rank": 1}], "responsible_parties": [{"party_type": "customer", "party_id": null}]}
+   conflicts: [{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+   claims: [["claim-012-a", "supported", 0.72], ["claim-012-b", "unsupported", 0.85]]
+   actions=['document_no_action'] entities={"order_ids": ["44a03ff139461361ec4cce7949663c2f"], "item_ids": ["item-44a03ff13946"], "seller_ids": ["seller-44a03ff13946"], "payment_references": ["1", "2"], "shipment_ids": []}
+   claimed-topic policy: rec=0.0 status=no_action action=document_no_action
+
+L3B_CASE_062  claimed/out issue=valid_split_payment  conf=0.72  status=no_action
+   payment: verdict=reconciled cap=141.0 refunded=0 refundable=52.0
+   shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=0.0 lines=[]
+   root_cause: {"ranked_causes": [{"cause_code": "SPLIT_PAYMENT_RECONCILED", "rank": 1}], "responsible_parties": [{"party_type": "customer", "party_id": null}]}
+   conflicts: [{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+   claims: [["claim-062-a", "supported", 0.72], ["claim-062-b", "unsupported", 0.85]]
+   actions=['document_no_action'] entities={"order_ids": ["8ac5066a163c60c1ae9bf17200df3dd1"], "item_ids": ["item-8ac5066a163c"], "seller_ids": ["seller-8ac5066a163c"], "payment_references": ["1", "2"], "shipment_ids": []}
+   claimed-topic policy: rec=0.0 status=no_action action=document_no_action
+
+L3B_CASE_071  claimed/out issue=late_delivery_logistics  conf=0.72  status=action_required
+   payment: verdict=reconciled cap=89.0 refunded=0 refundable=16.0
+   shipment: {"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=16.0 lines=[{"reason_code": "late_delivery_logistics", "amount_brl": 16.0, "entity_id": null}]
+   root_cause: {"ranked_causes": [{"cause_code": "LOGISTICS_HANDOFF_LATE", "rank": 1}], "responsible_parties": [{"party_type": "logistics_provider", "party_id": null}]}
+   conflicts: [{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+   claims: [["claim-071-a", "supported", 0.72], ["claim-071-b", "supported", 0.9]]
+   actions=['refund_freight'] entities={"order_ids": ["676e40056867189a1b3599f3e646f421"], "item_ids": ["item-676e40056867"], "seller_ids": ["seller-676e40056867"], "payment_references": ["1"], "shipment_ids": []}
+   claimed-topic policy: rec=16.0 status=action_required action=refund_freight
+
+L3B_CASE_098  claimed/out issue=canceled_order_paid  conf=0.72  status=action_required
+   payment: verdict=reconciled cap=18.0 refunded=0 refundable=79.0
+   shipment: {"verdict": "conflicting", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=79.0 lines=[{"reason_code": "canceled_order_paid", "amount_brl": 79.0, "entity_id": null}]
+   root_cause: {"ranked_causes": [{"cause_code": "CANCELED_ORDER_CAPTURED", "rank": 1}], "responsible_parties": [{"party_type": "platform", "party_id": null}]}
+   conflicts: [{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+   claims: [["claim-098-a", "supported", 0.72], ["claim-098-b", "supported", 0.9]]
+   actions=['issue_refund'] entities={"order_ids": ["6c1798a95735e69db81fe92f8c40bdb4"], "item_ids": ["item-6c1798a95735"], "seller_ids": ["seller-6c1798a95735"], "payment_references": ["1"], "shipment_ids": []}
+   claimed-topic policy: rec=79.0 status=action_required action=issue_refund
+
+L3B_CASE_039  claimed/out issue=unavailable_order_paid  conf=0.94  status=action_required
+   payment: verdict=reconciled cap=178.0 refunded=0 refundable=89.0
+   shipment: {"verdict": "insufficient_evidence", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=89.0 lines=[{"reason_code": "unavailable_order_paid", "amount_brl": 89.0, "entity_id": "seller-103de323ece5"}]
+   root_cause: {"ranked_causes": [{"cause_code": "UNAVAILABLE_ORDER_CAPTURED", "rank": 1}], "responsible_parties": [{"party_type": "seller", "party_id": "seller-103de323ece5"}]}
+   conflicts: []
+   claims: [["claim-039-a", "supported", 0.94], ["claim-039-b", "supported", 0.9]]
+   actions=['issue_refund'] entities={"order_ids": ["103de323ece563a1012b4b6adf5a81b2"], "item_ids": ["item-103de323ece5"], "seller_ids": ["seller-103de323ece5"], "payment_references": ["1"], "shipment_ids": []}
+   claimed-topic policy: rec=89.0 status=action_required action=issue_refund
+
+L3B_CASE_089  claimed/out issue=unavailable_order_paid  conf=0.94  status=action_required
+   payment: verdict=reconciled cap=178.0 refunded=0 refundable=89.0
+   shipment: {"verdict": "insufficient_evidence", "late_seller_ids": [], "timeline_complete": true}
+   financial: rec=89.0 lines=[{"reason_code": "unavailable_order_paid", "amount_brl": 89.0, "entity_id": "seller-73628c6d02ed"}]
+   root_cause: {"ranked_causes": [{"cause_code": "UNAVAILABLE_ORDER_CAPTURED", "rank": 1}], "responsible_parties": [{"party_type": "seller", "party_id": "seller-73628c6d02ed"}]}
+   conflicts: []
+   claims: [["claim-089-a", "supported", 0.94], ["claim-089-b", "supported", 0.9]]
+   actions=['issue_refund'] entities={"order_ids": ["73628c6d02ed8f6134d9752cd7b83c2a"], "item_ids": ["item-73628c6d02ed"], "seller_ids": ["seller-73628c6d02ed"], "payment_references": ["1"], "shipment_ids": []}
+   claimed-topic policy: rec=89.0 status=action_required action=issue_refund
+
+
+=== claim-*-b verdict vs refund-vs-captured (all 100) ===
+  canceled_order_paid      supported            conf=0.9   rec==cap  n=9 ['008', '018', '028', '038', '048', '058', '068', '078', '088']
+  canceled_order_paid      supported            conf=0.9   rec>cap   n=1 ['098']
+  duplicate_charge         supported            conf=0.9   rec<cap   n=10 ['004', '014', '024', '034', '044', '054', '064', '074', '084', '094']
+  late_delivery_logistics  supported            conf=0.9   rec<cap   n=1 ['071']
+  late_delivery_logistics  supported            conf=0.9   rec==cap  n=9 ['001', '011', '021', '031', '041', '051', '061', '081', '091']
+  late_delivery_seller     supported            conf=0.9   rec==cap  n=10 ['010', '020', '030', '040', '050', '060', '070', '080', '090', '100']
+  payment_mismatch         supported            conf=0.9   rec==cap  n=10 ['003', '013', '023', '033', '043', '053', '063', '073', '083', '093']
+  refund_failed            supported            conf=0.9   rec==cap  n=10 ['006', '016', '026', '036', '046', '056', '066', '076', '086', '096']
+  refund_pending           partially_supported  conf=0.6   rec<cap   n=10 ['005', '015', '025', '035', '045', '055', '065', '075', '085', '095']
+  unavailable_order_paid   supported            conf=0.9   rec<cap   n=2 ['039', '089']
+  unavailable_order_paid   supported            conf=0.9   rec==cap  n=8 ['009', '019', '029', '049', '059', '069', '079', '099']
+  unsupported_claim        unsupported          conf=0.85  rec<cap   n=10 ['007', '017', '027', '037', '047', '057', '067', '077', '087', '097']
+  valid_split_payment      unsupported          conf=0.85  rec<cap   n=10 ['002', '012', '022', '032', '042', '052', '062', '072', '082', '092']
+
+=== duplicate_charge cases (rec vs cap) ===
+  L3B_CASE_004 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_014 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_024 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_034 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_044 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_054 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_064 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_074 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_084 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9
+  L3B_CASE_094 cap=128.0 rec=64.0 refundable=64.0 claim_b=supported/0.9

@@ -1,0 +1,90 @@
+
+########## SCORED-4593
+  late_delivery_logistics  x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  valid_split_payment      x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+  payment_mismatch         x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+  duplicate_charge         x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  refund_pending           x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+  refund_failed            x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary')
+  unsupported_claim        x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  canceled_order_paid      x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  unavailable_order_paid   x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  late_delivery_seller     x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_sellers', 'get_shipment_summary')
+  -- current-run seller-topic outputs (seller-domain cited?) --
+     L3B_CASE_009 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_010 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_019 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_020 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_029 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_030 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_039 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_040 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_049 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_050 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_059 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_060 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_069 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_070 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_079 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_080 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_089 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_090 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_099 unavailable_order_paid   refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+     L3B_CASE_100 late_delivery_seller     refs=8 doms=['customer', 'item', 'order', 'payment', 'policy', 'product', 'seller', 'shipment']
+
+########## CURRENT-V2
+  late_delivery_logistics  x9  called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+  late_delivery_logistics  x1  called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+  valid_split_payment      x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+  payment_mismatch         x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+  duplicate_charge         x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+  refund_pending           x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+  refund_failed            x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline')
+  unsupported_claim        x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+  canceled_order_paid      x9  called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+  canceled_order_paid      x1  called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+  unavailable_order_paid   x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy')
+  late_delivery_seller     x10 called=('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+                          cited =('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary')
+  -- current-run seller-topic outputs (seller-domain cited?) --
+     L3B_CASE_009 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_010 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_019 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_020 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_029 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_030 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_039 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_040 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_049 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_050 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_059 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_060 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_069 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_070 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_079 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_080 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_089 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_090 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']
+     L3B_CASE_099 unavailable_order_paid   refs=5 doms=['customer', 'item', 'order', 'payment', 'policy']
+     L3B_CASE_100 late_delivery_seller     refs=6 doms=['customer', 'item', 'order', 'payment', 'policy', 'shipment']

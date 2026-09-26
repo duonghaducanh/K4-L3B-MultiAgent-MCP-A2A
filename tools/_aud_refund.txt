@@ -1,0 +1,42 @@
+=== REFUND-AMOUNT DECOMPOSITION (raw MCP payloads, cases 001-010) ===
+case            topic                      policy  tgt_frt tgt_price tgt_ordtot tgt_capt tgt_refnd tgt_refbl  out_rec
+L3B_CASE_001    late_delivery_logistics      16.0     18.0     79.0        -     16.0      0.0        ?     16.0
+    payment events (target): [["captured", "16.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "refund_freight", "refund_brl": 16.0, "responsible_parties": [{"party_id": null, "party_type": "logistics_provider"}]}
+L3B_CASE_002    valid_split_payment           0.0     10.0     79.0        -     89.0      0.0        ?      0.0
+    payment events (target): [["captured", "44.50", "confirmed"], ["captured", "44.50", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "no_action", "recommended_action": "document_no_action", "refund_brl": 0.0, "responsible_parties": [{"party_id": null, "party_type": "customer"}]}
+L3B_CASE_003    payment_mismatch             35.0     10.0     79.0        -     35.0      0.0        ?     35.0
+    payment events (target): [["captured", "35.00", "confirmed"], ["reconciliation_mismatch", "35.00", "open"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "reconcile_payment", "refund_brl": 35.0, "responsible_parties": [{"party_id": null, "party_type": "payment_provider"}]}
+L3B_CASE_004    duplicate_charge             64.0     10.0     79.0        -    128.0      0.0        ?     64.0
+    payment events (target): [["captured", "64.00", "confirmed"], ["captured", "64.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "refund_duplicate_charge", "refund_brl": 64.0, "responsible_parties": [{"party_id": null, "party_type": "payment_provider"}]}
+L3B_CASE_005    refund_pending                0.0     10.0     79.0        -     89.0      0.0        ?      0.0
+    payment events (target): [["captured", "89.00", "confirmed"]]
+    refund events (target): [["refund_requested", "89.00", "pending"]]
+    policy row: {"case_status": "needs_investigation", "recommended_action": "monitor_refund", "refund_brl": 0.0, "responsible_parties": [{"party_id": null, "party_type": "payment_provider"}]}
+L3B_CASE_006    refund_failed                52.0     10.0     79.0        -     52.0      0.0        ?     52.0
+    payment events (target): [["captured", "52.00", "confirmed"]]
+    refund events (target): [["refund_requested", "52.00", "failed"]]
+    policy row: {"case_status": "action_required", "recommended_action": "retry_refund", "refund_brl": 52.0, "responsible_parties": [{"party_id": null, "party_type": "payment_provider"}]}
+L3B_CASE_007    unsupported_claim             0.0     10.0     79.0        -     89.0      0.0        ?      0.0
+    payment events (target): [["captured", "89.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "no_action", "recommended_action": "document_no_action", "refund_brl": 0.0, "responsible_parties": [{"party_id": null, "party_type": "customer"}]}
+L3B_CASE_008    canceled_order_paid          79.0     10.0     79.0        -     79.0      0.0        ?     79.0
+    payment events (target): [["captured", "79.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "issue_refund", "refund_brl": 79.0, "responsible_parties": [{"party_id": null, "party_type": "platform"}]}
+L3B_CASE_009    unavailable_order_paid       89.0     10.0     89.0        -     89.0      0.0        ?     89.0
+    payment events (target): [["captured", "89.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "issue_refund", "refund_brl": 89.0, "responsible_parties": [{"party_id": "seller-eb09635680fa", "party_type": "seller"}]}
+L3B_CASE_010    late_delivery_seller         18.0     18.0     79.0        -     18.0      0.0        ?     18.0
+    payment events (target): [["captured", "18.00", "confirmed"]]
+    refund events (target): []
+    policy row: {"case_status": "action_required", "recommended_action": "refund_freight", "refund_brl": 18.0, "responsible_parties": [{"party_id": "seller-9b75cdaf2d85", "party_type": "seller"}]}

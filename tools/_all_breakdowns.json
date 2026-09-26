@@ -1,0 +1,7262 @@
+{
+ "variant_id": "l3b",
+ "generated_at": "2026-09-25T10:11:56.154725Z",
+ "fetched_at": "2026-09-25T10:12:51Z",
+ "leaderboard": [
+  {
+   "rank": 1,
+   "team_code": "h209-02470",
+   "display_name": "Devtamin",
+   "class_id": "H209",
+   "score": 92.9602,
+   "submitted_at": "2026-09-25T10:03:21.938115Z"
+  },
+  {
+   "rank": 2,
+   "team_code": "h210-02723",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 92.9148,
+   "submitted_at": "2026-09-25T10:01:28.325668Z"
+  },
+  {
+   "rank": 3,
+   "team_code": "h209-02627",
+   "display_name": "Czpl",
+   "class_id": "H209",
+   "score": 92.3894,
+   "submitted_at": "2026-09-25T09:42:35.095438Z"
+  },
+  {
+   "rank": 4,
+   "team_code": "h210-02983",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 92.1127,
+   "submitted_at": "2026-09-25T09:50:49.346102Z"
+  },
+  {
+   "rank": 5,
+   "team_code": "h209-02375",
+   "display_name": "acer",
+   "class_id": "H209",
+   "score": 92.0464,
+   "submitted_at": "2026-09-25T08:16:29.563701Z"
+  },
+  {
+   "rank": 6,
+   "team_code": "h209-02844",
+   "display_name": "TooSweeet",
+   "class_id": "H209",
+   "score": 92.0017,
+   "submitted_at": "2026-09-25T10:06:29.029104Z"
+  },
+  {
+   "rank": 7,
+   "team_code": "h209-02852",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 91.9951,
+   "submitted_at": "2026-09-25T09:54:05.323070Z"
+  },
+  {
+   "rank": 8,
+   "team_code": "h209-02468",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 91.9786,
+   "submitted_at": "2026-09-25T10:10:02.683103Z"
+  },
+  {
+   "rank": 9,
+   "team_code": "h210-02394",
+   "display_name": "K4-L3B-botusieudang",
+   "class_id": "H210",
+   "score": 91.9766,
+   "submitted_at": "2026-09-25T09:58:12.455432Z"
+  },
+  {
+   "rank": 10,
+   "team_code": "h209-02798",
+   "display_name": "hdd",
+   "class_id": "H209",
+   "score": 91.9003,
+   "submitted_at": "2026-09-25T09:42:53.687654Z"
+  },
+  {
+   "rank": 11,
+   "team_code": "h210-02619",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 91.8933,
+   "submitted_at": "2026-09-25T09:37:29.775746Z"
+  },
+  {
+   "rank": 12,
+   "team_code": "h210-02756",
+   "display_name": "K4-L3B-Nhóm 1",
+   "class_id": "H210",
+   "score": 91.8097,
+   "submitted_at": "2026-09-25T09:34:11.787265Z"
+  },
+  {
+   "rank": 13,
+   "team_code": "h209-02507",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 91.6411,
+   "submitted_at": "2026-09-25T10:03:27.863214Z"
+  },
+  {
+   "rank": 14,
+   "team_code": "h209-02652",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 91.4451,
+   "submitted_at": "2026-09-25T09:44:47.489245Z"
+  },
+  {
+   "rank": 15,
+   "team_code": "h209-02536",
+   "display_name": "rapunzel",
+   "class_id": "H209",
+   "score": 91.4043,
+   "submitted_at": "2026-09-25T10:02:13.994309Z"
+  },
+  {
+   "rank": 16,
+   "team_code": "h210-02732",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 91.1286,
+   "submitted_at": "2026-09-25T09:59:27.522907Z"
+  },
+  {
+   "rank": 17,
+   "team_code": "h209-02534",
+   "display_name": "Skynet",
+   "class_id": "H209",
+   "score": 91.0027,
+   "submitted_at": "2026-09-25T10:02:30.298893Z"
+  },
+  {
+   "rank": 18,
+   "team_code": "h210-02647",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 90.9742,
+   "submitted_at": "2026-09-25T10:06:09.339796Z"
+  },
+  {
+   "rank": 19,
+   "team_code": "h201-02378",
+   "display_name": "TooSweet",
+   "class_id": "H201",
+   "score": 90.912,
+   "submitted_at": "2026-09-25T09:57:30.638343Z"
+  },
+  {
+   "rank": 20,
+   "team_code": "h209-02623",
+   "display_name": "dino",
+   "class_id": "H209",
+   "score": 90.8461,
+   "submitted_at": "2026-09-25T09:58:40.107972Z"
+  },
+  {
+   "rank": 21,
+   "team_code": "h210-02719",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 90.1919,
+   "submitted_at": "2026-09-25T09:55:03.637146Z"
+  },
+  {
+   "rank": 22,
+   "team_code": "h210-02813",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 89.8369,
+   "submitted_at": "2026-09-25T09:21:33.105343Z"
+  },
+  {
+   "rank": 23,
+   "team_code": "h209-02768",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 89.834,
+   "submitted_at": "2026-09-25T10:00:18.487145Z"
+  },
+  {
+   "rank": 24,
+   "team_code": "h209-02449",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 89.5774,
+   "submitted_at": "2026-09-25T08:39:17.066894Z"
+  },
+  {
+   "rank": 25,
+   "team_code": "h209-02769",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 89.5516,
+   "submitted_at": "2026-09-25T09:29:04.131426Z"
+  },
+  {
+   "rank": 26,
+   "team_code": "h210-03012",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H210",
+   "score": 89.5123,
+   "submitted_at": "2026-09-25T09:58:43.345545Z"
+  },
+  {
+   "rank": 27,
+   "team_code": "h210-03002",
+   "display_name": "K4L3B - F4",
+   "class_id": "H210",
+   "score": 89.2841,
+   "submitted_at": "2026-09-25T09:08:58.704906Z"
+  },
+  {
+   "rank": 28,
+   "team_code": "h209-02828",
+   "display_name": "l1lp3pp3r",
+   "class_id": "H209",
+   "score": 89.1796,
+   "submitted_at": "2026-09-25T10:05:30.552549Z"
+  },
+  {
+   "rank": 29,
+   "team_code": "h210-02413",
+   "display_name": "K4-L3B-KhongBiet",
+   "class_id": "H210",
+   "score": 88.9504,
+   "submitted_at": "2026-09-25T09:31:19.736499Z"
+  },
+  {
+   "rank": 30,
+   "team_code": "h209-02684",
+   "display_name": "Khá là OK",
+   "class_id": "H209",
+   "score": 88.863,
+   "submitted_at": "2026-09-25T09:43:21.605378Z"
+  },
+  {
+   "rank": 31,
+   "team_code": "h210-02633",
+   "display_name": "K4-L3B-Limbo",
+   "class_id": "H210",
+   "score": 88.7874,
+   "submitted_at": "2026-09-25T09:49:41.935239Z"
+  },
+  {
+   "rank": 32,
+   "team_code": "h210-02504",
+   "display_name": "K4-THE LIEMS",
+   "class_id": "H210",
+   "score": 88.7313,
+   "submitted_at": "2026-09-25T09:23:05.842647Z"
+  },
+  {
+   "rank": 33,
+   "team_code": "h209-02476",
+   "display_name": "anam",
+   "class_id": "H209",
+   "score": 88.4974,
+   "submitted_at": "2026-09-25T09:49:46.010109Z"
+  },
+  {
+   "rank": 34,
+   "team_code": "h210-02956",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 88.4899,
+   "submitted_at": "2026-09-25T10:10:43.826223Z"
+  },
+  {
+   "rank": 35,
+   "team_code": "h210-02842",
+   "display_name": "K4-L3B-KhongBiet",
+   "class_id": "H210",
+   "score": 88.4486,
+   "submitted_at": "2026-09-25T10:10:05.384161Z"
+  },
+  {
+   "rank": 36,
+   "team_code": "h210-03007",
+   "display_name": "K4-L3B-PheDaHutThuocLa",
+   "class_id": "H210",
+   "score": 87.7477,
+   "submitted_at": "2026-09-25T09:52:43.184697Z"
+  },
+  {
+   "rank": 37,
+   "team_code": "h210-02700",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 87.6955,
+   "submitted_at": "2026-09-25T10:04:47.478133Z"
+  },
+  {
+   "rank": 38,
+   "team_code": "h209-02467",
+   "display_name": "promaxima",
+   "class_id": "H209",
+   "score": 87.6014,
+   "submitted_at": "2026-09-25T09:37:50.284892Z"
+  },
+  {
+   "rank": 39,
+   "team_code": "h209-02417",
+   "display_name": "A100",
+   "class_id": "H209",
+   "score": 86.9808,
+   "submitted_at": "2026-09-25T09:35:00.263656Z"
+  },
+  {
+   "rank": 40,
+   "team_code": "h209-02406",
+   "display_name": "solo",
+   "class_id": "H209",
+   "score": 86.682,
+   "submitted_at": "2026-09-25T10:10:08.530117Z"
+  },
+  {
+   "rank": 41,
+   "team_code": "h209-02745",
+   "display_name": "DeltaX",
+   "class_id": "H209",
+   "score": 86.1495,
+   "submitted_at": "2026-09-25T09:50:43.072891Z"
+  },
+  {
+   "rank": 42,
+   "team_code": "h209-02456",
+   "display_name": "ViSoul",
+   "class_id": "H209",
+   "score": 85.803,
+   "submitted_at": "2026-09-25T09:53:07.532143Z"
+  },
+  {
+   "rank": 43,
+   "team_code": "h209-02639",
+   "display_name": "Team main",
+   "class_id": "H209",
+   "score": 85.514,
+   "submitted_at": "2026-09-25T09:57:46.370624Z"
+  },
+  {
+   "rank": 44,
+   "team_code": "h209-02880",
+   "display_name": "K4-Team91-BLTS",
+   "class_id": "H209",
+   "score": 85.5023,
+   "submitted_at": "2026-09-25T09:29:10.247865Z"
+  },
+  {
+   "rank": 45,
+   "team_code": "h209-02492",
+   "display_name": "Truongle",
+   "class_id": "H209",
+   "score": 85.0011,
+   "submitted_at": "2026-09-25T09:57:05.461705Z"
+  },
+  {
+   "rank": 46,
+   "team_code": "h210-02987",
+   "display_name": "F4",
+   "class_id": "H210",
+   "score": 84.9368,
+   "submitted_at": "2026-09-25T09:00:58.120526Z"
+  },
+  {
+   "rank": 47,
+   "team_code": "h209-02737",
+   "display_name": "lốp trưởng",
+   "class_id": "H209",
+   "score": 84.4965,
+   "submitted_at": "2026-09-25T09:55:19.202586Z"
+  },
+  {
+   "rank": 48,
+   "team_code": "h210-02644",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 84.235,
+   "submitted_at": "2026-09-25T09:34:43.074947Z"
+  },
+  {
+   "rank": 49,
+   "team_code": "h210-02721",
+   "display_name": "EasyGame",
+   "class_id": "H210",
+   "score": 84.0521,
+   "submitted_at": "2026-09-25T09:38:46.571359Z"
+  },
+  {
+   "rank": 50,
+   "team_code": "h209-02557",
+   "display_name": "Nguyễn Thị Hồng Nhung",
+   "class_id": "H209",
+   "score": 84.0034,
+   "submitted_at": "2026-09-25T10:05:28.591174Z"
+  },
+  {
+   "rank": 51,
+   "team_code": "h210-02970",
+   "display_name": "EasyGame",
+   "class_id": "H210",
+   "score": 83.7311,
+   "submitted_at": "2026-09-25T10:09:26.438266Z"
+  },
+  {
+   "rank": 52,
+   "team_code": "h210-02687",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 83.4836,
+   "submitted_at": "2026-09-25T09:51:06.259975Z"
+  },
+  {
+   "rank": 53,
+   "team_code": "h209-02450",
+   "display_name": "SoulVP",
+   "class_id": "H209",
+   "score": 83.1208,
+   "submitted_at": "2026-09-25T09:34:02.307177Z"
+  },
+  {
+   "rank": 54,
+   "team_code": "h210-03008",
+   "display_name": "soopi",
+   "class_id": "H210",
+   "score": 83.0799,
+   "submitted_at": "2026-09-25T09:59:29.577776Z"
+  },
+  {
+   "rank": 55,
+   "team_code": "h209-02454",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 82.8016,
+   "submitted_at": "2026-09-25T10:09:58.603157Z"
+  },
+  {
+   "rank": 56,
+   "team_code": "h210-02607",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 82.667,
+   "submitted_at": "2026-09-25T10:10:34.942112Z"
+  },
+  {
+   "rank": 57,
+   "team_code": "h209-02816",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 82.4902,
+   "submitted_at": "2026-09-25T10:04:09.471487Z"
+  },
+  {
+   "rank": 58,
+   "team_code": "h209-02364",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 79.5226,
+   "submitted_at": "2026-09-25T10:09:50.090791Z"
+  },
+  {
+   "rank": 59,
+   "team_code": "h209-02689",
+   "display_name": "Manngusidan",
+   "class_id": "H209",
+   "score": 79.4282,
+   "submitted_at": "2026-09-25T09:57:48.900503Z"
+  },
+  {
+   "rank": 60,
+   "team_code": "h209-02853",
+   "display_name": "Trike",
+   "class_id": "H209",
+   "score": 78.0433,
+   "submitted_at": "2026-09-25T10:07:46.102832Z"
+  },
+  {
+   "rank": 61,
+   "team_code": "h210-02452",
+   "display_name": "K4-L3B-5changlinhngulam",
+   "class_id": "H210",
+   "score": 77.0714,
+   "submitted_at": "2026-09-25T10:04:29.388872Z"
+  },
+  {
+   "rank": 62,
+   "team_code": "h209-02832",
+   "display_name": "BotVN",
+   "class_id": "H209",
+   "score": 75.8958,
+   "submitted_at": "2026-09-25T09:29:12.406992Z"
+  },
+  {
+   "rank": 63,
+   "team_code": "h210-02395",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 75.32,
+   "submitted_at": "2026-09-25T10:08:38.439442Z"
+  },
+  {
+   "rank": 64,
+   "team_code": "h210-02784",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 73.6063,
+   "submitted_at": "2026-09-25T09:52:00.314734Z"
+  },
+  {
+   "rank": 65,
+   "team_code": "h210-02718",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 72.9421,
+   "submitted_at": "2026-09-25T08:57:37.898486Z"
+  },
+  {
+   "rank": 66,
+   "team_code": "h209-02620",
+   "display_name": "BLS",
+   "class_id": "H209",
+   "score": 71.7756,
+   "submitted_at": "2026-09-25T10:01:32.252399Z"
+  },
+  {
+   "rank": 67,
+   "team_code": "h201-02694",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H201",
+   "score": 71.5185,
+   "submitted_at": "2026-09-25T09:04:48.126596Z"
+  },
+  {
+   "rank": 68,
+   "team_code": "h209-02566",
+   "display_name": "so1",
+   "class_id": "H209",
+   "score": 68.6135,
+   "submitted_at": "2026-09-25T08:55:44.079100Z"
+  },
+  {
+   "rank": 69,
+   "team_code": "h209-02888",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 68.2709,
+   "submitted_at": "2026-09-25T09:58:38.838330Z"
+  },
+  {
+   "rank": 70,
+   "team_code": "h210-03018",
+   "display_name": "soopi",
+   "class_id": "H210",
+   "score": 67.9409,
+   "submitted_at": "2026-09-25T09:39:13.714215Z"
+  },
+  {
+   "rank": 71,
+   "team_code": "h210-02811",
+   "display_name": "K4-L3B-ABU",
+   "class_id": "H210",
+   "score": 66.6893,
+   "submitted_at": "2026-09-25T09:53:04.612014Z"
+  },
+  {
+   "rank": 72,
+   "team_code": "h209-02427",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 65.8127,
+   "submitted_at": "2026-09-25T09:44:37.076798Z"
+  },
+  {
+   "rank": 73,
+   "team_code": "h210-03017",
+   "display_name": "F4",
+   "class_id": "H210",
+   "score": 65.6533,
+   "submitted_at": "2026-09-25T09:23:47.563424Z"
+  },
+  {
+   "rank": 74,
+   "team_code": "h209-02717",
+   "display_name": "Team Đụt",
+   "class_id": "H209",
+   "score": 65.5576,
+   "submitted_at": "2026-09-25T09:42:41.717261Z"
+  },
+  {
+   "rank": 75,
+   "team_code": "h209-02556",
+   "display_name": "DeltaX",
+   "class_id": "H209",
+   "score": 65.4679,
+   "submitted_at": "2026-09-25T09:26:15.396326Z"
+  },
+  {
+   "rank": 76,
+   "team_code": "h209-02384",
+   "display_name": "Nova-1",
+   "class_id": "H209",
+   "score": 65.4356,
+   "submitted_at": "2026-09-25T09:28:44.513353Z"
+  },
+  {
+   "rank": 77,
+   "team_code": "h210-02594",
+   "display_name": "K4-L3B-botusieudang",
+   "class_id": "H210",
+   "score": 65.361,
+   "submitted_at": "2026-09-25T09:47:17.826762Z"
+  },
+  {
+   "rank": 78,
+   "team_code": "h209-02396",
+   "display_name": "Starl1ght",
+   "class_id": "H209",
+   "score": 65.2828,
+   "submitted_at": "2026-09-25T09:43:14.924912Z"
+  },
+  {
+   "rank": 79,
+   "team_code": "h210-02558",
+   "display_name": "Yuzusoft",
+   "class_id": "H210",
+   "score": 65.2309,
+   "submitted_at": "2026-09-25T09:55:32.754152Z"
+  },
+  {
+   "rank": 80,
+   "team_code": "h210-02726",
+   "display_name": "aoi",
+   "class_id": "H210",
+   "score": 65.146,
+   "submitted_at": "2026-09-25T09:59:41.184082Z"
+  },
+  {
+   "rank": 81,
+   "team_code": "h209-02856",
+   "display_name": "BLS..",
+   "class_id": "H209",
+   "score": 65.0084,
+   "submitted_at": "2026-09-25T10:05:20.477533Z"
+  },
+  {
+   "rank": 82,
+   "team_code": "h210-02437",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 64.9457,
+   "submitted_at": "2026-09-25T09:46:06.322156Z"
+  },
+  {
+   "rank": 83,
+   "team_code": "h209-02905",
+   "display_name": "MotMinhTui",
+   "class_id": "H209",
+   "score": 64.8104,
+   "submitted_at": "2026-09-25T09:49:55.442179Z"
+  },
+  {
+   "rank": 84,
+   "team_code": "h210-02969",
+   "display_name": "K4-L3B-Gene",
+   "class_id": "H210",
+   "score": 64.6175,
+   "submitted_at": "2026-09-25T10:08:15.571885Z"
+  },
+  {
+   "rank": 85,
+   "team_code": "h210-02837",
+   "display_name": "K4-L3B-IpadKids",
+   "class_id": "H210",
+   "score": 64.5612,
+   "submitted_at": "2026-09-25T09:56:12.989726Z"
+  },
+  {
+   "rank": 86,
+   "team_code": "h209-02794",
+   "display_name": "K4 - Team00 - Oke",
+   "class_id": "H209",
+   "score": 64.3745,
+   "submitted_at": "2026-09-25T09:28:05.139795Z"
+  },
+  {
+   "rank": 87,
+   "team_code": "h210-02643",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 64.1976,
+   "submitted_at": "2026-09-25T09:59:44.467464Z"
+  },
+  {
+   "rank": 88,
+   "team_code": "h201-02738",
+   "display_name": "K4-L3B-ABU",
+   "class_id": "H201",
+   "score": 63.8763,
+   "submitted_at": "2026-09-25T09:49:25.167056Z"
+  },
+  {
+   "rank": 89,
+   "team_code": "h209-02899",
+   "display_name": "02899",
+   "class_id": "H209",
+   "score": 63.4584,
+   "submitted_at": "2026-09-25T09:50:48.530924Z"
+  },
+  {
+   "rank": 90,
+   "team_code": "h209-02932",
+   "display_name": "HelloWorld",
+   "class_id": "H209",
+   "score": 63.3323,
+   "submitted_at": "2026-09-25T10:06:02.231219Z"
+  },
+  {
+   "rank": 91,
+   "team_code": "h210-02754",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 63.0496,
+   "submitted_at": "2026-09-25T09:47:15.095131Z"
+  },
+  {
+   "rank": 92,
+   "team_code": "h210-02528",
+   "display_name": "ABC",
+   "class_id": "H210",
+   "score": 62.9653,
+   "submitted_at": "2026-09-25T09:35:50.873622Z"
+  },
+  {
+   "rank": 93,
+   "team_code": "h209-02650",
+   "display_name": "sieunhandienquang",
+   "class_id": "H209",
+   "score": 62.7294,
+   "submitted_at": "2026-09-25T09:49:59.342092Z"
+  },
+  {
+   "rank": 94,
+   "team_code": "h209-02651",
+   "display_name": "team3",
+   "class_id": "H209",
+   "score": 62.3362,
+   "submitted_at": "2026-09-25T10:04:46.478840Z"
+  },
+  {
+   "rank": 95,
+   "team_code": "h209-02489",
+   "display_name": "t-rex",
+   "class_id": "H209",
+   "score": 62.2825,
+   "submitted_at": "2026-09-25T09:42:50.106468Z"
+  },
+  {
+   "rank": 96,
+   "team_code": "h210-02390",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 61.8913,
+   "submitted_at": "2026-09-25T09:13:56.715407Z"
+  },
+  {
+   "rank": 97,
+   "team_code": "h209-02795",
+   "display_name": "HTMD",
+   "class_id": "H209",
+   "score": 61.5383,
+   "submitted_at": "2026-09-25T10:09:37.650986Z"
+  },
+  {
+   "rank": 98,
+   "team_code": "h209-02716",
+   "display_name": "DuSoul",
+   "class_id": "H209",
+   "score": 60.1539,
+   "submitted_at": "2026-09-25T09:52:31.509005Z"
+  },
+  {
+   "rank": 99,
+   "team_code": "h210-02826",
+   "display_name": "K4-L3B-IpadKids",
+   "class_id": "H210",
+   "score": 59.3826,
+   "submitted_at": "2026-09-25T09:53:19.619805Z"
+  },
+  {
+   "rank": 100,
+   "team_code": "h209-02601",
+   "display_name": "Nova1",
+   "class_id": "H209",
+   "score": 59.2972,
+   "submitted_at": "2026-09-25T10:11:29.361026Z"
+  },
+  {
+   "rank": 101,
+   "team_code": "h209-02729",
+   "display_name": "KINGPRO",
+   "class_id": "H209",
+   "score": 58.9428,
+   "submitted_at": "2026-09-25T09:49:36.934787Z"
+  },
+  {
+   "rank": 102,
+   "team_code": "h209-02761",
+   "display_name": "alteam",
+   "class_id": "H209",
+   "score": 55.7677,
+   "submitted_at": "2026-09-25T10:01:00.859993Z"
+  },
+  {
+   "rank": 103,
+   "team_code": "h209-02362",
+   "display_name": "HTMD",
+   "class_id": "H209",
+   "score": 55.4347,
+   "submitted_at": "2026-09-25T10:00:21.509554Z"
+  },
+  {
+   "rank": 104,
+   "team_code": "h209-02412",
+   "display_name": "Hehe",
+   "class_id": "H209",
+   "score": 55.3959,
+   "submitted_at": "2026-09-25T09:55:20.335335Z"
+  },
+  {
+   "rank": 105,
+   "team_code": "h210-02914",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 51.9602,
+   "submitted_at": "2026-09-25T09:56:02.806336Z"
+  },
+  {
+   "rank": 106,
+   "team_code": "h201-03006",
+   "display_name": "Marshall",
+   "class_id": "H201",
+   "score": 49.921,
+   "submitted_at": "2026-09-25T08:22:42.554214Z"
+  },
+  {
+   "rank": 107,
+   "team_code": "h209-02859",
+   "display_name": "Soopi",
+   "class_id": "H209",
+   "score": 45.9335,
+   "submitted_at": "2026-09-25T09:39:33.734800Z"
+  },
+  {
+   "rank": 108,
+   "team_code": "h210-02535",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 16.8932,
+   "submitted_at": "2026-09-25T09:13:30.925894Z"
+  },
+  {
+   "rank": 109,
+   "team_code": "h209-02561",
+   "display_name": "K4-L3B-Sonic",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:26:25.908071Z"
+  },
+  {
+   "rank": 110,
+   "team_code": "h210-02882",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:27:20.290800Z"
+  },
+  {
+   "rank": 111,
+   "team_code": "h209-02821",
+   "display_name": "chande",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:41:25.020533Z"
+  },
+  {
+   "rank": 112,
+   "team_code": "h201-02857",
+   "display_name": "SoloLeveling",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:42:00.408805Z"
+  },
+  {
+   "rank": 113,
+   "team_code": "h201-02415",
+   "display_name": "H20",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:50:17.566093Z"
+  },
+  {
+   "rank": 114,
+   "team_code": "h209-02580",
+   "display_name": "intel",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:51:03.522898Z"
+  },
+  {
+   "rank": 115,
+   "team_code": "h210-02835",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:00:48.264063Z"
+  },
+  {
+   "rank": 116,
+   "team_code": "h209-02505",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:02:21.523350Z"
+  },
+  {
+   "rank": 117,
+   "team_code": "h209-02407",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:02:28.419248Z"
+  },
+  {
+   "rank": 118,
+   "team_code": "h210-02667",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:03:17.840962Z"
+  },
+  {
+   "rank": 119,
+   "team_code": "h210-02936",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:08:53.006140Z"
+  },
+  {
+   "rank": 120,
+   "team_code": "h201-02367",
+   "display_name": "K4-L3B-OHappy",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:13:50.653667Z"
+  },
+  {
+   "rank": 121,
+   "team_code": "h209-02631",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:22:29.872518Z"
+  },
+  {
+   "rank": 122,
+   "team_code": "h209-02862",
+   "display_name": "ozon",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:22:52.172160Z"
+  },
+  {
+   "rank": 123,
+   "team_code": "h209-02748",
+   "display_name": "kiên",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:29:41.263174Z"
+  },
+  {
+   "rank": 124,
+   "team_code": "h209-02787",
+   "display_name": "K4-TeamXX-ArrogantIdiot",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:29:48.591722Z"
+  },
+  {
+   "rank": 125,
+   "team_code": "h210-03016",
+   "display_name": "The Passion of Joan of Arc",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:30:15.074746Z"
+  },
+  {
+   "rank": 126,
+   "team_code": "h209-02574",
+   "display_name": "team số 4",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:31:10.993412Z"
+  },
+  {
+   "rank": 127,
+   "team_code": "h210-02474",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:32:47.391818Z"
+  },
+  {
+   "rank": 128,
+   "team_code": "h210-02420",
+   "display_name": "Latentia",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:35:11.844107Z"
+  },
+  {
+   "rank": 129,
+   "team_code": "h209-02715",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:36:24.897619Z"
+  },
+  {
+   "rank": 130,
+   "team_code": "h209-02701",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:39:15.265071Z"
+  },
+  {
+   "rank": 131,
+   "team_code": "h210-02977",
+   "display_name": "Soopi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:39:49.638957Z"
+  },
+  {
+   "rank": 132,
+   "team_code": "h210-02855",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:40:01.125682Z"
+  },
+  {
+   "rank": 133,
+   "team_code": "h210-02657",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:40:05.979892Z"
+  },
+  {
+   "rank": 134,
+   "team_code": "h210-02565",
+   "display_name": "TranKimPhuong",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:42:00.273691Z"
+  },
+  {
+   "rank": 135,
+   "team_code": "h209-02418",
+   "display_name": "VŨ VĂN ĐIỀN",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:42:44.611859Z"
+  },
+  {
+   "rank": 136,
+   "team_code": "h210-02586",
+   "display_name": "HTMD",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:43:31.341095Z"
+  },
+  {
+   "rank": 137,
+   "team_code": "h209-02735",
+   "display_name": "khogadetem",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:44:03.948014Z"
+  },
+  {
+   "rank": 138,
+   "team_code": "h210-02929",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:46:06.866830Z"
+  },
+  {
+   "rank": 139,
+   "team_code": "h210-02513",
+   "display_name": "Trâu TV",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:47:13.921864Z"
+  },
+  {
+   "rank": 140,
+   "team_code": "h210-02971",
+   "display_name": "K4-L3B-ACE",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:49:25.730092Z"
+  },
+  {
+   "rank": 141,
+   "team_code": "h209-02923",
+   "display_name": "BKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:50:22.948894Z"
+  },
+  {
+   "rank": 142,
+   "team_code": "h209-02740",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:51:48.980292Z"
+  },
+  {
+   "rank": 143,
+   "team_code": "h210-02941",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:52:52.790114Z"
+  },
+  {
+   "rank": 144,
+   "team_code": "h210-02921",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:53:49.192104Z"
+  },
+  {
+   "rank": 145,
+   "team_code": "h209-02587",
+   "display_name": "Vinh",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:40.566943Z"
+  },
+  {
+   "rank": 146,
+   "team_code": "h210-02490",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:44.951541Z"
+  },
+  {
+   "rank": 147,
+   "team_code": "h210-02909",
+   "display_name": "LinhLinh",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:59.595357Z"
+  },
+  {
+   "rank": 148,
+   "team_code": "h210-03001",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:55:05.255855Z"
+  },
+  {
+   "rank": 149,
+   "team_code": "h209-12345",
+   "display_name": "N7",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:57:00.474065Z"
+  },
+  {
+   "rank": 150,
+   "team_code": "h210-02992",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:58:29.065250Z"
+  },
+  {
+   "rank": 151,
+   "team_code": "h209-02359",
+   "display_name": "K4-TeamO7",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:58:52.106385Z"
+  },
+  {
+   "rank": 152,
+   "team_code": "h209-02579",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:59:33.827473Z"
+  },
+  {
+   "rank": 153,
+   "team_code": "h210-02915",
+   "display_name": "sixthsense",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:59:56.459356Z"
+  },
+  {
+   "rank": 154,
+   "team_code": "h209-02608",
+   "display_name": "Manngusidan",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:00:57.406466Z"
+  },
+  {
+   "rank": 155,
+   "team_code": "h209-02548",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:12.126002Z"
+  },
+  {
+   "rank": 156,
+   "team_code": "h210-02870",
+   "display_name": "LaoGaKho",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:33.559555Z"
+  },
+  {
+   "rank": 157,
+   "team_code": "h209-02678",
+   "display_name": "SlopperBabiboo",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:38.003148Z"
+  },
+  {
+   "rank": 158,
+   "team_code": "h210-03006",
+   "display_name": "Marshal",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:17.963415Z"
+  },
+  {
+   "rank": 159,
+   "team_code": "h210-02739",
+   "display_name": "K4-L3B-ConKhiDot",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:20.733238Z"
+  },
+  {
+   "rank": 160,
+   "team_code": "h209-02573",
+   "display_name": "ABC",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:22.087897Z"
+  },
+  {
+   "rank": 161,
+   "team_code": "h209-02576",
+   "display_name": "Team03",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:47.732930Z"
+  },
+  {
+   "rank": 162,
+   "team_code": "h209-02459",
+   "display_name": "toibingu",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:36.784637Z"
+  },
+  {
+   "rank": 163,
+   "team_code": "h209-02590",
+   "display_name": "ozon",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:41.856534Z"
+  },
+  {
+   "rank": 164,
+   "team_code": "h209-02378",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:53.187418Z"
+  },
+  {
+   "rank": 165,
+   "team_code": "h209-02373",
+   "display_name": "K4-L3B-Sonic",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:55.404636Z"
+  },
+  {
+   "rank": 166,
+   "team_code": "h209-02917",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:00.612695Z"
+  },
+  {
+   "rank": 167,
+   "team_code": "h209-02873",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:26.968751Z"
+  },
+  {
+   "rank": 168,
+   "team_code": "h209-02879",
+   "display_name": "sieunhandienquang",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:31.357890Z"
+  },
+  {
+   "rank": 169,
+   "team_code": "h201-02962",
+   "display_name": "K4L3B - F4",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:42.642974Z"
+  },
+  {
+   "rank": 170,
+   "team_code": "h210-02368",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:02.014410Z"
+  },
+  {
+   "rank": 171,
+   "team_code": "h209-02656",
+   "display_name": "Team 043",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:05.845819Z"
+  },
+  {
+   "rank": 172,
+   "team_code": "h209-02664",
+   "display_name": "idontknow",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:08.972420Z"
+  },
+  {
+   "rank": 173,
+   "team_code": "h209-02822",
+   "display_name": "AGI",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:26.828540Z"
+  },
+  {
+   "rank": 174,
+   "team_code": "h210-02596",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:29.425872Z"
+  },
+  {
+   "rank": 175,
+   "team_code": "h209-02403",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:19.627298Z"
+  },
+  {
+   "rank": 176,
+   "team_code": "h209-02600",
+   "display_name": "green",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:35.145718Z"
+  },
+  {
+   "rank": 177,
+   "team_code": "h210-02706",
+   "display_name": "Latentia",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:46.286147Z"
+  },
+  {
+   "rank": 178,
+   "team_code": "h210-02708",
+   "display_name": "onedayonename",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:07:13.130661Z"
+  },
+  {
+   "rank": 179,
+   "team_code": "h209-02671",
+   "display_name": "intel",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:07:30.560138Z"
+  },
+  {
+   "rank": 180,
+   "team_code": "h210-02939",
+   "display_name": "Agent",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:00.104553Z"
+  },
+  {
+   "rank": 181,
+   "team_code": "h201-02984",
+   "display_name": "K4-L3B-Onlimi",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:01.794529Z"
+  },
+  {
+   "rank": 182,
+   "team_code": "h210-02509",
+   "display_name": "AIGAN",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:04.454961Z"
+  },
+  {
+   "rank": 183,
+   "team_code": "h210-02995",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:15.959939Z"
+  },
+  {
+   "rank": 184,
+   "team_code": "h209-02765",
+   "display_name": "Sloppers",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:55.034243Z"
+  },
+  {
+   "rank": 185,
+   "team_code": "h210-02793",
+   "display_name": "K4-L3B-FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:09:38.684456Z"
+  },
+  {
+   "rank": 186,
+   "team_code": "h210-02524",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:09:43.128671Z"
+  },
+  {
+   "rank": 187,
+   "team_code": "h209-02544",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:09:59.775809Z"
+  },
+  {
+   "rank": 188,
+   "team_code": "h210-02791",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:10:19.330084Z"
+  },
+  {
+   "rank": 189,
+   "team_code": "h210-02841",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:10:46.711642Z"
+  },
+  {
+   "rank": 190,
+   "team_code": "h210-02965",
+   "display_name": "K4-THE LIEMS",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:02.445434Z"
+  },
+  {
+   "rank": 191,
+   "team_code": "h201-02412",
+   "display_name": "Heheh",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:09.337730Z"
+  },
+  {
+   "rank": 192,
+   "team_code": "h210-02630",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:22.912741Z"
+  },
+  {
+   "rank": 193,
+   "team_code": "h209-02679",
+   "display_name": "team3",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:27.100785Z"
+  },
+  {
+   "rank": 194,
+   "team_code": "h210-02974",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:30.581184Z"
+  },
+  {
+   "rank": 195,
+   "team_code": "h209-02430",
+   "display_name": "Skynet",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:45.339729Z"
+  },
+  {
+   "rank": 196,
+   "team_code": "h209-02503",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:48.307202Z"
+  }
+ ],
+ "breakdowns": {
+  "h209-02470": {
+   "rank": 1,
+   "team_code": "h209-02470",
+   "display_name": "Devtamin",
+   "class_id": "H209",
+   "score": 92.9602,
+   "submitted_at": "2026-09-25T10:03:21.938115Z",
+   "components": {
+    "semantic": 93.9571,
+    "evidence": 88.2248,
+    "mcp": 93.9571,
+    "consistency": 93.9571,
+    "schema": 93.9571,
+    "calibration": 93.7222,
+    "workflow": 93.9571,
+    "efficiency": 91.4515
+   },
+   "weighted_components": {
+    "semantic": 37.5828,
+    "evidence": 13.2337,
+    "mcp": 14.0936,
+    "consistency": 9.3957,
+    "schema": 4.6979,
+    "calibration": 4.6861,
+    "workflow": 4.6979,
+    "efficiency": 4.5726
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02723": {
+   "rank": 2,
+   "team_code": "h210-02723",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 92.9148,
+   "submitted_at": "2026-09-25T10:01:28.325668Z",
+   "components": {
+    "semantic": 92.3445,
+    "evidence": 91.3927,
+    "mcp": 93.9552,
+    "consistency": 93.9552,
+    "schema": 93.9552,
+    "calibration": 93.7203,
+    "workflow": 93.9552,
+    "efficiency": 93.9552
+   },
+   "weighted_components": {
+    "semantic": 36.9378,
+    "evidence": 13.7089,
+    "mcp": 14.0933,
+    "consistency": 9.3955,
+    "schema": 4.6978,
+    "calibration": 4.686,
+    "workflow": 4.6978,
+    "efficiency": 4.6978
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02627": {
+   "rank": 3,
+   "team_code": "h209-02627",
+   "display_name": "Czpl",
+   "class_id": "H209",
+   "score": 92.3894,
+   "submitted_at": "2026-09-25T09:42:35.095438Z",
+   "components": {
+    "semantic": 93.9332,
+    "evidence": 88.0371,
+    "mcp": 93.9332,
+    "consistency": 93.9332,
+    "schema": 93.9332,
+    "calibration": 93.8956,
+    "workflow": 93.9332,
+    "efficiency": 80.7825
+   },
+   "weighted_components": {
+    "semantic": 37.5733,
+    "evidence": 13.2056,
+    "mcp": 14.09,
+    "consistency": 9.3933,
+    "schema": 4.6967,
+    "calibration": 4.6948,
+    "workflow": 4.6967,
+    "efficiency": 4.0391
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02983": {
+   "rank": 4,
+   "team_code": "h210-02983",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 92.1127,
+   "submitted_at": "2026-09-25T09:50:49.346102Z",
+   "components": {
+    "semantic": 90.9696,
+    "evidence": 90.1646,
+    "mcp": 93.9214,
+    "consistency": 93.9214,
+    "schema": 93.9214,
+    "calibration": 93.8839,
+    "workflow": 93.9214,
+    "efficiency": 92.6692
+   },
+   "weighted_components": {
+    "semantic": 36.3878,
+    "evidence": 13.5247,
+    "mcp": 14.0882,
+    "consistency": 9.3921,
+    "schema": 4.6961,
+    "calibration": 4.6942,
+    "workflow": 4.6961,
+    "efficiency": 4.6335
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02375": {
+   "rank": 5,
+   "team_code": "h209-02375",
+   "display_name": "acer",
+   "class_id": "H209",
+   "score": 92.0464,
+   "submitted_at": "2026-09-25T08:16:29.563701Z",
+   "components": {
+    "semantic": 93.9187,
+    "evidence": 88.0235,
+    "mcp": 93.9187,
+    "consistency": 93.9187,
+    "schema": 93.9187,
+    "calibration": 93.8811,
+    "workflow": 93.9187,
+    "efficiency": 74.1957
+   },
+   "weighted_components": {
+    "semantic": 37.5675,
+    "evidence": 13.2035,
+    "mcp": 14.0878,
+    "consistency": 9.3919,
+    "schema": 4.6959,
+    "calibration": 4.6941,
+    "workflow": 4.6959,
+    "efficiency": 3.7098
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02844": {
+   "rank": 6,
+   "team_code": "h209-02844",
+   "display_name": "TooSweeet",
+   "class_id": "H209",
+   "score": 92.0017,
+   "submitted_at": "2026-09-25T10:06:29.029104Z",
+   "components": {
+    "semantic": 90.965,
+    "evidence": 89.4505,
+    "mcp": 93.9168,
+    "consistency": 93.9168,
+    "schema": 93.9168,
+    "calibration": 93.8792,
+    "workflow": 93.9168,
+    "efficiency": 92.6646
+   },
+   "weighted_components": {
+    "semantic": 36.386,
+    "evidence": 13.4176,
+    "mcp": 14.0875,
+    "consistency": 9.3917,
+    "schema": 4.6958,
+    "calibration": 4.694,
+    "workflow": 4.6958,
+    "efficiency": 4.6332
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02852": {
+   "rank": 7,
+   "team_code": "h209-02852",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 91.9951,
+   "submitted_at": "2026-09-25T09:54:05.323070Z",
+   "components": {
+    "semantic": 90.9647,
+    "evidence": 89.7905,
+    "mcp": 93.9164,
+    "consistency": 93.9164,
+    "schema": 93.9164,
+    "calibration": 92.7331,
+    "workflow": 93.9164,
+    "efficiency": 92.6643
+   },
+   "weighted_components": {
+    "semantic": 36.3859,
+    "evidence": 13.4686,
+    "mcp": 14.0875,
+    "consistency": 9.3916,
+    "schema": 4.6958,
+    "calibration": 4.6367,
+    "workflow": 4.6958,
+    "efficiency": 4.6332
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02468": {
+   "rank": 8,
+   "team_code": "h209-02468",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 91.9786,
+   "submitted_at": "2026-09-25T10:10:02.683103Z",
+   "components": {
+    "semantic": 90.9641,
+    "evidence": 89.7152,
+    "mcp": 93.9158,
+    "consistency": 93.9158,
+    "schema": 93.9158,
+    "calibration": 93.5777,
+    "workflow": 93.9158,
+    "efficiency": 91.7245
+   },
+   "weighted_components": {
+    "semantic": 36.3856,
+    "evidence": 13.4573,
+    "mcp": 14.0874,
+    "consistency": 9.3916,
+    "schema": 4.6958,
+    "calibration": 4.6789,
+    "workflow": 4.6958,
+    "efficiency": 4.5862
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02394": {
+   "rank": 9,
+   "team_code": "h210-02394",
+   "display_name": "K4-L3B-botusieudang",
+   "class_id": "H210",
+   "score": 91.9766,
+   "submitted_at": "2026-09-25T09:58:12.455432Z",
+   "components": {
+    "semantic": 90.964,
+    "evidence": 89.1725,
+    "mcp": 93.9157,
+    "consistency": 93.9157,
+    "schema": 93.9157,
+    "calibration": 93.9157,
+    "workflow": 93.9157,
+    "efficiency": 92.9765
+   },
+   "weighted_components": {
+    "semantic": 36.3856,
+    "evidence": 13.3759,
+    "mcp": 14.0874,
+    "consistency": 9.3916,
+    "schema": 4.6958,
+    "calibration": 4.6958,
+    "workflow": 4.6958,
+    "efficiency": 4.6488
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02798": {
+   "rank": 10,
+   "team_code": "h209-02798",
+   "display_name": "hdd",
+   "class_id": "H209",
+   "score": 91.9003,
+   "submitted_at": "2026-09-25T09:42:53.687654Z",
+   "components": {
+    "semantic": 90.9609,
+    "evidence": 89.4464,
+    "mcp": 93.9125,
+    "consistency": 93.9125,
+    "schema": 93.9125,
+    "calibration": 93.8109,
+    "workflow": 93.9125,
+    "efficiency": 90.7821
+   },
+   "weighted_components": {
+    "semantic": 36.3844,
+    "evidence": 13.417,
+    "mcp": 14.0869,
+    "consistency": 9.3912,
+    "schema": 4.6956,
+    "calibration": 4.6905,
+    "workflow": 4.6956,
+    "efficiency": 4.5391
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02619": {
+   "rank": 11,
+   "team_code": "h210-02619",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 91.8933,
+   "submitted_at": "2026-09-25T09:37:29.775746Z",
+   "components": {
+    "semantic": 90.9606,
+    "evidence": 89.0287,
+    "mcp": 93.9121,
+    "consistency": 93.9121,
+    "schema": 93.9121,
+    "calibration": 93.6773,
+    "workflow": 93.9121,
+    "efficiency": 92.0339
+   },
+   "weighted_components": {
+    "semantic": 36.3842,
+    "evidence": 13.3543,
+    "mcp": 14.0868,
+    "consistency": 9.3912,
+    "schema": 4.6956,
+    "calibration": 4.6839,
+    "workflow": 4.6956,
+    "efficiency": 4.6017
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02756": {
+   "rank": 12,
+   "team_code": "h210-02756",
+   "display_name": "K4-L3B-Nhóm 1",
+   "class_id": "H210",
+   "score": 91.8097,
+   "submitted_at": "2026-09-25T09:34:11.787265Z",
+   "components": {
+    "semantic": 91.7621,
+    "evidence": 90.393,
+    "mcp": 93.9086,
+    "consistency": 93.9086,
+    "schema": 93.9086,
+    "calibration": 90.2931,
+    "workflow": 93.9086,
+    "efficiency": 83.2655
+   },
+   "weighted_components": {
+    "semantic": 36.7048,
+    "evidence": 13.5589,
+    "mcp": 14.0863,
+    "consistency": 9.3909,
+    "schema": 4.6954,
+    "calibration": 4.5147,
+    "workflow": 4.6954,
+    "efficiency": 4.1633
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02507": {
+   "rank": 13,
+   "team_code": "h209-02507",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 91.6411,
+   "submitted_at": "2026-09-25T10:03:27.863214Z",
+   "components": {
+    "semantic": 90.9501,
+    "evidence": 88.6845,
+    "mcp": 93.9013,
+    "consistency": 93.9013,
+    "schema": 93.9013,
+    "calibration": 93.5914,
+    "workflow": 93.9013,
+    "efficiency": 88.2672
+   },
+   "weighted_components": {
+    "semantic": 36.38,
+    "evidence": 13.3027,
+    "mcp": 14.0852,
+    "consistency": 9.3901,
+    "schema": 4.6951,
+    "calibration": 4.6796,
+    "workflow": 4.6951,
+    "efficiency": 4.4134
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02652": {
+   "rank": 14,
+   "team_code": "h209-02652",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 91.4451,
+   "submitted_at": "2026-09-25T09:44:47.489245Z",
+   "components": {
+    "semantic": 90.9419,
+    "evidence": 88.6766,
+    "mcp": 93.8929,
+    "consistency": 93.8929,
+    "schema": 93.8929,
+    "calibration": 93.583,
+    "workflow": 93.8929,
+    "efficiency": 84.5036
+   },
+   "weighted_components": {
+    "semantic": 36.3768,
+    "evidence": 13.3015,
+    "mcp": 14.0839,
+    "consistency": 9.3893,
+    "schema": 4.6946,
+    "calibration": 4.6792,
+    "workflow": 4.6946,
+    "efficiency": 4.2252
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02536": {
+   "rank": 15,
+   "team_code": "h209-02536",
+   "display_name": "rapunzel",
+   "class_id": "H209",
+   "score": 91.4043,
+   "submitted_at": "2026-09-25T10:02:13.994309Z",
+   "components": {
+    "semantic": 90.9403,
+    "evidence": 90.3763,
+    "mcp": 93.8912,
+    "consistency": 93.8912,
+    "schema": 93.8912,
+    "calibration": 92.3889,
+    "workflow": 93.8912,
+    "efficiency": 79.8075
+   },
+   "weighted_components": {
+    "semantic": 36.3761,
+    "evidence": 13.5564,
+    "mcp": 14.0837,
+    "consistency": 9.3891,
+    "schema": 4.6946,
+    "calibration": 4.6194,
+    "workflow": 4.6946,
+    "efficiency": 3.9904
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02732": {
+   "rank": 16,
+   "team_code": "h210-02732",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 91.1286,
+   "submitted_at": "2026-09-25T09:59:27.522907Z",
+   "components": {
+    "semantic": 90.6605,
+    "evidence": 85.9602,
+    "mcp": 93.8793,
+    "consistency": 93.8793,
+    "schema": 93.8793,
+    "calibration": 92.7538,
+    "workflow": 93.8793,
+    "efficiency": 89.4982
+   },
+   "weighted_components": {
+    "semantic": 36.2642,
+    "evidence": 12.894,
+    "mcp": 14.0819,
+    "consistency": 9.3879,
+    "schema": 4.694,
+    "calibration": 4.6377,
+    "workflow": 4.694,
+    "efficiency": 4.4749
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02534": {
+   "rank": 17,
+   "team_code": "h209-02534",
+   "display_name": "Skynet",
+   "class_id": "H209",
+   "score": 91.0027,
+   "submitted_at": "2026-09-25T10:02:30.298893Z",
+   "components": {
+    "semantic": 89.046,
+    "evidence": 88.9025,
+    "mcp": 93.8738,
+    "consistency": 93.8738,
+    "schema": 93.8738,
+    "calibration": 92.8037,
+    "workflow": 93.8738,
+    "efficiency": 91.0576
+   },
+   "weighted_components": {
+    "semantic": 35.6184,
+    "evidence": 13.3354,
+    "mcp": 14.0811,
+    "consistency": 9.3874,
+    "schema": 4.6937,
+    "calibration": 4.6402,
+    "workflow": 4.6937,
+    "efficiency": 4.5529
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02647": {
+   "rank": 18,
+   "team_code": "h210-02647",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 90.9742,
+   "submitted_at": "2026-09-25T10:06:09.339796Z",
+   "components": {
+    "semantic": 91.548,
+    "evidence": 82.7045,
+    "mcp": 93.8725,
+    "consistency": 93.8725,
+    "schema": 93.8725,
+    "calibration": 93.6378,
+    "workflow": 93.8725,
+    "efficiency": 88.2402
+   },
+   "weighted_components": {
+    "semantic": 36.6192,
+    "evidence": 12.4057,
+    "mcp": 14.0809,
+    "consistency": 9.3873,
+    "schema": 4.6936,
+    "calibration": 4.6819,
+    "workflow": 4.6936,
+    "efficiency": 4.412
+   },
+   "hard_gate_count": 0
+  },
+  "h201-02378": {
+   "rank": 19,
+   "team_code": "h201-02378",
+   "display_name": "TooSweet",
+   "class_id": "H201",
+   "score": 90.912,
+   "submitted_at": "2026-09-25T09:57:30.638343Z",
+   "components": {
+    "semantic": 90.9196,
+    "evidence": 89.2774,
+    "mcp": 93.8698,
+    "consistency": 93.8698,
+    "schema": 93.8698,
+    "calibration": 92.7434,
+    "workflow": 93.8698,
+    "efficiency": 73.2185
+   },
+   "weighted_components": {
+    "semantic": 36.3678,
+    "evidence": 13.3916,
+    "mcp": 14.0805,
+    "consistency": 9.387,
+    "schema": 4.6935,
+    "calibration": 4.6372,
+    "workflow": 4.6935,
+    "efficiency": 3.6609
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02623": {
+   "rank": 20,
+   "team_code": "h209-02623",
+   "display_name": "dino",
+   "class_id": "H209",
+   "score": 90.8461,
+   "submitted_at": "2026-09-25T09:58:40.107972Z",
+   "components": {
+    "semantic": 90.9169,
+    "evidence": 82.6997,
+    "mcp": 93.867,
+    "consistency": 93.867,
+    "schema": 93.867,
+    "calibration": 92.7406,
+    "workflow": 93.867,
+    "efficiency": 91.6768
+   },
+   "weighted_components": {
+    "semantic": 36.3668,
+    "evidence": 12.4049,
+    "mcp": 14.0801,
+    "consistency": 9.3867,
+    "schema": 4.6934,
+    "calibration": 4.637,
+    "workflow": 4.6934,
+    "efficiency": 4.5838
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02719": {
+   "rank": 21,
+   "team_code": "h210-02719",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 90.1919,
+   "submitted_at": "2026-09-25T09:55:03.637146Z",
+   "components": {
+    "semantic": 87.9399,
+    "evidence": 89.7158,
+    "mcp": 93.8383,
+    "consistency": 88.8336,
+    "schema": 93.8383,
+    "calibration": 93.6037,
+    "workflow": 93.8383,
+    "efficiency": 90.7104
+   },
+   "weighted_components": {
+    "semantic": 35.176,
+    "evidence": 13.4574,
+    "mcp": 14.0757,
+    "consistency": 8.8834,
+    "schema": 4.6919,
+    "calibration": 4.6802,
+    "workflow": 4.6919,
+    "efficiency": 4.5355
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02813": {
+   "rank": 22,
+   "team_code": "h210-02813",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 89.8369,
+   "submitted_at": "2026-09-25T09:21:33.105343Z",
+   "components": {
+    "semantic": 90.8738,
+    "evidence": 83.2787,
+    "mcp": 93.8226,
+    "consistency": 93.8226,
+    "schema": 93.8226,
+    "calibration": 93.0986,
+    "workflow": 93.8226,
+    "efficiency": 70.0542
+   },
+   "weighted_components": {
+    "semantic": 36.3495,
+    "evidence": 12.4918,
+    "mcp": 14.0734,
+    "consistency": 9.3823,
+    "schema": 4.6911,
+    "calibration": 4.6549,
+    "workflow": 4.6911,
+    "efficiency": 3.5027
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02768": {
+   "rank": 23,
+   "team_code": "h209-02768",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 89.834,
+   "submitted_at": "2026-09-25T10:00:18.487145Z",
+   "components": {
+    "semantic": 90.8736,
+    "evidence": 87.5675,
+    "mcp": 93.8224,
+    "consistency": 93.8224,
+    "schema": 93.8224,
+    "calibration": 92.6871,
+    "workflow": 93.8224,
+    "efficiency": 57.5445
+   },
+   "weighted_components": {
+    "semantic": 36.3495,
+    "evidence": 13.1351,
+    "mcp": 14.0734,
+    "consistency": 9.3822,
+    "schema": 4.6911,
+    "calibration": 4.6344,
+    "workflow": 4.6911,
+    "efficiency": 2.8772
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02449": {
+   "rank": 24,
+   "team_code": "h209-02449",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 89.5774,
+   "submitted_at": "2026-09-25T08:39:17.066894Z",
+   "components": {
+    "semantic": 90.8626,
+    "evidence": 81.3711,
+    "mcp": 93.811,
+    "consistency": 93.811,
+    "schema": 93.811,
+    "calibration": 92.8729,
+    "workflow": 93.811,
+    "efficiency": 70.9836
+   },
+   "weighted_components": {
+    "semantic": 36.345,
+    "evidence": 12.2057,
+    "mcp": 14.0716,
+    "consistency": 9.3811,
+    "schema": 4.6905,
+    "calibration": 4.6436,
+    "workflow": 4.6905,
+    "efficiency": 3.5492
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02769": {
+   "rank": 25,
+   "team_code": "h209-02769",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 89.5516,
+   "submitted_at": "2026-09-25T09:29:04.131426Z",
+   "components": {
+    "semantic": 90.0574,
+    "evidence": 84.5731,
+    "mcp": 93.8098,
+    "consistency": 93.8098,
+    "schema": 93.8098,
+    "calibration": 87.6381,
+    "workflow": 93.8098,
+    "efficiency": 72.5462
+   },
+   "weighted_components": {
+    "semantic": 36.023,
+    "evidence": 12.686,
+    "mcp": 14.0715,
+    "consistency": 9.381,
+    "schema": 4.6905,
+    "calibration": 4.3819,
+    "workflow": 4.6905,
+    "efficiency": 3.6273
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03012": {
+   "rank": 26,
+   "team_code": "h210-03012",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H210",
+   "score": 89.5123,
+   "submitted_at": "2026-09-25T09:58:43.345545Z",
+   "components": {
+    "semantic": 89.7877,
+    "evidence": 84.5715,
+    "mcp": 93.8081,
+    "consistency": 93.8081,
+    "schema": 93.8081,
+    "calibration": 89.3409,
+    "workflow": 93.8081,
+    "efficiency": 72.2322
+   },
+   "weighted_components": {
+    "semantic": 35.9151,
+    "evidence": 12.6857,
+    "mcp": 14.0712,
+    "consistency": 9.3808,
+    "schema": 4.6904,
+    "calibration": 4.467,
+    "workflow": 4.6904,
+    "efficiency": 3.6116
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03002": {
+   "rank": 27,
+   "team_code": "h210-03002",
+   "display_name": "K4L3B - F4",
+   "class_id": "H210",
+   "score": 89.2841,
+   "submitted_at": "2026-09-25T09:08:58.704906Z",
+   "components": {
+    "semantic": 90.3138,
+    "evidence": 84.3698,
+    "mcp": 93.7977,
+    "consistency": 88.7952,
+    "schema": 93.7977,
+    "calibration": 93.7602,
+    "workflow": 93.7977,
+    "efficiency": 69.723
+   },
+   "weighted_components": {
+    "semantic": 36.1255,
+    "evidence": 12.6555,
+    "mcp": 14.0697,
+    "consistency": 8.8795,
+    "schema": 4.6899,
+    "calibration": 4.688,
+    "workflow": 4.6899,
+    "efficiency": 3.4861
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02828": {
+   "rank": 28,
+   "team_code": "h209-02828",
+   "display_name": "l1lp3pp3r",
+   "class_id": "H209",
+   "score": 89.1796,
+   "submitted_at": "2026-09-25T10:05:30.552549Z",
+   "components": {
+    "semantic": 90.3093,
+    "evidence": 83.2525,
+    "mcp": 93.7931,
+    "consistency": 93.7931,
+    "schema": 93.7931,
+    "calibration": 92.2789,
+    "workflow": 93.7931,
+    "efficiency": 62.5288
+   },
+   "weighted_components": {
+    "semantic": 36.1237,
+    "evidence": 12.4879,
+    "mcp": 14.069,
+    "consistency": 9.3793,
+    "schema": 4.6897,
+    "calibration": 4.6139,
+    "workflow": 4.6897,
+    "efficiency": 3.1264
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02413": {
+   "rank": 29,
+   "team_code": "h210-02413",
+   "display_name": "K4-L3B-KhongBiet",
+   "class_id": "H210",
+   "score": 88.9504,
+   "submitted_at": "2026-09-25T09:31:19.736499Z",
+   "components": {
+    "semantic": 92.175,
+    "evidence": 84.4681,
+    "mcp": 93.7827,
+    "consistency": 90.6567,
+    "schema": 93.7827,
+    "calibration": 93.2733,
+    "workflow": 93.7827,
+    "efficiency": 44.7031
+   },
+   "weighted_components": {
+    "semantic": 36.87,
+    "evidence": 12.6702,
+    "mcp": 14.0674,
+    "consistency": 9.0657,
+    "schema": 4.6891,
+    "calibration": 4.6637,
+    "workflow": 4.6891,
+    "efficiency": 2.2352
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02684": {
+   "rank": 30,
+   "team_code": "h209-02684",
+   "display_name": "Khá là OK",
+   "class_id": "H209",
+   "score": 88.863,
+   "submitted_at": "2026-09-25T09:43:21.605378Z",
+   "components": {
+    "semantic": 90.8313,
+    "evidence": 68.9454,
+    "mcp": 93.7787,
+    "consistency": 93.7787,
+    "schema": 93.7787,
+    "calibration": 93.5442,
+    "workflow": 93.7787,
+    "efficiency": 93.7787
+   },
+   "weighted_components": {
+    "semantic": 36.3325,
+    "evidence": 10.3418,
+    "mcp": 14.0668,
+    "consistency": 9.3779,
+    "schema": 4.6889,
+    "calibration": 4.6772,
+    "workflow": 4.6889,
+    "efficiency": 4.6889
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02633": {
+   "rank": 31,
+   "team_code": "h210-02633",
+   "display_name": "K4-L3B-Limbo",
+   "class_id": "H210",
+   "score": 88.7874,
+   "submitted_at": "2026-09-25T09:49:41.935239Z",
+   "components": {
+    "semantic": 93.7753,
+    "evidence": 84.4615,
+    "mcp": 93.7753,
+    "consistency": 88.774,
+    "schema": 93.7753,
+    "calibration": 93.5409,
+    "workflow": 93.7753,
+    "efficiency": 32.1962
+   },
+   "weighted_components": {
+    "semantic": 37.5101,
+    "evidence": 12.6692,
+    "mcp": 14.0663,
+    "consistency": 8.8774,
+    "schema": 4.6888,
+    "calibration": 4.677,
+    "workflow": 4.6888,
+    "efficiency": 1.6098
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02504": {
+   "rank": 32,
+   "team_code": "h210-02504",
+   "display_name": "K4-THE LIEMS",
+   "class_id": "H210",
+   "score": 88.7313,
+   "submitted_at": "2026-09-25T09:23:05.842647Z",
+   "components": {
+    "semantic": 90.8255,
+    "evidence": 83.2344,
+    "mcp": 93.7727,
+    "consistency": 93.7727,
+    "schema": 93.7727,
+    "calibration": 92.835,
+    "workflow": 93.7727,
+    "efficiency": 49.0744
+   },
+   "weighted_components": {
+    "semantic": 36.3302,
+    "evidence": 12.4852,
+    "mcp": 14.0659,
+    "consistency": 9.3773,
+    "schema": 4.6886,
+    "calibration": 4.6417,
+    "workflow": 4.6886,
+    "efficiency": 2.4537
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02476": {
+   "rank": 33,
+   "team_code": "h209-02476",
+   "display_name": "anam",
+   "class_id": "H209",
+   "score": 88.4974,
+   "submitted_at": "2026-09-25T09:49:46.010109Z",
+   "components": {
+    "semantic": 90.8152,
+    "evidence": 70.0645,
+    "mcp": 93.762,
+    "consistency": 93.762,
+    "schema": 93.762,
+    "calibration": 92.8244,
+    "workflow": 93.762,
+    "efficiency": 84.0733
+   },
+   "weighted_components": {
+    "semantic": 36.3261,
+    "evidence": 10.5097,
+    "mcp": 14.0643,
+    "consistency": 9.3762,
+    "schema": 4.6881,
+    "calibration": 4.6412,
+    "workflow": 4.6881,
+    "efficiency": 4.2037
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02956": {
+   "rank": 34,
+   "team_code": "h210-02956",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 88.4899,
+   "submitted_at": "2026-09-25T10:10:43.826223Z",
+   "components": {
+    "semantic": 88.6718,
+    "evidence": 85.6022,
+    "mcp": 93.7617,
+    "consistency": 90.6364,
+    "schema": 93.7617,
+    "calibration": 93.5273,
+    "workflow": 93.7617,
+    "efficiency": 60.0075
+   },
+   "weighted_components": {
+    "semantic": 35.4687,
+    "evidence": 12.8403,
+    "mcp": 14.0643,
+    "consistency": 9.0636,
+    "schema": 4.6881,
+    "calibration": 4.6764,
+    "workflow": 4.6881,
+    "efficiency": 3.0004
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02842": {
+   "rank": 35,
+   "team_code": "h210-02842",
+   "display_name": "K4-L3B-KhongBiet",
+   "class_id": "H210",
+   "score": 88.4486,
+   "submitted_at": "2026-09-25T10:10:05.384161Z",
+   "components": {
+    "semantic": 90.813,
+    "evidence": 88.8161,
+    "mcp": 93.7598,
+    "consistency": 90.6345,
+    "schema": 93.7598,
+    "calibration": 93.7598,
+    "workflow": 93.7598,
+    "efficiency": 32.1908
+   },
+   "weighted_components": {
+    "semantic": 36.3252,
+    "evidence": 13.3224,
+    "mcp": 14.064,
+    "consistency": 9.0635,
+    "schema": 4.688,
+    "calibration": 4.688,
+    "workflow": 4.688,
+    "efficiency": 1.6095
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03007": {
+   "rank": 36,
+   "team_code": "h210-03007",
+   "display_name": "K4-L3B-PheDaHutThuocLa",
+   "class_id": "H210",
+   "score": 87.7477,
+   "submitted_at": "2026-09-25T09:52:43.184697Z",
+   "components": {
+    "semantic": 90.7817,
+    "evidence": 84.4988,
+    "mcp": 93.7274,
+    "consistency": 93.7274,
+    "schema": 93.7274,
+    "calibration": 93.4931,
+    "workflow": 93.7274,
+    "efficiency": 25.6188
+   },
+   "weighted_components": {
+    "semantic": 36.3127,
+    "evidence": 12.6748,
+    "mcp": 14.0591,
+    "consistency": 9.3727,
+    "schema": 4.6864,
+    "calibration": 4.6747,
+    "workflow": 4.6864,
+    "efficiency": 1.2809
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02700": {
+   "rank": 37,
+   "team_code": "h210-02700",
+   "display_name": "Enigma",
+   "class_id": "H210",
+   "score": 87.6955,
+   "submitted_at": "2026-09-25T10:04:47.478133Z",
+   "components": {
+    "semantic": 84.8881,
+    "evidence": 84.3044,
+    "mcp": 93.725,
+    "consistency": 93.725,
+    "schema": 93.725,
+    "calibration": 89.8995,
+    "workflow": 93.725,
+    "efficiency": 75.9173
+   },
+   "weighted_components": {
+    "semantic": 33.9552,
+    "evidence": 12.6457,
+    "mcp": 14.0588,
+    "consistency": 9.3725,
+    "schema": 4.6863,
+    "calibration": 4.495,
+    "workflow": 4.6863,
+    "efficiency": 3.7959
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02467": {
+   "rank": 38,
+   "team_code": "h209-02467",
+   "display_name": "promaxima",
+   "class_id": "H209",
+   "score": 87.6014,
+   "submitted_at": "2026-09-25T09:37:50.284892Z",
+   "components": {
+    "semantic": 92.114,
+    "evidence": 83.5302,
+    "mcp": 93.7206,
+    "consistency": 93.7206,
+    "schema": 93.7206,
+    "calibration": 93.4863,
+    "workflow": 93.7206,
+    "efficiency": 14.9953
+   },
+   "weighted_components": {
+    "semantic": 36.8456,
+    "evidence": 12.5295,
+    "mcp": 14.0581,
+    "consistency": 9.3721,
+    "schema": 4.686,
+    "calibration": 4.6743,
+    "workflow": 4.686,
+    "efficiency": 0.7498
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02417": {
+   "rank": 39,
+   "team_code": "h209-02417",
+   "display_name": "A100",
+   "class_id": "H209",
+   "score": 86.9808,
+   "submitted_at": "2026-09-25T09:35:00.263656Z",
+   "components": {
+    "semantic": 90.2115,
+    "evidence": 83.5042,
+    "mcp": 93.6915,
+    "consistency": 88.6946,
+    "schema": 93.6915,
+    "calibration": 93.4572,
+    "workflow": 93.6915,
+    "efficiency": 28.1074
+   },
+   "weighted_components": {
+    "semantic": 36.0846,
+    "evidence": 12.5256,
+    "mcp": 14.0537,
+    "consistency": 8.8695,
+    "schema": 4.6846,
+    "calibration": 4.6729,
+    "workflow": 4.6846,
+    "efficiency": 1.4054
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02406": {
+   "rank": 40,
+   "team_code": "h209-02406",
+   "display_name": "solo",
+   "class_id": "H209",
+   "score": 86.682,
+   "submitted_at": "2026-09-25T10:10:08.530117Z",
+   "components": {
+    "semantic": 90.733,
+    "evidence": 83.4914,
+    "mcp": 93.6772,
+    "consistency": 93.6772,
+    "schema": 93.6772,
+    "calibration": 91.5694,
+    "workflow": 93.6772,
+    "efficiency": 9.9923
+   },
+   "weighted_components": {
+    "semantic": 36.2932,
+    "evidence": 12.5237,
+    "mcp": 14.0516,
+    "consistency": 9.3677,
+    "schema": 4.6839,
+    "calibration": 4.5785,
+    "workflow": 4.6839,
+    "efficiency": 0.4996
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02745": {
+   "rank": 41,
+   "team_code": "h209-02745",
+   "display_name": "DeltaX",
+   "class_id": "H209",
+   "score": 86.1495,
+   "submitted_at": "2026-09-25T09:50:43.072891Z",
+   "components": {
+    "semantic": 90.1731,
+    "evidence": 84.2384,
+    "mcp": 93.6517,
+    "consistency": 93.6517,
+    "schema": 93.6517,
+    "calibration": 93.3265,
+    "workflow": 93.6517,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 36.0693,
+    "evidence": 12.6358,
+    "mcp": 14.0477,
+    "consistency": 9.3652,
+    "schema": 4.6826,
+    "calibration": 4.6663,
+    "workflow": 4.6826,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02456": {
+   "rank": 42,
+   "team_code": "h209-02456",
+   "display_name": "ViSoul",
+   "class_id": "H209",
+   "score": 85.803,
+   "submitted_at": "2026-09-25T09:53:07.532143Z",
+   "components": {
+    "semantic": 88.5518,
+    "evidence": 81.8107,
+    "mcp": 93.6349,
+    "consistency": 93.6349,
+    "schema": 93.6349,
+    "calibration": 93.0356,
+    "workflow": 93.6349,
+    "efficiency": 13.7332
+   },
+   "weighted_components": {
+    "semantic": 35.4207,
+    "evidence": 12.2716,
+    "mcp": 14.0452,
+    "consistency": 9.3635,
+    "schema": 4.6817,
+    "calibration": 4.6518,
+    "workflow": 4.6817,
+    "efficiency": 0.6867
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02639": {
+   "rank": 43,
+   "team_code": "h209-02639",
+   "display_name": "Team main",
+   "class_id": "H209",
+   "score": 85.514,
+   "submitted_at": "2026-09-25T09:57:46.370624Z",
+   "components": {
+    "semantic": 77.5716,
+    "evidence": 90.0462,
+    "mcp": 93.6208,
+    "consistency": 88.6277,
+    "schema": 93.6208,
+    "calibration": 80.5888,
+    "workflow": 93.6208,
+    "efficiency": 93.6208
+   },
+   "weighted_components": {
+    "semantic": 31.0286,
+    "evidence": 13.5069,
+    "mcp": 14.0431,
+    "consistency": 8.8628,
+    "schema": 4.681,
+    "calibration": 4.0294,
+    "workflow": 4.681,
+    "efficiency": 4.681
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02880": {
+   "rank": 44,
+   "team_code": "h209-02880",
+   "display_name": "K4-Team91-BLTS",
+   "class_id": "H209",
+   "score": 85.5023,
+   "submitted_at": "2026-09-25T09:29:10.247865Z",
+   "components": {
+    "semantic": 86.9331,
+    "evidence": 83.7083,
+    "mcp": 93.6202,
+    "consistency": 88.6272,
+    "schema": 93.6202,
+    "calibration": 91.8882,
+    "workflow": 93.6202,
+    "efficiency": 26.2137
+   },
+   "weighted_components": {
+    "semantic": 34.7732,
+    "evidence": 12.5563,
+    "mcp": 14.043,
+    "consistency": 8.8627,
+    "schema": 4.681,
+    "calibration": 4.5944,
+    "workflow": 4.681,
+    "efficiency": 1.3107
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02492": {
+   "rank": 45,
+   "team_code": "h209-02492",
+   "display_name": "Truongle",
+   "class_id": "H209",
+   "score": 85.0011,
+   "submitted_at": "2026-09-25T09:57:05.461705Z",
+   "components": {
+    "semantic": 86.9102,
+    "evidence": 84.4677,
+    "mcp": 93.5955,
+    "consistency": 88.6038,
+    "schema": 93.5955,
+    "calibration": 93.3615,
+    "workflow": 93.5955,
+    "efficiency": 12.7914
+   },
+   "weighted_components": {
+    "semantic": 34.7641,
+    "evidence": 12.6702,
+    "mcp": 14.0393,
+    "consistency": 8.8604,
+    "schema": 4.6798,
+    "calibration": 4.6681,
+    "workflow": 4.6798,
+    "efficiency": 0.6396
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02987": {
+   "rank": 46,
+   "team_code": "h210-02987",
+   "display_name": "F4",
+   "class_id": "H210",
+   "score": 84.9368,
+   "submitted_at": "2026-09-25T09:00:58.120526Z",
+   "components": {
+    "semantic": 85.3919,
+    "evidence": 83.4159,
+    "mcp": 93.5924,
+    "consistency": 88.6008,
+    "schema": 93.5924,
+    "calibration": 93.3584,
+    "workflow": 93.5924,
+    "efficiency": 26.8298
+   },
+   "weighted_components": {
+    "semantic": 34.1568,
+    "evidence": 12.5124,
+    "mcp": 14.0389,
+    "consistency": 8.8601,
+    "schema": 4.6796,
+    "calibration": 4.6679,
+    "workflow": 4.6796,
+    "efficiency": 1.3415
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02737": {
+   "rank": 47,
+   "team_code": "h209-02737",
+   "display_name": "lốp trưởng",
+   "class_id": "H209",
+   "score": 84.4965,
+   "submitted_at": "2026-09-25T09:55:19.202586Z",
+   "components": {
+    "semantic": 86.0848,
+    "evidence": 84.2422,
+    "mcp": 93.5704,
+    "consistency": 93.5704,
+    "schema": 93.5704,
+    "calibration": 93.533,
+    "workflow": 93.5704,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 34.4339,
+    "evidence": 12.6363,
+    "mcp": 14.0356,
+    "consistency": 9.357,
+    "schema": 4.6785,
+    "calibration": 4.6766,
+    "workflow": 4.6785,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02644": {
+   "rank": 48,
+   "team_code": "h210-02644",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 84.235,
+   "submitted_at": "2026-09-25T09:34:43.074947Z",
+   "components": {
+    "semantic": 82.3305,
+    "evidence": 83.3847,
+    "mcp": 93.5573,
+    "consistency": 93.5573,
+    "schema": 93.5573,
+    "calibration": 89.815,
+    "workflow": 93.5573,
+    "efficiency": 31.1857
+   },
+   "weighted_components": {
+    "semantic": 32.9322,
+    "evidence": 12.5077,
+    "mcp": 14.0336,
+    "consistency": 9.3557,
+    "schema": 4.6779,
+    "calibration": 4.4908,
+    "workflow": 4.6779,
+    "efficiency": 1.5593
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02721": {
+   "rank": 49,
+   "team_code": "h210-02721",
+   "display_name": "EasyGame",
+   "class_id": "H210",
+   "score": 84.0521,
+   "submitted_at": "2026-09-25T09:38:46.571359Z",
+   "components": {
+    "semantic": 74.2148,
+    "evidence": 90.1922,
+    "mcp": 93.5481,
+    "consistency": 89.8061,
+    "schema": 93.5481,
+    "calibration": 83.3304,
+    "workflow": 93.5481,
+    "efficiency": 86.0642
+   },
+   "weighted_components": {
+    "semantic": 29.6859,
+    "evidence": 13.5288,
+    "mcp": 14.0322,
+    "consistency": 8.9806,
+    "schema": 4.6774,
+    "calibration": 4.1665,
+    "workflow": 4.6774,
+    "efficiency": 4.3032
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02557": {
+   "rank": 50,
+   "team_code": "h209-02557",
+   "display_name": "Nguyễn Thị Hồng Nhung",
+   "class_id": "H209",
+   "score": 84.0034,
+   "submitted_at": "2026-09-25T10:05:28.591174Z",
+   "components": {
+    "semantic": 74.8365,
+    "evidence": 90.668,
+    "mcp": 93.5456,
+    "consistency": 90.4275,
+    "schema": 93.5456,
+    "calibration": 86.5765,
+    "workflow": 93.5456,
+    "efficiency": 74.2128
+   },
+   "weighted_components": {
+    "semantic": 29.9346,
+    "evidence": 13.6002,
+    "mcp": 14.0318,
+    "consistency": 9.0427,
+    "schema": 4.6773,
+    "calibration": 4.3288,
+    "workflow": 4.6773,
+    "efficiency": 3.7106
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02970": {
+   "rank": 51,
+   "team_code": "h210-02970",
+   "display_name": "EasyGame",
+   "class_id": "H210",
+   "score": 83.7311,
+   "submitted_at": "2026-09-25T10:09:26.438266Z",
+   "components": {
+    "semantic": 80.2592,
+    "evidence": 84.2422,
+    "mcp": 93.5318,
+    "consistency": 93.5318,
+    "schema": 93.5318,
+    "calibration": 92.6736,
+    "workflow": 93.5318,
+    "efficiency": 32.4244
+   },
+   "weighted_components": {
+    "semantic": 32.1037,
+    "evidence": 12.6363,
+    "mcp": 14.0298,
+    "consistency": 9.3532,
+    "schema": 4.6766,
+    "calibration": 4.6337,
+    "workflow": 4.6766,
+    "efficiency": 1.6212
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02687": {
+   "rank": 52,
+   "team_code": "h210-02687",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 83.4836,
+   "submitted_at": "2026-09-25T09:51:06.259975Z",
+   "components": {
+    "semantic": 82.2968,
+    "evidence": 83.3506,
+    "mcp": 93.5191,
+    "consistency": 93.5191,
+    "schema": 93.5191,
+    "calibration": 89.7784,
+    "workflow": 93.5191,
+    "efficiency": 16.8334
+   },
+   "weighted_components": {
+    "semantic": 32.9187,
+    "evidence": 12.5026,
+    "mcp": 14.0279,
+    "consistency": 9.3519,
+    "schema": 4.676,
+    "calibration": 4.4889,
+    "workflow": 4.676,
+    "efficiency": 0.8417
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02450": {
+   "rank": 53,
+   "team_code": "h209-02450",
+   "display_name": "SoulVP",
+   "class_id": "H209",
+   "score": 83.1208,
+   "submitted_at": "2026-09-25T09:34:02.307177Z",
+   "components": {
+    "semantic": 88.4247,
+    "evidence": 65.6078,
+    "mcp": 93.5005,
+    "consistency": 88.5138,
+    "schema": 93.5005,
+    "calibration": 93.2667,
+    "workflow": 92.7057,
+    "efficiency": 21.1934
+   },
+   "weighted_components": {
+    "semantic": 35.3699,
+    "evidence": 9.8412,
+    "mcp": 14.0251,
+    "consistency": 8.8514,
+    "schema": 4.675,
+    "calibration": 4.6633,
+    "workflow": 4.6353,
+    "efficiency": 1.0597
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03008": {
+   "rank": 54,
+   "team_code": "h210-03008",
+   "display_name": "soopi",
+   "class_id": "H210",
+   "score": 83.0799,
+   "submitted_at": "2026-09-25T09:59:29.577776Z",
+   "components": {
+    "semantic": 80.4086,
+    "evidence": 84.9986,
+    "mcp": 86.0186,
+    "consistency": 81.032,
+    "schema": 86.0186,
+    "calibration": 85.1584,
+    "workflow": 86.0186,
+    "efficiency": 86.0186
+   },
+   "weighted_components": {
+    "semantic": 32.1635,
+    "evidence": 12.7498,
+    "mcp": 12.9028,
+    "consistency": 8.1032,
+    "schema": 4.3009,
+    "calibration": 4.2579,
+    "workflow": 4.3009,
+    "efficiency": 4.3009
+   },
+   "hard_gate_count": 4
+  },
+  "h209-02454": {
+   "rank": 55,
+   "team_code": "h209-02454",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 82.8016,
+   "submitted_at": "2026-09-25T10:09:58.603157Z",
+   "components": {
+    "semantic": 80.9303,
+    "evidence": 63.4558,
+    "mcp": 93.4839,
+    "consistency": 88.4981,
+    "schema": 93.4839,
+    "calibration": 86.5554,
+    "workflow": 93.4839,
+    "efficiency": 87.2516
+   },
+   "weighted_components": {
+    "semantic": 32.3721,
+    "evidence": 9.5184,
+    "mcp": 14.0226,
+    "consistency": 8.8498,
+    "schema": 4.6742,
+    "calibration": 4.3278,
+    "workflow": 4.6742,
+    "efficiency": 4.3626
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02607": {
+   "rank": 56,
+   "team_code": "h210-02607",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 82.667,
+   "submitted_at": "2026-09-25T10:10:34.942112Z",
+   "components": {
+    "semantic": 82.2597,
+    "evidence": 83.313,
+    "mcp": 93.477,
+    "consistency": 93.477,
+    "schema": 93.477,
+    "calibration": 89.7379,
+    "workflow": 93.477,
+    "efficiency": 1.2463
+   },
+   "weighted_components": {
+    "semantic": 32.9039,
+    "evidence": 12.497,
+    "mcp": 14.0215,
+    "consistency": 9.3477,
+    "schema": 4.6738,
+    "calibration": 4.4869,
+    "workflow": 4.6738,
+    "efficiency": 0.0623
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02816": {
+   "rank": 57,
+   "team_code": "h209-02816",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 82.4902,
+   "submitted_at": "2026-09-25T10:04:09.471487Z",
+   "components": {
+    "semantic": 84.655,
+    "evidence": 65.8018,
+    "mcp": 93.4677,
+    "consistency": 88.4828,
+    "schema": 93.4677,
+    "calibration": 93.4677,
+    "workflow": 93.4677,
+    "efficiency": 37.3871
+   },
+   "weighted_components": {
+    "semantic": 33.862,
+    "evidence": 9.8703,
+    "mcp": 14.0202,
+    "consistency": 8.8483,
+    "schema": 4.6734,
+    "calibration": 4.6734,
+    "workflow": 4.6734,
+    "efficiency": 1.8694
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02364": {
+   "rank": 58,
+   "team_code": "h209-02364",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 79.5226,
+   "submitted_at": "2026-09-25T10:09:50.090791Z",
+   "components": {
+    "semantic": 71.9795,
+    "evidence": 86.8579,
+    "mcp": 93.3067,
+    "consistency": 88.3304,
+    "schema": 93.3067,
+    "calibration": 82.5458,
+    "workflow": 93.3067,
+    "efficiency": 28.303
+   },
+   "weighted_components": {
+    "semantic": 28.7918,
+    "evidence": 13.0287,
+    "mcp": 13.996,
+    "consistency": 8.833,
+    "schema": 4.6653,
+    "calibration": 4.1273,
+    "workflow": 4.6653,
+    "efficiency": 1.4152
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02689": {
+   "rank": 59,
+   "team_code": "h209-02689",
+   "display_name": "Manngusidan",
+   "class_id": "H209",
+   "score": 79.4282,
+   "submitted_at": "2026-09-25T09:57:48.900503Z",
+   "components": {
+    "semantic": 73.0416,
+    "evidence": 83.1565,
+    "mcp": 93.3014,
+    "consistency": 88.3253,
+    "schema": 93.3014,
+    "calibration": 82.9916,
+    "workflow": 93.3014,
+    "efficiency": 28.6124
+   },
+   "weighted_components": {
+    "semantic": 29.2167,
+    "evidence": 12.4735,
+    "mcp": 13.9952,
+    "consistency": 8.8325,
+    "schema": 4.6651,
+    "calibration": 4.1496,
+    "workflow": 4.6651,
+    "efficiency": 1.4306
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02853": {
+   "rank": 60,
+   "team_code": "h209-02853",
+   "display_name": "Trike",
+   "class_id": "H209",
+   "score": 78.0433,
+   "submitted_at": "2026-09-25T10:07:46.102832Z",
+   "components": {
+    "semantic": 64.19,
+    "evidence": 80.9315,
+    "mcp": 93.222,
+    "consistency": 93.222,
+    "schema": 93.222,
+    "calibration": 76.4886,
+    "workflow": 93.222,
+    "efficiency": 75.5098
+   },
+   "weighted_components": {
+    "semantic": 25.676,
+    "evidence": 12.1397,
+    "mcp": 13.9833,
+    "consistency": 9.3222,
+    "schema": 4.6611,
+    "calibration": 3.8244,
+    "workflow": 4.6611,
+    "efficiency": 3.7755
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02452": {
+   "rank": 61,
+   "team_code": "h210-02452",
+   "display_name": "K4-L3B-5changlinhngulam",
+   "class_id": "H210",
+   "score": 77.0714,
+   "submitted_at": "2026-09-25T10:04:29.388872Z",
+   "components": {
+    "semantic": 62.5535,
+    "evidence": 81.1036,
+    "mcp": 93.1648,
+    "consistency": 88.196,
+    "schema": 93.1648,
+    "calibration": 66.9659,
+    "workflow": 93.1648,
+    "efficiency": 88.5065
+   },
+   "weighted_components": {
+    "semantic": 25.0214,
+    "evidence": 12.1655,
+    "mcp": 13.9747,
+    "consistency": 8.8196,
+    "schema": 4.6582,
+    "calibration": 3.3483,
+    "workflow": 4.6582,
+    "efficiency": 4.4253
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02832": {
+   "rank": 62,
+   "team_code": "h209-02832",
+   "display_name": "BotVN",
+   "class_id": "H209",
+   "score": 75.8958,
+   "submitted_at": "2026-09-25T09:29:12.406992Z",
+   "components": {
+    "semantic": 70.4852,
+    "evidence": 83.0056,
+    "mcp": 93.0936,
+    "consistency": 88.1287,
+    "schema": 93.0936,
+    "calibration": 79.9861,
+    "workflow": 2.2342,
+    "efficiency": 74.1646
+   },
+   "weighted_components": {
+    "semantic": 28.1941,
+    "evidence": 12.4508,
+    "mcp": 13.964,
+    "consistency": 8.8129,
+    "schema": 4.6547,
+    "calibration": 3.9993,
+    "workflow": 0.1117,
+    "efficiency": 3.7082
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02395": {
+   "rank": 63,
+   "team_code": "h210-02395",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 75.32,
+   "submitted_at": "2026-09-25T10:08:38.439442Z",
+   "components": {
+    "semantic": 63.3332,
+    "evidence": 82.2178,
+    "mcp": 93.058,
+    "consistency": 93.058,
+    "schema": 93.058,
+    "calibration": 76.2398,
+    "workflow": 93.058,
+    "efficiency": 25.4358
+   },
+   "weighted_components": {
+    "semantic": 25.3333,
+    "evidence": 12.3327,
+    "mcp": 13.9587,
+    "consistency": 9.3058,
+    "schema": 4.6529,
+    "calibration": 3.812,
+    "workflow": 4.6529,
+    "efficiency": 1.2718
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02784": {
+   "rank": 64,
+   "team_code": "h210-02784",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 73.6063,
+   "submitted_at": "2026-09-25T09:52:00.314734Z",
+   "components": {
+    "semantic": 58.6906,
+    "evidence": 86.3628,
+    "mcp": 92.9489,
+    "consistency": 92.9489,
+    "schema": 92.9489,
+    "calibration": 92.8708,
+    "workflow": 92.9489,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 23.4762,
+    "evidence": 12.9544,
+    "mcp": 13.9423,
+    "consistency": 9.2949,
+    "schema": 4.6474,
+    "calibration": 4.6435,
+    "workflow": 4.6474,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02718": {
+   "rank": 65,
+   "team_code": "h210-02718",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 72.9421,
+   "submitted_at": "2026-09-25T08:57:37.898486Z",
+   "components": {
+    "semantic": 59.9903,
+    "evidence": 82.8035,
+    "mcp": 92.9053,
+    "consistency": 87.9504,
+    "schema": 92.9053,
+    "calibration": 84.5067,
+    "workflow": 92.9053,
+    "efficiency": 5.5743
+   },
+   "weighted_components": {
+    "semantic": 23.9961,
+    "evidence": 12.4205,
+    "mcp": 13.9358,
+    "consistency": 8.795,
+    "schema": 4.6453,
+    "calibration": 4.2253,
+    "workflow": 4.6453,
+    "efficiency": 0.2787
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02620": {
+   "rank": 66,
+   "team_code": "h209-02620",
+   "display_name": "BLS",
+   "class_id": "H209",
+   "score": 71.7756,
+   "submitted_at": "2026-09-25T10:01:32.252399Z",
+   "components": {
+    "semantic": 59.6744,
+    "evidence": 83.6072,
+    "mcp": 92.8269,
+    "consistency": 92.8269,
+    "schema": 92.8269,
+    "calibration": 57.5063,
+    "workflow": 92.8269,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 23.8698,
+    "evidence": 12.5411,
+    "mcp": 13.924,
+    "consistency": 9.2827,
+    "schema": 4.6413,
+    "calibration": 2.8753,
+    "workflow": 4.6413,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h201-02694": {
+   "rank": 67,
+   "team_code": "h201-02694",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H201",
+   "score": 71.5185,
+   "submitted_at": "2026-09-25T09:04:48.126596Z",
+   "components": {
+    "semantic": 57.9837,
+    "evidence": 89.92,
+    "mcp": 92.8092,
+    "consistency": 87.8594,
+    "schema": 92.8092,
+    "calibration": 56.9756,
+    "workflow": 92.8092,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 23.1935,
+    "evidence": 13.488,
+    "mcp": 13.9214,
+    "consistency": 8.7859,
+    "schema": 4.6405,
+    "calibration": 2.8488,
+    "workflow": 4.6405,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02566": {
+   "rank": 68,
+   "team_code": "h209-02566",
+   "display_name": "so1",
+   "class_id": "H209",
+   "score": 68.6135,
+   "submitted_at": "2026-09-25T08:55:44.079100Z",
+   "components": {
+    "semantic": 55.9673,
+    "evidence": 82.5328,
+    "mcp": 92.6016,
+    "consistency": 83.3414,
+    "schema": 92.6016,
+    "calibration": 45.6989,
+    "workflow": 92.6016,
+    "efficiency": 1.5434
+   },
+   "weighted_components": {
+    "semantic": 22.3869,
+    "evidence": 12.3799,
+    "mcp": 13.8902,
+    "consistency": 8.3341,
+    "schema": 4.6301,
+    "calibration": 2.2849,
+    "workflow": 4.6301,
+    "efficiency": 0.0772
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02888": {
+   "rank": 69,
+   "team_code": "h209-02888",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 68.2709,
+   "submitted_at": "2026-09-25T09:58:38.838330Z",
+   "components": {
+    "semantic": 56.6036,
+    "evidence": 54.9461,
+    "mcp": 92.576,
+    "consistency": 90.1073,
+    "schema": 92.576,
+    "calibration": 77.3472,
+    "workflow": 92.1131,
+    "efficiency": 27.7728
+   },
+   "weighted_components": {
+    "semantic": 22.6415,
+    "evidence": 8.2419,
+    "mcp": 13.8864,
+    "consistency": 9.0107,
+    "schema": 4.6288,
+    "calibration": 3.8674,
+    "workflow": 4.6057,
+    "efficiency": 1.3886
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03018": {
+   "rank": 70,
+   "team_code": "h210-03018",
+   "display_name": "soopi",
+   "class_id": "H210",
+   "score": 67.9409,
+   "submitted_at": "2026-09-25T09:39:13.714215Z",
+   "components": {
+    "semantic": 42.2209,
+    "evidence": 84.1028,
+    "mcp": 92.5511,
+    "consistency": 92.5511,
+    "schema": 92.5511,
+    "calibration": 43.7581,
+    "workflow": 92.5511,
+    "efficiency": 77.1259
+   },
+   "weighted_components": {
+    "semantic": 16.8883,
+    "evidence": 12.6154,
+    "mcp": 13.8827,
+    "consistency": 9.2551,
+    "schema": 4.6276,
+    "calibration": 2.1879,
+    "workflow": 4.6276,
+    "efficiency": 3.8563
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02811": {
+   "rank": 71,
+   "team_code": "h210-02811",
+   "display_name": "K4-L3B-ABU",
+   "class_id": "H210",
+   "score": 66.6893,
+   "submitted_at": "2026-09-25T09:53:04.612014Z",
+   "components": {
+    "semantic": 47.0198,
+    "evidence": 83.4652,
+    "mcp": 92.4547,
+    "consistency": 84.4419,
+    "schema": 92.4547,
+    "calibration": 40.6338,
+    "workflow": 92.4547,
+    "efficiency": 35.4409
+   },
+   "weighted_components": {
+    "semantic": 18.8079,
+    "evidence": 12.5198,
+    "mcp": 13.8682,
+    "consistency": 8.4442,
+    "schema": 4.6227,
+    "calibration": 2.0317,
+    "workflow": 4.6227,
+    "efficiency": 1.772
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02427": {
+   "rank": 72,
+   "team_code": "h209-02427",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 65.8127,
+   "submitted_at": "2026-09-25T09:44:37.076798Z",
+   "components": {
+    "semantic": 46.2804,
+    "evidence": 82.3397,
+    "mcp": 92.3849,
+    "consistency": 83.1464,
+    "schema": 92.3849,
+    "calibration": 65.5379,
+    "workflow": 92.3849,
+    "efficiency": 5.2352
+   },
+   "weighted_components": {
+    "semantic": 18.5122,
+    "evidence": 12.351,
+    "mcp": 13.8577,
+    "consistency": 8.3146,
+    "schema": 4.6192,
+    "calibration": 3.2769,
+    "workflow": 4.6192,
+    "efficiency": 0.2618
+   },
+   "hard_gate_count": 0
+  },
+  "h210-03017": {
+   "rank": 73,
+   "team_code": "h210-03017",
+   "display_name": "F4",
+   "class_id": "H210",
+   "score": 65.6533,
+   "submitted_at": "2026-09-25T09:23:47.563424Z",
+   "components": {
+    "semantic": 42.4912,
+    "evidence": 80.9383,
+    "mcp": 92.3721,
+    "consistency": 86.2139,
+    "schema": 92.3721,
+    "calibration": 87.4121,
+    "workflow": 92.3721,
+    "efficiency": 8.6214
+   },
+   "weighted_components": {
+    "semantic": 16.9965,
+    "evidence": 12.1407,
+    "mcp": 13.8558,
+    "consistency": 8.6214,
+    "schema": 4.6186,
+    "calibration": 4.3706,
+    "workflow": 4.6186,
+    "efficiency": 0.4311
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02717": {
+   "rank": 74,
+   "team_code": "h209-02717",
+   "display_name": "Team Đụt",
+   "class_id": "H209",
+   "score": 65.5576,
+   "submitted_at": "2026-09-25T09:42:41.717261Z",
+   "components": {
+    "semantic": 44.3349,
+    "evidence": 82.2111,
+    "mcp": 92.3644,
+    "consistency": 84.3595,
+    "schema": 92.3644,
+    "calibration": 39.2734,
+    "workflow": 92.3644,
+    "efficiency": 40.0246
+   },
+   "weighted_components": {
+    "semantic": 17.734,
+    "evidence": 12.3317,
+    "mcp": 13.8547,
+    "consistency": 8.4359,
+    "schema": 4.6182,
+    "calibration": 1.9637,
+    "workflow": 4.6182,
+    "efficiency": 2.0012
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02556": {
+   "rank": 75,
+   "team_code": "h209-02556",
+   "display_name": "DeltaX",
+   "class_id": "H209",
+   "score": 65.4679,
+   "submitted_at": "2026-09-25T09:26:15.396326Z",
+   "components": {
+    "semantic": 43.5397,
+    "evidence": 83.3417,
+    "mcp": 92.3571,
+    "consistency": 86.1999,
+    "schema": 92.3571,
+    "calibration": 50.3531,
+    "workflow": 92.3571,
+    "efficiency": 26.4756
+   },
+   "weighted_components": {
+    "semantic": 17.4159,
+    "evidence": 12.5013,
+    "mcp": 13.8536,
+    "consistency": 8.62,
+    "schema": 4.6179,
+    "calibration": 2.5177,
+    "workflow": 4.6179,
+    "efficiency": 1.3238
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02384": {
+   "rank": 76,
+   "team_code": "h209-02384",
+   "display_name": "Nova-1",
+   "class_id": "H209",
+   "score": 65.4356,
+   "submitted_at": "2026-09-25T09:28:44.513353Z",
+   "components": {
+    "semantic": 64.1204,
+    "evidence": 60.9203,
+    "mcp": 68.3423,
+    "consistency": 68.3423,
+    "schema": 68.3423,
+    "calibration": 68.0962,
+    "workflow": 68.3423,
+    "efficiency": 66.4952
+   },
+   "weighted_components": {
+    "semantic": 25.6482,
+    "evidence": 9.138,
+    "mcp": 10.2513,
+    "consistency": 6.8342,
+    "schema": 3.4171,
+    "calibration": 3.4048,
+    "workflow": 3.4171,
+    "efficiency": 3.3248
+   },
+   "hard_gate_count": 13
+  },
+  "h210-02594": {
+   "rank": 77,
+   "team_code": "h210-02594",
+   "display_name": "K4-L3B-botusieudang",
+   "class_id": "H210",
+   "score": 65.361,
+   "submitted_at": "2026-09-25T09:47:17.826762Z",
+   "components": {
+    "semantic": 41.161,
+    "evidence": 77.4085,
+    "mcp": 92.3484,
+    "consistency": 92.3484,
+    "schema": 92.3484,
+    "calibration": 29.389,
+    "workflow": 92.3484,
+    "efficiency": 69.8769
+   },
+   "weighted_components": {
+    "semantic": 16.4644,
+    "evidence": 11.6113,
+    "mcp": 13.8523,
+    "consistency": 9.2348,
+    "schema": 4.6174,
+    "calibration": 1.4694,
+    "workflow": 4.6174,
+    "efficiency": 3.4938
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02396": {
+   "rank": 78,
+   "team_code": "h209-02396",
+   "display_name": "Starl1ght",
+   "class_id": "H209",
+   "score": 65.2828,
+   "submitted_at": "2026-09-25T09:43:14.924912Z",
+   "components": {
+    "semantic": 39.839,
+    "evidence": 83.3365,
+    "mcp": 92.3421,
+    "consistency": 89.264,
+    "schema": 92.3421,
+    "calibration": 51.4486,
+    "workflow": 92.3421,
+    "efficiency": 45.2476
+   },
+   "weighted_components": {
+    "semantic": 15.9356,
+    "evidence": 12.5005,
+    "mcp": 13.8513,
+    "consistency": 8.9264,
+    "schema": 4.6171,
+    "calibration": 2.5724,
+    "workflow": 4.6171,
+    "efficiency": 2.2624
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02558": {
+   "rank": 79,
+   "team_code": "h210-02558",
+   "display_name": "Yuzusoft",
+   "class_id": "H210",
+   "score": 65.2309,
+   "submitted_at": "2026-09-25T09:55:32.754152Z",
+   "components": {
+    "semantic": 42.2116,
+    "evidence": 81.04,
+    "mcp": 92.3378,
+    "consistency": 82.4884,
+    "schema": 92.3378,
+    "calibration": 79.5951,
+    "workflow": 92.3378,
+    "efficiency": 17.5442
+   },
+   "weighted_components": {
+    "semantic": 16.8846,
+    "evidence": 12.156,
+    "mcp": 13.8507,
+    "consistency": 8.2488,
+    "schema": 4.6169,
+    "calibration": 3.9798,
+    "workflow": 4.6169,
+    "efficiency": 0.8772
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02726": {
+   "rank": 80,
+   "team_code": "h210-02726",
+   "display_name": "aoi",
+   "class_id": "H210",
+   "score": 65.146,
+   "submitted_at": "2026-09-25T09:59:41.184082Z",
+   "components": {
+    "semantic": 47.4845,
+    "evidence": 82.2916,
+    "mcp": 92.3309,
+    "consistency": 87.4066,
+    "schema": 92.3309,
+    "calibration": 39.7023,
+    "workflow": 92.3309,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 18.9938,
+    "evidence": 12.3437,
+    "mcp": 13.8496,
+    "consistency": 8.7407,
+    "schema": 4.6165,
+    "calibration": 1.9851,
+    "workflow": 4.6165,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02856": {
+   "rank": 81,
+   "team_code": "h209-02856",
+   "display_name": "BLS..",
+   "class_id": "H209",
+   "score": 65.0084,
+   "submitted_at": "2026-09-25T10:05:20.477533Z",
+   "components": {
+    "semantic": 40.3569,
+    "evidence": 81.9446,
+    "mcp": 92.3196,
+    "consistency": 92.3196,
+    "schema": 92.3196,
+    "calibration": 69.2397,
+    "workflow": 92.3196,
+    "efficiency": 16.002
+   },
+   "weighted_components": {
+    "semantic": 16.1427,
+    "evidence": 12.2917,
+    "mcp": 13.8479,
+    "consistency": 9.232,
+    "schema": 4.616,
+    "calibration": 3.462,
+    "workflow": 4.616,
+    "efficiency": 0.8001
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02437": {
+   "rank": 82,
+   "team_code": "h210-02437",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 64.9457,
+   "submitted_at": "2026-09-25T09:46:06.322156Z",
+   "components": {
+    "semantic": 43.7834,
+    "evidence": 82.2768,
+    "mcp": 92.3143,
+    "consistency": 88.6217,
+    "schema": 92.3143,
+    "calibration": 63.0008,
+    "workflow": 92.3143,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 17.5134,
+    "evidence": 12.3415,
+    "mcp": 13.8471,
+    "consistency": 8.8622,
+    "schema": 4.6157,
+    "calibration": 3.15,
+    "workflow": 4.6157,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02905": {
+   "rank": 83,
+   "team_code": "h209-02905",
+   "display_name": "MotMinhTui",
+   "class_id": "H209",
+   "score": 64.8104,
+   "submitted_at": "2026-09-25T09:49:55.442179Z",
+   "components": {
+    "semantic": 40.2617,
+    "evidence": 81.6684,
+    "mcp": 92.3032,
+    "consistency": 92.3032,
+    "schema": 92.3032,
+    "calibration": 47.2961,
+    "workflow": 92.3032,
+    "efficiency": 35.6906
+   },
+   "weighted_components": {
+    "semantic": 16.1047,
+    "evidence": 12.2503,
+    "mcp": 13.8455,
+    "consistency": 9.2303,
+    "schema": 4.6152,
+    "calibration": 2.3648,
+    "workflow": 4.6152,
+    "efficiency": 1.7845
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02969": {
+   "rank": 84,
+   "team_code": "h210-02969",
+   "display_name": "K4-L3B-Gene",
+   "class_id": "H210",
+   "score": 64.6175,
+   "submitted_at": "2026-09-25T10:08:15.571885Z",
+   "components": {
+    "semantic": 50.3624,
+    "evidence": 62.6434,
+    "mcp": 92.2871,
+    "consistency": 92.2871,
+    "schema": 92.2871,
+    "calibration": 55.5107,
+    "workflow": 92.2871,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 20.1449,
+    "evidence": 9.3965,
+    "mcp": 13.8431,
+    "consistency": 9.2287,
+    "schema": 4.6144,
+    "calibration": 2.7755,
+    "workflow": 4.6144,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02837": {
+   "rank": 85,
+   "team_code": "h210-02837",
+   "display_name": "K4-L3B-IpadKids",
+   "class_id": "H210",
+   "score": 64.5612,
+   "submitted_at": "2026-09-25T09:56:12.989726Z",
+   "components": {
+    "semantic": 39.2859,
+    "evidence": 79.0206,
+    "mcp": 92.2825,
+    "consistency": 92.2825,
+    "schema": 92.2825,
+    "calibration": 47.7562,
+    "workflow": 92.2825,
+    "efficiency": 46.1412
+   },
+   "weighted_components": {
+    "semantic": 15.7144,
+    "evidence": 11.8531,
+    "mcp": 13.8424,
+    "consistency": 9.2282,
+    "schema": 4.6141,
+    "calibration": 2.3878,
+    "workflow": 4.6141,
+    "efficiency": 2.3071
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02794": {
+   "rank": 86,
+   "team_code": "h209-02794",
+   "display_name": "K4 - Team00 - Oke",
+   "class_id": "H209",
+   "score": 64.3745,
+   "submitted_at": "2026-09-25T09:28:05.139795Z",
+   "components": {
+    "semantic": 44.0245,
+    "evidence": 80.0317,
+    "mcp": 92.2669,
+    "consistency": 92.2669,
+    "schema": 92.2669,
+    "calibration": 43.1809,
+    "workflow": 92.2669,
+    "efficiency": 6.1512
+   },
+   "weighted_components": {
+    "semantic": 17.6098,
+    "evidence": 12.0048,
+    "mcp": 13.84,
+    "consistency": 9.2267,
+    "schema": 4.6133,
+    "calibration": 2.159,
+    "workflow": 4.6133,
+    "efficiency": 0.3076
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02643": {
+   "rank": 87,
+   "team_code": "h210-02643",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 64.1976,
+   "submitted_at": "2026-09-25T09:59:44.467464Z",
+   "components": {
+    "semantic": 44.281,
+    "evidence": 81.8846,
+    "mcp": 92.252,
+    "consistency": 92.252,
+    "schema": 92.252,
+    "calibration": 38.286,
+    "workflow": 92.252,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 17.7124,
+    "evidence": 12.2827,
+    "mcp": 13.8378,
+    "consistency": 9.2252,
+    "schema": 4.6126,
+    "calibration": 1.9143,
+    "workflow": 4.6126,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h201-02738": {
+   "rank": 88,
+   "team_code": "h201-02738",
+   "display_name": "K4-L3B-ABU",
+   "class_id": "H201",
+   "score": 63.8763,
+   "submitted_at": "2026-09-25T09:49:25.167056Z",
+   "components": {
+    "semantic": 32.4104,
+    "evidence": 81.8605,
+    "mcp": 92.2248,
+    "consistency": 92.2248,
+    "schema": 92.2248,
+    "calibration": 69.2931,
+    "workflow": 92.2248,
+    "efficiency": 57.7943
+   },
+   "weighted_components": {
+    "semantic": 12.9642,
+    "evidence": 12.2791,
+    "mcp": 13.8337,
+    "consistency": 9.2225,
+    "schema": 4.6112,
+    "calibration": 3.4647,
+    "workflow": 4.6112,
+    "efficiency": 2.8897
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02899": {
+   "rank": 89,
+   "team_code": "h209-02899",
+   "display_name": "02899",
+   "class_id": "H209",
+   "score": 63.4584,
+   "submitted_at": "2026-09-25T09:50:48.530924Z",
+   "components": {
+    "semantic": 42.7236,
+    "evidence": 82.1651,
+    "mcp": 92.189,
+    "consistency": 89.1161,
+    "schema": 92.189,
+    "calibration": 26.9561,
+    "workflow": 92.189,
+    "efficiency": 14.7502
+   },
+   "weighted_components": {
+    "semantic": 17.0894,
+    "evidence": 12.3248,
+    "mcp": 13.8284,
+    "consistency": 8.9116,
+    "schema": 4.6095,
+    "calibration": 1.3478,
+    "workflow": 4.6095,
+    "efficiency": 0.7375
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02932": {
+   "rank": 90,
+   "team_code": "h209-02932",
+   "display_name": "HelloWorld",
+   "class_id": "H209",
+   "score": 63.3323,
+   "submitted_at": "2026-09-25T10:06:02.231219Z",
+   "components": {
+    "semantic": 39.2415,
+    "evidence": 62.5694,
+    "mcp": 92.1782,
+    "consistency": 92.1782,
+    "schema": 92.1782,
+    "calibration": 46.0153,
+    "workflow": 92.1782,
+    "efficiency": 73.7425
+   },
+   "weighted_components": {
+    "semantic": 15.6966,
+    "evidence": 9.3854,
+    "mcp": 13.8267,
+    "consistency": 9.2178,
+    "schema": 4.6089,
+    "calibration": 2.3008,
+    "workflow": 4.6089,
+    "efficiency": 3.6871
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02754": {
+   "rank": 91,
+   "team_code": "h210-02754",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 63.0496,
+   "submitted_at": "2026-09-25T09:47:15.095131Z",
+   "components": {
+    "semantic": 45.2869,
+    "evidence": 65.429,
+    "mcp": 92.1535,
+    "consistency": 86.0099,
+    "schema": 92.1535,
+    "calibration": 43.819,
+    "workflow": 92.1535,
+    "efficiency": 25.803
+   },
+   "weighted_components": {
+    "semantic": 18.1148,
+    "evidence": 9.8144,
+    "mcp": 13.823,
+    "consistency": 8.601,
+    "schema": 4.6077,
+    "calibration": 2.191,
+    "workflow": 4.6077,
+    "efficiency": 1.2901
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02528": {
+   "rank": 92,
+   "team_code": "h210-02528",
+   "display_name": "ABC",
+   "class_id": "H210",
+   "score": 62.9653,
+   "submitted_at": "2026-09-25T09:35:50.873622Z",
+   "components": {
+    "semantic": 40.8076,
+    "evidence": 79.9271,
+    "mcp": 92.1463,
+    "consistency": 89.0748,
+    "schema": 92.1463,
+    "calibration": 54.182,
+    "workflow": 92.1463,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 16.323,
+    "evidence": 11.9891,
+    "mcp": 13.8219,
+    "consistency": 8.9075,
+    "schema": 4.6073,
+    "calibration": 2.7091,
+    "workflow": 4.6073,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02650": {
+   "rank": 93,
+   "team_code": "h209-02650",
+   "display_name": "sieunhandienquang",
+   "class_id": "H209",
+   "score": 62.7294,
+   "submitted_at": "2026-09-25T09:49:59.342092Z",
+   "components": {
+    "semantic": 37.3766,
+    "evidence": 80.7223,
+    "mcp": 92.1256,
+    "consistency": 92.1256,
+    "schema": 92.1256,
+    "calibration": 38.4348,
+    "workflow": 92.1256,
+    "efficiency": 30.0943
+   },
+   "weighted_components": {
+    "semantic": 14.9507,
+    "evidence": 12.1083,
+    "mcp": 13.8188,
+    "consistency": 9.2126,
+    "schema": 4.6063,
+    "calibration": 1.9217,
+    "workflow": 4.6063,
+    "efficiency": 1.5047
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02651": {
+   "rank": 94,
+   "team_code": "h209-02651",
+   "display_name": "team3",
+   "class_id": "H209",
+   "score": 62.3362,
+   "submitted_at": "2026-09-25T10:04:46.478840Z",
+   "components": {
+    "semantic": 37.0994,
+    "evidence": 82.0775,
+    "mcp": 92.0907,
+    "consistency": 92.0907,
+    "schema": 92.0907,
+    "calibration": 44.0194,
+    "workflow": 92.0907,
+    "efficiency": 15.0415
+   },
+   "weighted_components": {
+    "semantic": 14.8398,
+    "evidence": 12.3116,
+    "mcp": 13.8136,
+    "consistency": 9.2091,
+    "schema": 4.6045,
+    "calibration": 2.201,
+    "workflow": 4.6045,
+    "efficiency": 0.7521
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02489": {
+   "rank": 95,
+   "team_code": "h209-02489",
+   "display_name": "t-rex",
+   "class_id": "H209",
+   "score": 62.2825,
+   "submitted_at": "2026-09-25T09:42:50.106468Z",
+   "components": {
+    "semantic": 34.9927,
+    "evidence": 78.8523,
+    "mcp": 92.0859,
+    "consistency": 89.0164,
+    "schema": 92.0859,
+    "calibration": 63.6774,
+    "workflow": 92.0859,
+    "efficiency": 27.0118
+   },
+   "weighted_components": {
+    "semantic": 13.9971,
+    "evidence": 11.8278,
+    "mcp": 13.8129,
+    "consistency": 8.9016,
+    "schema": 4.6043,
+    "calibration": 3.1839,
+    "workflow": 4.6043,
+    "efficiency": 1.3506
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02390": {
+   "rank": 96,
+   "team_code": "h210-02390",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 61.8913,
+   "submitted_at": "2026-09-25T09:13:56.715407Z",
+   "components": {
+    "semantic": 34.7163,
+    "evidence": 82.042,
+    "mcp": 92.0508,
+    "consistency": 84.0731,
+    "schema": 92.0508,
+    "calibration": 85.569,
+    "workflow": 92.0508,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 13.8865,
+    "evidence": 12.3063,
+    "mcp": 13.8076,
+    "consistency": 8.4073,
+    "schema": 4.6025,
+    "calibration": 4.2784,
+    "workflow": 4.6025,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02795": {
+   "rank": 97,
+   "team_code": "h209-02795",
+   "display_name": "HTMD",
+   "class_id": "H209",
+   "score": 61.5383,
+   "submitted_at": "2026-09-25T10:09:37.650986Z",
+   "components": {
+    "semantic": 38.1221,
+    "evidence": 82.0134,
+    "mcp": 92.0188,
+    "consistency": 92.0188,
+    "schema": 92.0188,
+    "calibration": 34.3917,
+    "workflow": 92.0188,
+    "efficiency": 1.2269
+   },
+   "weighted_components": {
+    "semantic": 15.2488,
+    "evidence": 12.302,
+    "mcp": 13.8028,
+    "consistency": 9.2019,
+    "schema": 4.6009,
+    "calibration": 1.7196,
+    "workflow": 4.6009,
+    "efficiency": 0.0613
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02716": {
+   "rank": 98,
+   "team_code": "h209-02716",
+   "display_name": "DuSoul",
+   "class_id": "H209",
+   "score": 60.1539,
+   "submitted_at": "2026-09-25T09:52:31.509005Z",
+   "components": {
+    "semantic": 30.7173,
+    "evidence": 81.563,
+    "mcp": 91.8896,
+    "consistency": 91.8896,
+    "schema": 91.8896,
+    "calibration": 27.1534,
+    "workflow": 91.8896,
+    "efficiency": 42.2692
+   },
+   "weighted_components": {
+    "semantic": 12.2869,
+    "evidence": 12.2344,
+    "mcp": 13.7834,
+    "consistency": 9.189,
+    "schema": 4.5945,
+    "calibration": 1.3577,
+    "workflow": 4.5945,
+    "efficiency": 2.1135
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02826": {
+   "rank": 99,
+   "team_code": "h210-02826",
+   "display_name": "K4-L3B-IpadKids",
+   "class_id": "H210",
+   "score": 59.3826,
+   "submitted_at": "2026-09-25T09:53:19.619805Z",
+   "components": {
+    "semantic": 33.5782,
+    "evidence": 81.8321,
+    "mcp": 91.8154,
+    "consistency": 81.4097,
+    "schema": 91.8154,
+    "calibration": 51.6335,
+    "workflow": 91.8154,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 13.4313,
+    "evidence": 12.2748,
+    "mcp": 13.7723,
+    "consistency": 8.141,
+    "schema": 4.5908,
+    "calibration": 2.5817,
+    "workflow": 4.5908,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02601": {
+   "rank": 100,
+   "team_code": "h209-02601",
+   "display_name": "Nova1",
+   "class_id": "H209",
+   "score": 59.2972,
+   "submitted_at": "2026-09-25T10:11:29.361026Z",
+   "components": {
+    "semantic": 40.3951,
+    "evidence": 62.8705,
+    "mcp": 91.807,
+    "consistency": 67.3252,
+    "schema": 91.807,
+    "calibration": 80.4872,
+    "workflow": 91.807,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 16.158,
+    "evidence": 9.4306,
+    "mcp": 13.771,
+    "consistency": 6.7325,
+    "schema": 4.5903,
+    "calibration": 4.0244,
+    "workflow": 4.5903,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02729": {
+   "rank": 101,
+   "team_code": "h209-02729",
+   "display_name": "KINGPRO",
+   "class_id": "H209",
+   "score": 58.9428,
+   "submitted_at": "2026-09-25T09:49:36.934787Z",
+   "components": {
+    "semantic": 21.431,
+    "evidence": 78.2753,
+    "mcp": 91.7722,
+    "consistency": 91.7722,
+    "schema": 91.7722,
+    "calibration": 80.007,
+    "workflow": 91.7722,
+    "efficiency": 50.1687
+   },
+   "weighted_components": {
+    "semantic": 8.5724,
+    "evidence": 11.7413,
+    "mcp": 13.7658,
+    "consistency": 9.1772,
+    "schema": 4.5886,
+    "calibration": 4.0003,
+    "workflow": 4.5886,
+    "efficiency": 2.5084
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02761": {
+   "rank": 102,
+   "team_code": "h209-02761",
+   "display_name": "alteam",
+   "class_id": "H209",
+   "score": 55.7677,
+   "submitted_at": "2026-09-25T10:01:00.859993Z",
+   "components": {
+    "semantic": 25.8648,
+    "evidence": 81.4986,
+    "mcp": 91.4412,
+    "consistency": 91.4412,
+    "schema": 91.4412,
+    "calibration": 8.9155,
+    "workflow": 91.4412,
+    "efficiency": 14.9355
+   },
+   "weighted_components": {
+    "semantic": 10.3459,
+    "evidence": 12.2248,
+    "mcp": 13.7162,
+    "consistency": 9.1441,
+    "schema": 4.5721,
+    "calibration": 0.4458,
+    "workflow": 4.5721,
+    "efficiency": 0.7468
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02362": {
+   "rank": 103,
+   "team_code": "h209-02362",
+   "display_name": "HTMD",
+   "class_id": "H209",
+   "score": 55.4347,
+   "submitted_at": "2026-09-25T10:00:21.509554Z",
+   "components": {
+    "semantic": 18.0197,
+    "evidence": 81.4995,
+    "mcp": 91.4045,
+    "consistency": 91.4045,
+    "schema": 91.4045,
+    "calibration": 80.2074,
+    "workflow": 91.4045,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 7.2079,
+    "evidence": 12.2249,
+    "mcp": 13.7107,
+    "consistency": 9.1404,
+    "schema": 4.5702,
+    "calibration": 4.0104,
+    "workflow": 4.5702,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02412": {
+   "rank": 104,
+   "team_code": "h209-02412",
+   "display_name": "Hehe",
+   "class_id": "H209",
+   "score": 55.3959,
+   "submitted_at": "2026-09-25T09:55:20.335335Z",
+   "components": {
+    "semantic": 25.8532,
+    "evidence": 82.4865,
+    "mcp": 91.4002,
+    "consistency": 60.9335,
+    "schema": 91.4002,
+    "calibration": 29.0653,
+    "workflow": 91.4002,
+    "efficiency": 45.7001
+   },
+   "weighted_components": {
+    "semantic": 10.3413,
+    "evidence": 12.373,
+    "mcp": 13.71,
+    "consistency": 6.0933,
+    "schema": 4.57,
+    "calibration": 1.4533,
+    "workflow": 4.57,
+    "efficiency": 2.285
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02914": {
+   "rank": 105,
+   "team_code": "h210-02914",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 51.9602,
+   "submitted_at": "2026-09-25T09:56:02.806336Z",
+   "components": {
+    "semantic": 18.9789,
+    "evidence": 47.9241,
+    "mcp": 90.9951,
+    "consistency": 90.9951,
+    "schema": 90.9951,
+    "calibration": 75.0892,
+    "workflow": 90.9951,
+    "efficiency": 31.545
+   },
+   "weighted_components": {
+    "semantic": 7.5916,
+    "evidence": 7.1886,
+    "mcp": 13.6493,
+    "consistency": 9.0995,
+    "schema": 4.5498,
+    "calibration": 3.7545,
+    "workflow": 4.5498,
+    "efficiency": 1.5772
+   },
+   "hard_gate_count": 0
+  },
+  "h201-03006": {
+   "rank": 106,
+   "team_code": "h201-03006",
+   "display_name": "Marshall",
+   "class_id": "H201",
+   "score": 49.921,
+   "submitted_at": "2026-09-25T08:22:42.554214Z",
+   "components": {
+    "semantic": 4.9254,
+    "evidence": 47.7846,
+    "mcp": 90.7302,
+    "consistency": 90.7302,
+    "schema": 90.7302,
+    "calibration": 89.8229,
+    "workflow": 90.7302,
+    "efficiency": 90.7302
+   },
+   "weighted_components": {
+    "semantic": 1.9702,
+    "evidence": 7.1677,
+    "mcp": 13.6095,
+    "consistency": 9.073,
+    "schema": 4.5365,
+    "calibration": 4.4911,
+    "workflow": 4.5365,
+    "efficiency": 4.5365
+   },
+   "hard_gate_count": 0
+  },
+  "h209-02859": {
+   "rank": 107,
+   "team_code": "h209-02859",
+   "display_name": "Soopi",
+   "class_id": "H209",
+   "score": 45.9335,
+   "submitted_at": "2026-09-25T09:39:33.734800Z",
+   "components": {
+    "semantic": 46.8777,
+    "evidence": 43.8019,
+    "mcp": 48.6807,
+    "consistency": 48.6807,
+    "schema": 48.6807,
+    "calibration": 48.0389,
+    "workflow": 48.6807,
+    "efficiency": 23.4389
+   },
+   "weighted_components": {
+    "semantic": 18.7511,
+    "evidence": 6.5703,
+    "mcp": 7.3021,
+    "consistency": 4.8681,
+    "schema": 2.434,
+    "calibration": 2.4019,
+    "workflow": 2.434,
+    "efficiency": 1.1719
+   },
+   "hard_gate_count": 23
+  },
+  "h210-02535": {
+   "rank": 108,
+   "team_code": "h210-02535",
+   "display_name": "K4-L3B-Kocoten",
+   "class_id": "H210",
+   "score": 16.8932,
+   "submitted_at": "2026-09-25T09:13:30.925894Z",
+   "components": {
+    "semantic": 9.2822,
+    "evidence": 23.8731,
+    "mcp": 26.9409,
+    "consistency": 24.2996,
+    "schema": 26.9409,
+    "calibration": 8.6832,
+    "workflow": 26.9409,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 3.7129,
+    "evidence": 3.581,
+    "mcp": 4.0411,
+    "consistency": 2.43,
+    "schema": 1.347,
+    "calibration": 0.4342,
+    "workflow": 1.347,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 33
+  },
+  "h209-02561": {
+   "rank": 109,
+   "team_code": "h209-02561",
+   "display_name": "K4-L3B-Sonic",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:26:25.908071Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02882": {
+   "rank": 110,
+   "team_code": "h210-02882",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:27:20.290800Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02821": {
+   "rank": 111,
+   "team_code": "h209-02821",
+   "display_name": "chande",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:41:25.020533Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02857": {
+   "rank": 112,
+   "team_code": "h201-02857",
+   "display_name": "SoloLeveling",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:42:00.408805Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02415": {
+   "rank": 113,
+   "team_code": "h201-02415",
+   "display_name": "H20",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:50:17.566093Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02580": {
+   "rank": 114,
+   "team_code": "h209-02580",
+   "display_name": "intel",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T08:51:03.522898Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02835": {
+   "rank": 115,
+   "team_code": "h210-02835",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:00:48.264063Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02505": {
+   "rank": 116,
+   "team_code": "h209-02505",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:02:21.523350Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02407": {
+   "rank": 117,
+   "team_code": "h209-02407",
+   "display_name": "ThieuNu",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:02:28.419248Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02667": {
+   "rank": 118,
+   "team_code": "h210-02667",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:03:17.840962Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02936": {
+   "rank": 119,
+   "team_code": "h210-02936",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:08:53.006140Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02367": {
+   "rank": 120,
+   "team_code": "h201-02367",
+   "display_name": "K4-L3B-OHappy",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:13:50.653667Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02631": {
+   "rank": 121,
+   "team_code": "h209-02631",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:22:29.872518Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02862": {
+   "rank": 122,
+   "team_code": "h209-02862",
+   "display_name": "ozon",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:22:52.172160Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02748": {
+   "rank": 123,
+   "team_code": "h209-02748",
+   "display_name": "kiên",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:29:41.263174Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02787": {
+   "rank": 124,
+   "team_code": "h209-02787",
+   "display_name": "K4-TeamXX-ArrogantIdiot",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:29:48.591722Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-03016": {
+   "rank": 125,
+   "team_code": "h210-03016",
+   "display_name": "The Passion of Joan of Arc",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:30:15.074746Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02574": {
+   "rank": 126,
+   "team_code": "h209-02574",
+   "display_name": "team số 4",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:31:10.993412Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02474": {
+   "rank": 127,
+   "team_code": "h210-02474",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:32:47.391818Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02420": {
+   "rank": 128,
+   "team_code": "h210-02420",
+   "display_name": "Latentia",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:35:11.844107Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02715": {
+   "rank": 129,
+   "team_code": "h209-02715",
+   "display_name": "Studio.h",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:36:24.897619Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02701": {
+   "rank": 130,
+   "team_code": "h209-02701",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:39:15.265071Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02977": {
+   "rank": 131,
+   "team_code": "h210-02977",
+   "display_name": "Soopi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:39:49.638957Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02855": {
+   "rank": 132,
+   "team_code": "h210-02855",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:40:01.125682Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02657": {
+   "rank": 133,
+   "team_code": "h210-02657",
+   "display_name": "Buddy",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:40:05.979892Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02565": {
+   "rank": 134,
+   "team_code": "h210-02565",
+   "display_name": "TranKimPhuong",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:42:00.273691Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02418": {
+   "rank": 135,
+   "team_code": "h209-02418",
+   "display_name": "VŨ VĂN ĐIỀN",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:42:44.611859Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02586": {
+   "rank": 137,
+   "team_code": "h210-02586",
+   "display_name": "HTMD",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:43:31.341095Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02735": {
+   "rank": 138,
+   "team_code": "h209-02735",
+   "display_name": "khogadetem",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:44:03.948014Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02929": {
+   "rank": 139,
+   "team_code": "h210-02929",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:46:06.866830Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02513": {
+   "rank": 140,
+   "team_code": "h210-02513",
+   "display_name": "Trâu TV",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:47:13.921864Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02971": {
+   "rank": 141,
+   "team_code": "h210-02971",
+   "display_name": "K4-L3B-ACE",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:49:25.730092Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02923": {
+   "rank": 142,
+   "team_code": "h209-02923",
+   "display_name": "BKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:50:22.948894Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02740": {
+   "rank": 143,
+   "team_code": "h209-02740",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:51:48.980292Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02941": {
+   "rank": 144,
+   "team_code": "h210-02941",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:52:52.790114Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02921": {
+   "rank": 145,
+   "team_code": "h210-02921",
+   "display_name": "K4-L3B-THTrueMi",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:53:49.192104Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02587": {
+   "rank": 146,
+   "team_code": "h209-02587",
+   "display_name": "Vinh",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:40.566943Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02490": {
+   "rank": 147,
+   "team_code": "h210-02490",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:44.951541Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02909": {
+   "rank": 148,
+   "team_code": "h210-02909",
+   "display_name": "LinhLinh",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:54:59.595357Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-03001": {
+   "rank": 149,
+   "team_code": "h210-03001",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:55:05.255855Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-12345": {
+   "rank": 150,
+   "team_code": "h209-12345",
+   "display_name": "N7",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:57:00.474065Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02992": {
+   "rank": 151,
+   "team_code": "h210-02992",
+   "display_name": "K4-TeamXX-Doraemon",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:58:29.065250Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02359": {
+   "rank": 152,
+   "team_code": "h209-02359",
+   "display_name": "K4-TeamO7",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:58:52.106385Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02579": {
+   "rank": 153,
+   "team_code": "h209-02579",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:59:33.827473Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02915": {
+   "rank": 154,
+   "team_code": "h210-02915",
+   "display_name": "sixthsense",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T09:59:56.459356Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02608": {
+   "rank": 155,
+   "team_code": "h209-02608",
+   "display_name": "Manngusidan",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:00:57.406466Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02548": {
+   "rank": 156,
+   "team_code": "h209-02548",
+   "display_name": "K4-L3B-Agent",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:12.126002Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02870": {
+   "rank": 157,
+   "team_code": "h210-02870",
+   "display_name": "LaoGaKho",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:33.559555Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02678": {
+   "rank": 158,
+   "team_code": "h209-02678",
+   "display_name": "SlopperBabiboo",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:01:38.003148Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-03006": {
+   "rank": 159,
+   "team_code": "h210-03006",
+   "display_name": "Marshal",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:17.963415Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02739": {
+   "rank": 160,
+   "team_code": "h210-02739",
+   "display_name": "K4-L3B-ConKhiDot",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:20.733238Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02573": {
+   "rank": 161,
+   "team_code": "h209-02573",
+   "display_name": "ABC",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:22.087897Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02576": {
+   "rank": 162,
+   "team_code": "h209-02576",
+   "display_name": "Team03",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:02:47.732930Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02459": {
+   "rank": 163,
+   "team_code": "h209-02459",
+   "display_name": "toibingu",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:36.784637Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02590": {
+   "rank": 164,
+   "team_code": "h209-02590",
+   "display_name": "ozon",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:41.856534Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02378": {
+   "rank": 165,
+   "team_code": "h209-02378",
+   "display_name": "TooSweet",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:53.187418Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02373": {
+   "rank": 166,
+   "team_code": "h209-02373",
+   "display_name": "K4-L3B-Sonic",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:03:55.404636Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02917": {
+   "rank": 167,
+   "team_code": "h209-02917",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:00.612695Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02873": {
+   "rank": 168,
+   "team_code": "h209-02873",
+   "display_name": "Duy Còm TV - ngao",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:26.968751Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02879": {
+   "rank": 169,
+   "team_code": "h209-02879",
+   "display_name": "sieunhandienquang",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:31.357890Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02962": {
+   "rank": 170,
+   "team_code": "h201-02962",
+   "display_name": "K4L3B - F4",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:04:42.642974Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02368": {
+   "rank": 171,
+   "team_code": "h210-02368",
+   "display_name": "AIGANG",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:02.014410Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02656": {
+   "rank": 172,
+   "team_code": "h209-02656",
+   "display_name": "Team 043",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:05.845819Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02664": {
+   "rank": 173,
+   "team_code": "h209-02664",
+   "display_name": "idontknow",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:08.972420Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02822": {
+   "rank": 174,
+   "team_code": "h209-02822",
+   "display_name": "AGI",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:26.828540Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02596": {
+   "rank": 175,
+   "team_code": "h210-02596",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:05:29.425872Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02403": {
+   "rank": 176,
+   "team_code": "h209-02403",
+   "display_name": "SKT",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:19.627298Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02600": {
+   "rank": 177,
+   "team_code": "h209-02600",
+   "display_name": "green",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:35.145718Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02706": {
+   "rank": 178,
+   "team_code": "h210-02706",
+   "display_name": "Latentia",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:06:46.286147Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02708": {
+   "rank": 179,
+   "team_code": "h210-02708",
+   "display_name": "onedayonename",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:07:13.130661Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02671": {
+   "rank": 180,
+   "team_code": "h209-02671",
+   "display_name": "intel",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:07:30.560138Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02939": {
+   "rank": 181,
+   "team_code": "h210-02939",
+   "display_name": "Agent",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:00.104553Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02984": {
+   "rank": 182,
+   "team_code": "h201-02984",
+   "display_name": "K4-L3B-Onlimi",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:01.794529Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02509": {
+   "rank": 183,
+   "team_code": "h210-02509",
+   "display_name": "AIGAN",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:04.454961Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02995": {
+   "rank": 184,
+   "team_code": "h210-02995",
+   "display_name": "K4-L3B-AI",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:15.959939Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02765": {
+   "rank": 185,
+   "team_code": "h209-02765",
+   "display_name": "Sloppers",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:08:55.034243Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02793": {
+   "rank": 196,
+   "team_code": "h210-02793",
+   "display_name": "K4-L3B-FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:12:41.395017Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02524": {
+   "rank": 186,
+   "team_code": "h210-02524",
+   "display_name": "K4-L3B-anhbaygiagan",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:09:43.128671Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02544": {
+   "rank": 187,
+   "team_code": "h209-02544",
+   "display_name": "sunset",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:09:59.775809Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02791": {
+   "rank": 42,
+   "team_code": "h210-02791",
+   "display_name": "TDCH",
+   "class_id": "H210",
+   "score": 86.2504,
+   "submitted_at": "2026-09-25T10:12:34.445901Z",
+   "components": {
+    "semantic": 76.7984,
+    "evidence": 89.4373,
+    "mcp": 93.6566,
+    "consistency": 93.6566,
+    "schema": 93.6566,
+    "calibration": 93.0572,
+    "workflow": 93.6566,
+    "efficiency": 93.6566
+   },
+   "weighted_components": {
+    "semantic": 30.7194,
+    "evidence": 13.4156,
+    "mcp": 14.0485,
+    "consistency": 9.3657,
+    "schema": 4.6828,
+    "calibration": 4.6529,
+    "workflow": 4.6828,
+    "efficiency": 4.6828
+   },
+   "hard_gate_count": 0
+  },
+  "h210-02841": {
+   "rank": 188,
+   "team_code": "h210-02841",
+   "display_name": "FourGuys",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:10:46.711642Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02965": {
+   "rank": 189,
+   "team_code": "h210-02965",
+   "display_name": "K4-THE LIEMS",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:02.445434Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h201-02412": {
+   "rank": 190,
+   "team_code": "h201-02412",
+   "display_name": "Heheh",
+   "class_id": "H201",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:09.337730Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02630": {
+   "rank": 191,
+   "team_code": "h210-02630",
+   "display_name": "K4-L3B-1PROMPT",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:22.912741Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02679": {
+   "rank": 192,
+   "team_code": "h209-02679",
+   "display_name": "team3",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:27.100785Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h210-02974": {
+   "rank": 193,
+   "team_code": "h210-02974",
+   "display_name": "K4-L3B-ColdBrew",
+   "class_id": "H210",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:30.581184Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02430": {
+   "rank": 195,
+   "team_code": "h209-02430",
+   "display_name": "Skynet",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:12:13.149482Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  },
+  "h209-02503": {
+   "rank": 194,
+   "team_code": "h209-02503",
+   "display_name": "ThienAn",
+   "class_id": "H209",
+   "score": 0.0,
+   "submitted_at": "2026-09-25T10:11:48.307202Z",
+   "components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "weighted_components": {
+    "semantic": 0.0,
+    "evidence": 0.0,
+    "mcp": 0.0,
+    "consistency": 0.0,
+    "schema": 0.0,
+    "calibration": 0.0,
+    "workflow": 0.0,
+    "efficiency": 0.0
+   },
+   "hard_gate_count": 50
+  }
+ },
+ "failures": []
+}

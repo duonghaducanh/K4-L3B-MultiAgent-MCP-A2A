@@ -1,0 +1,120 @@
+=== late_delivery_logistics (10 cases)
+  L3B_CASE_001 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_011 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_021 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_031 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_041 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_051 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_061 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_071 rec=16.0    cap=89.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.72  nconf=1
+  L3B_CASE_081 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_091 rec=16.0    cap=16.0     refundable=16.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [16.0] | captured spread: [16.0, 89.0] | refundable spread: [16.0]
+=== valid_split_payment (10 cases)
+  L3B_CASE_002 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_012 rec=0.0     cap=141.0    refundable=52.0     verdict=reconciled         status=no_action              conf=0.72  nconf=1
+  L3B_CASE_022 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_032 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_042 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_052 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_062 rec=0.0     cap=141.0    refundable=52.0     verdict=reconciled         status=no_action              conf=0.72  nconf=1
+  L3B_CASE_072 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_082 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_092 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  --> distinct rec: [0.0] | captured spread: [89.0, 141.0] | refundable spread: [0, 52.0]
+=== payment_mismatch (10 cases)
+  L3B_CASE_003 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_013 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_023 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_033 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_043 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_053 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_063 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_073 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_083 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  L3B_CASE_093 rec=35.0    cap=35.0     refundable=35.0     verdict=capture_mismatch   status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [35.0] | captured spread: [35.0] | refundable spread: [35.0]
+=== duplicate_charge (10 cases)
+  L3B_CASE_004 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_014 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_024 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_034 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_044 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_054 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_064 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_074 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_084 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  L3B_CASE_094 rec=64.0    cap=128.0    refundable=64.0     verdict=duplicate_capture  status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [64.0] | captured spread: [128.0] | refundable spread: [64.0]
+=== refund_pending (10 cases)
+  L3B_CASE_005 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_015 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_025 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_035 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_045 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_055 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_065 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_075 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_085 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  L3B_CASE_095 rec=0.0     cap=89.0     refundable=89.0     verdict=refund_pending     status=needs_investigation    conf=0.8   nconf=1
+  --> distinct rec: [0.0] | captured spread: [89.0] | refundable spread: [89.0]
+=== refund_failed (10 cases)
+  L3B_CASE_006 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_016 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_026 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_036 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_046 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_056 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_066 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_076 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_086 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  L3B_CASE_096 rec=52.0    cap=52.0     refundable=52.0     verdict=refund_failed      status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [52.0] | captured spread: [52.0] | refundable spread: [52.0]
+=== unsupported_claim (10 cases)
+  L3B_CASE_007 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_017 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_027 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_037 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_047 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_057 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_067 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_077 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_087 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  L3B_CASE_097 rec=0.0     cap=89.0     refundable=0        verdict=reconciled         status=no_action              conf=0.94  nconf=1
+  --> distinct rec: [0.0] | captured spread: [89.0] | refundable spread: [0]
+=== canceled_order_paid (10 cases)
+  L3B_CASE_008 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_018 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_028 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_038 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_048 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_058 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_068 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_078 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_088 rec=79.0    cap=79.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_098 rec=79.0    cap=18.0     refundable=79.0     verdict=reconciled         status=action_required        conf=0.72  nconf=1
+  --> distinct rec: [79.0] | captured spread: [18.0, 79.0] | refundable spread: [79.0]
+=== unavailable_order_paid (10 cases)
+  L3B_CASE_009 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_019 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_029 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_039 rec=89.0    cap=178.0    refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=0
+  L3B_CASE_049 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_059 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_069 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_079 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_089 rec=89.0    cap=178.0    refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=0
+  L3B_CASE_099 rec=89.0    cap=89.0     refundable=89.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [89.0] | captured spread: [89.0, 178.0] | refundable spread: [89.0]
+=== late_delivery_seller (10 cases)
+  L3B_CASE_010 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_020 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_030 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_040 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_050 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_060 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_070 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_080 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_090 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  L3B_CASE_100 rec=18.0    cap=18.0     refundable=18.0     verdict=reconciled         status=action_required        conf=0.94  nconf=1
+  --> distinct rec: [18.0] | captured spread: [18.0] | refundable spread: [18.0]

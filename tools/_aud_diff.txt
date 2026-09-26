@@ -1,0 +1,14 @@
+=== investigation_scope across all 100 inputs ===
+  x100 (True, True, True)
+
+=== full field diff: 4593 (scored) vs current ===
+overlapping cases: 1
+  .claim_assessments                                           x8
+  .evidence_refs                                               x8
+  .affected_entities.shipment_ids[0]                           x1
+
+=== 001 evidence_refs 4593 vs now ===
+4593: ["ev_BUA-OjKK72M-x6RczghyFVFRpsB1Gq76", "ev_w-PbCUVFjXCwPW_hzHUTQf_CSVAlOP4o", "ev_1THBzPha00GAAUhtU-ZehzM742tkI3dM", "ev_7yAn5KionqmmA8WI0exbEwXnNrxMe3TJ", "ev_gSLo4HIu6TtlrF0Pgxn3ZnWvTT-PfKer", "ev_QRWZVFHSgDHAiNNYc5g5EKkJxCGo1P-P", "ev_w6t_jZ25HFrSWxL16-moWmycN7uw2nEY", "ev_na0UVNf99bCMk3aJVrxcZTmcqzSoHX6z"]
+now : ["ev_2UM-F4tlfq205dsQ06PkU-M-gUvukBV1", "ev_M6JHYD_8KhNIGfMBksM6vE6gcWdkRh6o", "ev_uWXQSVgxHusQyaLnlKde-L-MixF61Pxb", "ev_Ps06HXgS7s5eANOn2IsG7KQ59cKVf-6k", "ev_Qosc07nY8um0mppRy2SE-k5IVW9uW71o", "ev_f55Sjo-VjIcQP5OdqfRcJGEJ6VQ4uzUC"]
+4593 claim refs: [["ev_BUA-OjKK72M-x6RczghyFVFRpsB1Gq76", "ev_w-PbCUVFjXCwPW_hzHUTQf_CSVAlOP4o", "ev_1THBzPha00GAAUhtU-ZehzM742tkI3dM", "ev_QRWZVFHSgDHAiNNYc5g5EKkJxCGo1P-P", "ev_w6t_jZ25HFrSWxL16-moWmycN7uw2nEY", "ev_na0UVNf99bCMk3aJVrxcZTmcqzSoHX6z"], ["ev_w6t_jZ25HFrSWxL16-moWmycN7uw2nEY", "ev_na0UVNf99bCMk3aJVrxcZTmcqzSoHX6z"]]
+now  claim refs: [["ev_2UM-F4tlfq205dsQ06PkU-M-gUvukBV1", "ev_M6JHYD_8KhNIGfMBksM6vE6gcWdkRh6o", "ev_uWXQSVgxHusQyaLnlKde-L-MixF61Pxb", "ev_Ps06HXgS7s5eANOn2IsG7KQ59cKVf-6k", "ev_Qosc07nY8um0mppRy2SE-k5IVW9uW71o", "ev_f55Sjo-VjIcQP5OdqfRcJGEJ6VQ4uzUC"], ["ev_Qosc07nY8um0mppRy2SE-k5IVW9uW71o", "ev_f55Sjo-VjIcQP5OdqfRcJGEJ6VQ4uzUC"]]

@@ -1,0 +1,120 @@
+======================================================================
+L3B_CASE_001 topic=late_delivery_logistics opened=2018-01-01
+  H0 purch=2018-05-11 deliv=2018-05-20 status=delivered decoy
+  H1 purch=2017-12-20 deliv=2018-01-04 status=delivered TARGET
+  ITEM     2018-05-14T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2017-12-23T09:00:00 -> TARGET freight=18.00 price=79.00
+  SHIPLIM  2018-05-14T09:00:00 -> decoy
+  SHIPLIM  2017-12-23T09:00:00 -> TARGET
+  SHEVENT  2018-01-04T09:00:00 -> TARGET delivered_late actor=logistics_provider
+  PAYEVENT 2018-05-11T10:00:00 -> decoy captured amt=89.00
+  PAYEVENT 2017-12-20T10:00:00 -> TARGET captured amt=16.00
+  REFUND   ERROR
+======================================================================
+L3B_CASE_002 topic=valid_split_payment opened=2018-02-02
+  H0 purch=2018-04-10 deliv=2018-04-19 status=delivered decoy
+  H1 purch=2018-01-21 deliv=2018-01-30 status=delivered TARGET
+  ITEM     2018-04-13T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-01-24T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-04-13T09:00:00 -> decoy
+  SHIPLIM  2018-01-24T09:00:00 -> TARGET
+  PAYEVENT 2018-04-10T10:00:00 -> decoy captured amt=52.00
+  PAYEVENT 2018-01-21T10:00:00 -> TARGET captured amt=44.50
+  PAYEVENT 2018-01-21T11:00:00 -> TARGET captured amt=44.50
+  REFUND   2018-04-21T09:00:00 -> decoy refund_requested amt=52.00 status=failed
+======================================================================
+L3B_CASE_003 topic=payment_mismatch opened=2018-03-03
+  H0 purch=2018-03-09 deliv=2018-03-18 status=delivered decoy
+  H1 purch=2018-02-19 deliv=2018-02-28 status=delivered TARGET
+  ITEM     2018-03-12T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-02-22T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-03-12T09:00:00 -> decoy
+  SHIPLIM  2018-02-22T09:00:00 -> TARGET
+  PAYEVENT 2018-03-09T10:00:00 -> decoy captured amt=89.00
+  PAYEVENT 2018-02-19T10:00:00 -> TARGET captured amt=35.00
+  PAYEVENT 2018-02-19T12:00:00 -> TARGET reconciliation_mismatch amt=35.00
+  REFUND   2018-03-20T09:00:00 -> decoy refund_requested amt=89.00 status=pending
+======================================================================
+L3B_CASE_004 topic=duplicate_charge opened=2018-04-04
+  H0 purch=2018-02-08 deliv=2018-02-17 status=delivered decoy
+  H1 purch=2018-03-23 deliv=2018-04-01 status=delivered TARGET
+  ITEM     2018-02-11T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-03-26T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-02-11T09:00:00 -> decoy
+  SHIPLIM  2018-03-26T09:00:00 -> TARGET
+  PAYEVENT 2018-02-08T10:00:00 -> decoy captured amt=64.00
+  PAYEVENT 2018-02-08T11:00:00 -> decoy captured amt=64.00
+  PAYEVENT 2018-03-23T10:00:00 -> TARGET captured amt=64.00
+  PAYEVENT 2018-03-23T11:00:00 -> TARGET captured amt=64.00
+  REFUND   ERROR
+======================================================================
+L3B_CASE_005 topic=refund_pending opened=2018-05-05
+  H0 purch=2018-01-07 deliv=2018-01-16 status=delivered decoy
+  H1 purch=2018-04-23 deliv=2018-05-02 status=delivered TARGET
+  ITEM     2018-01-10T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-04-26T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-01-10T09:00:00 -> decoy
+  SHIPLIM  2018-04-26T09:00:00 -> TARGET
+  PAYEVENT 2018-01-07T10:00:00 -> decoy captured amt=35.00
+  PAYEVENT 2018-01-07T12:00:00 -> decoy reconciliation_mismatch amt=35.00
+  PAYEVENT 2018-04-23T10:00:00 -> TARGET captured amt=89.00
+  REFUND   2018-05-04T09:00:00 -> TARGET refund_requested amt=89.00 status=pending
+======================================================================
+L3B_CASE_006 topic=refund_failed opened=2018-06-06
+  H0 purch=2018-09-06 deliv=2018-09-15 status=delivered decoy
+  H1 purch=2018-05-25 deliv=2018-06-03 status=delivered TARGET
+  ITEM     2018-09-09T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-05-28T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-09-09T09:00:00 -> decoy
+  SHIPLIM  2018-05-28T09:00:00 -> TARGET
+  PAYEVENT 2018-09-06T10:00:00 -> decoy captured amt=44.50
+  PAYEVENT 2018-09-06T11:00:00 -> decoy captured amt=44.50
+  PAYEVENT 2018-05-25T10:00:00 -> TARGET captured amt=52.00
+  REFUND   2018-06-05T09:00:00 -> TARGET refund_requested amt=52.00 status=failed
+======================================================================
+L3B_CASE_007 topic=unsupported_claim opened=2018-07-07
+  H0 purch=2018-08-05 deliv=2018-08-20 status=delivered decoy
+  H1 purch=2018-06-25 deliv=2018-07-04 status=delivered TARGET
+  ITEM     2018-08-08T09:00:00 -> decoy freight=18.00 price=79.00
+  ITEM     2018-06-28T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-08-08T09:00:00 -> decoy
+  SHIPLIM  2018-06-28T09:00:00 -> TARGET
+  SHEVENT  2018-08-20T09:00:00 -> decoy delivered_late actor=logistics_provider
+  PAYEVENT 2018-08-05T10:00:00 -> decoy captured amt=16.00
+  PAYEVENT 2018-06-25T10:00:00 -> TARGET captured amt=89.00
+  REFUND   ERROR
+======================================================================
+L3B_CASE_008 topic=canceled_order_paid opened=2018-08-08
+  H0 purch=2018-07-04 deliv=2018-07-18 status=delivered decoy
+  H1 purch=2018-07-27 deliv=None status=canceled TARGET
+  ITEM     2018-07-07T09:00:00 -> decoy freight=18.00 price=79.00
+  ITEM     2018-07-30T09:00:00 -> TARGET freight=10.00 price=79.00
+  SHIPLIM  2018-07-07T09:00:00 -> decoy
+  SHIPLIM  2018-07-30T09:00:00 -> TARGET
+  SHEVENT  2018-07-18T09:00:00 -> decoy delivered_late actor=seller
+  PAYEVENT 2018-07-04T10:00:00 -> decoy captured amt=18.00
+  PAYEVENT 2018-07-27T10:00:00 -> TARGET captured amt=79.00
+  REFUND   ERROR
+======================================================================
+L3B_CASE_009 topic=unavailable_order_paid opened=2018-09-09
+  H0 purch=2018-06-03 deliv=None status=unavailable decoy
+  H1 purch=2018-08-28 deliv=None status=unavailable TARGET
+  ITEM     2018-06-06T09:00:00 -> decoy freight=10.00 price=89.00
+  ITEM     2018-08-31T09:00:00 -> TARGET freight=10.00 price=89.00
+  SHIPLIM  2018-06-06T09:00:00 -> decoy
+  SHIPLIM  2018-08-31T09:00:00 -> TARGET
+  PAYEVENT 2018-06-03T10:00:00 -> decoy captured amt=89.00
+  PAYEVENT 2018-08-28T10:00:00 -> TARGET captured amt=89.00
+  REFUND   ERROR
+======================================================================
+L3B_CASE_010 topic=late_delivery_seller opened=2018-01-10
+  H0 purch=2018-05-02 deliv=None status=canceled decoy
+  H1 purch=2017-12-29 deliv=2018-01-12 status=delivered TARGET
+  ITEM     2018-05-05T09:00:00 -> decoy freight=10.00 price=79.00
+  ITEM     2018-01-01T09:00:00 -> TARGET freight=18.00 price=79.00
+  SHIPLIM  2018-05-05T09:00:00 -> decoy
+  SHIPLIM  2018-01-01T09:00:00 -> TARGET
+  SHEVENT  2018-01-12T09:00:00 -> TARGET delivered_late actor=seller
+  PAYEVENT 2018-05-02T10:00:00 -> decoy captured amt=79.00
+  PAYEVENT 2017-12-29T10:00:00 -> TARGET captured amt=18.00
+  REFUND   ERROR

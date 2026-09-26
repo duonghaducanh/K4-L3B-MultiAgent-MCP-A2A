@@ -1,0 +1,18 @@
+schema failures: 0
+
+--- consistency cross-checks ---
+consistency issues: 11
+   ('L3B_CASE_002', 'primary claim supported but no_action')
+   ('L3B_CASE_007', 'primary claim supported but no_action')
+   ('L3B_CASE_012', 'primary claim supported but no_action')
+   ('L3B_CASE_017', 'primary claim supported but no_action')
+   ('L3B_CASE_022', 'primary claim supported but no_action')
+   ('L3B_CASE_027', 'primary claim supported but no_action')
+   ('L3B_CASE_032', 'primary claim supported but no_action')
+   ('L3B_CASE_037', 'primary claim supported but no_action')
+   ('L3B_CASE_042', 'primary claim supported but no_action')
+   ('L3B_CASE_047', 'primary claim supported but no_action')
+   ('L3B_CASE_052', 'primary claim supported but no_action')
+
+--- cases with 0 data_conflicts ---
+   L3B_CASE_039 unavailable_order_paid action_required

@@ -1,0 +1,21 @@
+case            topic                      pol outrec | target(row) purch          | freight  price  captured | policy | out_rec out_cap
+L3B_CASE_001    late_delivery_logistics  16.00  16.00 | row1 2017-12-20T09:00:00 |  18.00  79.00    16.00 |  16.00 |  16.00   16.00  items=1 caps=1
+      match: rec==freight False | rec==price False | rec==captured True | rec==outcap True
+L3B_CASE_002    valid_split_payment       0.00   0.00 | row1 2018-01-21T09:00:00 |  10.00  79.00    89.00 |   0.00 |   0.00   89.00  items=1 caps=2
+      match: rec==freight False | rec==price False | rec==captured False | rec==outcap False
+L3B_CASE_003    payment_mismatch         35.00  35.00 | row1 2018-02-19T09:00:00 |  10.00  79.00    35.00 |  35.00 |  35.00   35.00  items=1 caps=1
+      match: rec==freight False | rec==price False | rec==captured True | rec==outcap True
+L3B_CASE_004    duplicate_charge         64.00  64.00 | row1 2018-03-23T09:00:00 |  10.00  79.00   128.00 |  64.00 |  64.00  128.00  items=1 caps=2
+      match: rec==freight False | rec==price False | rec==captured False | rec==outcap False
+L3B_CASE_005    refund_pending            0.00   0.00 | row1 2018-04-23T09:00:00 |  10.00  79.00    89.00 |   0.00 |   0.00   89.00  items=1 caps=1
+      match: rec==freight False | rec==price False | rec==captured False | rec==outcap False
+L3B_CASE_006    refund_failed            52.00  52.00 | row1 2018-05-25T09:00:00 |  10.00  79.00    52.00 |  52.00 |  52.00   52.00  items=1 caps=1
+      match: rec==freight False | rec==price False | rec==captured True | rec==outcap True
+L3B_CASE_007    unsupported_claim         0.00   0.00 | row1 2018-06-25T09:00:00 |  10.00  79.00    89.00 |   0.00 |   0.00   89.00  items=1 caps=1
+      match: rec==freight False | rec==price False | rec==captured False | rec==outcap False
+L3B_CASE_008    canceled_order_paid      79.00  79.00 | row1 2018-07-27T09:00:00 |  10.00  79.00    79.00 |  79.00 |  79.00   79.00  items=1 caps=1
+      match: rec==freight False | rec==price True | rec==captured True | rec==outcap True
+L3B_CASE_009    unavailable_order_paid   89.00  89.00 | row1 2018-08-28T09:00:00 |  10.00  89.00    89.00 |  89.00 |  89.00   89.00  items=1 caps=1
+      match: rec==freight False | rec==price True | rec==captured True | rec==outcap True
+L3B_CASE_010    late_delivery_seller     18.00  18.00 | row1 2017-12-29T09:00:00 |  18.00  79.00    18.00 |  18.00 |  18.00   18.00  items=1 caps=1
+      match: rec==freight True | rec==price False | rec==captured True | rec==outcap True

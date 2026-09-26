@@ -1,0 +1,63 @@
+total outputs: 100
+
+=== A. captured_total deviations from archetype baseline ===
+  L3B_CASE_012 valid_split_payment      cap=141.0 baseline=89.0  refundable=52.0 rec=0.0 verdict=reconciled
+  L3B_CASE_039 unavailable_order_paid   cap=178.0 baseline=89.0  refundable=89.0 rec=89.0 verdict=reconciled
+  L3B_CASE_062 valid_split_payment      cap=141.0 baseline=89.0  refundable=52.0 rec=0.0 verdict=reconciled
+  L3B_CASE_071 late_delivery_logistics  cap=89.0 baseline=16.0  refundable=16.0 rec=16.0 verdict=reconciled
+  L3B_CASE_089 unavailable_order_paid   cap=178.0 baseline=89.0  refundable=89.0 rec=89.0 verdict=reconciled
+  L3B_CASE_098 canceled_order_paid      cap=18.0 baseline=79.0  refundable=79.0 rec=79.0 verdict=reconciled
+
+=== B. no_action topics with refundable_total_brl > 0 ===
+  L3B_CASE_012 valid_split_payment      refundable=52.0 rec=0.0 verdict=reconciled cap=141.0
+  L3B_CASE_062 valid_split_payment      refundable=52.0 rec=0.0 verdict=reconciled cap=141.0
+
+=== C. verdict != archetype baseline ===
+
+=== D. shipment verdict != baseline ===
+  L3B_CASE_071 late_delivery_logistics  ship=on_time baseline=logistics_delay
+  L3B_CASE_098 canceled_order_paid      ship=conflicting baseline=insufficient_evidence
+
+=== E. data_conflicts count ===
+  L3B_CASE_012 extra conflict: {'field': 'assessment.primary_issue', 'sources': ['customer_request.claims', 'mcp_evidence_signature'], 'selected_source': 'customer_request.claims', 'resolution_code': 'policy_rule_precedence'}
+  L3B_CASE_039 unavailable_order_paid   ZERO conflicts, cap=178.0
+  L3B_CASE_062 extra conflict: {'field': 'assessment.primary_issue', 'sources': ['customer_request.claims', 'mcp_evidence_signature'], 'selected_source': 'customer_request.claims', 'resolution_code': 'policy_rule_precedence'}
+  L3B_CASE_071 extra conflict: {'field': 'assessment.primary_issue', 'sources': ['customer_request.claims', 'mcp_evidence_signature'], 'selected_source': 'customer_request.claims', 'resolution_code': 'policy_rule_precedence'}
+  L3B_CASE_089 unavailable_order_paid   ZERO conflicts, cap=178.0
+  L3B_CASE_098 extra conflict: {'field': 'assessment.primary_issue', 'sources': ['customer_request.claims', 'mcp_evidence_signature'], 'selected_source': 'customer_request.claims', 'resolution_code': 'policy_rule_precedence'}
+
+=== F. shipment_ids ===
+Counter({('af0bbb47f125381ce9f3597dc70ef07b',): 1, ('5b9e9502eca103a28ea22a94c65e3950',): 1, ('adc253f1977c81c2c29dc7b9dd23d538',): 1, ('b04477ada8d2ad7fa9d95358baaa785d',): 1, ('2208f3a59d7067fe62c900692f5fdcaf',): 1, ('d67b79fea59821fda4d363d337a56c3a',): 1, ('d671370d11048a2dab56335d3d91823e',): 1, ('3ef6bcdda6193f8657168ba7e8b3e948',): 1, ('8a5fc33c79bf3f4d9bbcc3dceb6b67c4',): 1, ('64a8b3b4c19751b51d211deb32fdc67b',): 1, ('11bc240af3d9e1f77218715480a65b77',): 1, ('44a03ff139461361ec4cce7949663c2f',): 1, ('6b27933c6a46e3d66203137ad1fdb678',): 1, ('b90e46cdc30adec2f0fa041984341170',): 1, ('c609f82bcf7a90292a5940205ebd7e93',): 1, ('2478ddd1d1395639b71cf0d498d8dbf6',): 1, ('973acef56bf70feefa8264d4e9f300fc',): 1, ('a5c8f3a11dcb9bd9b0acdfb8101dfdc8',): 1, ('c4dad201936ed30eef3c94fafa59ed6e',): 1, ('4274ff4a5df607e75b32b80e2f8eda3f',): 1, ('405be8487a7fde1db0bc31ad6b08050a',): 1, ('5c932e0a181410b67c77daaed30991af',): 1, ('80f0181edc2f4a5bd3384a3c39a83cee',): 1, ('2f346d92b11fcc7c342b3392b174cf3b',): 1, ('966f96af9d189dc428ff04ebbca821b8',): 1, ('e06ff711ddcab05c3651a9b1bb003950',): 1, ('d8716a985f69a46751cc046b0fea0d98',): 1, ('5fba7c57daf631028d2a584c52799e24',): 1, ('1f7565efbb90c33b80f467d6a75332c5',): 1, ('13d341318c77969f10d77e1382957542',): 1, ('96087ef44ca9abdbc4c372a3dd3c859f',): 1, ('31f935babbc97f5990e0ffd128e19541',): 1, ('97c8513f2504aa8ec05534307a703dea',): 1, ('dd6ee4d96f0f3cf1432c3b82818e0387',): 1, ('a88edef387e2a7e457695664bf0ddfc0',): 1, ('c504f1f5fd54cc8398d57dc0da49de01',): 1, ('b93b079468bdf6a20fd54cf45d1e03b6',): 1, ('ee234bfd26ca588915483995d811c1d0',): 1, ('103de323ece563a1012b4b6adf5a81b2',): 1, ('2636a02ee7de9590df86a4c24b739c49',): 1, ('3a119f52de09d1b2700815732def8b47',): 1, ('3aaee056441dcae251f360b1c71a7279',): 1, ('2c0032906c603dcc21cd954828fa77d0',): 1, ('ded456690bcb2ffd4def86541479037f',): 1, ('fe51b7fac3bea42115fa1c3b8973cba7',): 1, ('9a31fd9d697e9670777501f720773fd9',): 1, ('fd28a6dfe413804d0b89b7c9abf5b1f3',): 1, ('71303d7e93b399f5bcd537d124c0bcfa',): 1, ('8067c5e4834f3c0a3c8a4e921d65c5b1',): 1, ('e2a03ccf5ea816036608b2d8c3ab8e60',): 1, ('370098d35ccd8a2af86b57c81ac7d24f',): 1, ('7c29f6fa9efcbf410b4bbb9362b9f7c9',): 1, ('b8ed89bd3f1fe72244f0f616acdc7da1',): 1, ('2cfc79d9582e9135c0a9b61fa60e6b21',): 1, ('0e3ec3c17b64c6cc7bc01bba21e7afdf',): 1, ('fe64170e936bc5f6a6a41def260984b9',): 1, ('a833e4af2b4c893929b9f3adce3ecbeb',): 1, ('e58fb7bfd033514475ab0883ded704f4',): 1, ('0c65eb5a1415db7a20dfc869c9277e7a',): 1, ('614bc59c7d5e038587336616e3198e33',): 1, ('992cbe3e064cd39f9ccde60a29ffcd3c',): 1, ('8ac5066a163c60c1ae9bf17200df3dd1',): 1, ('efcd8852328a37fca811747c09c6fb69',): 1, ('9f5bd892aa4c461b116e5c163f16b40a',): 1, ('201797d3f567dc70cc5732ecf055e346',): 1, ('ae443cb420061bab1f2c5e3ad279fde8',): 1, ('b210c676cae65f95f7e08a49d195e1a1',): 1, ('edefc0fa09c98cc491e9d2cf95ee4a5f',): 1, ('d3782eb2976abf986175941c51364aab',): 1, ('72fa449394ed9dc9093819f93ca563af',): 1, ('676e40056867189a1b3599f3e646f421',): 1, ('b69321fb7d3000994c5a2b55c4f3cb01',): 1, ('1118f05e23d1a8082fa47f8a377de658',): 1, ('9a71f055d972d1ebacec9df7376ff1e3',): 1, ('9b4fc5c379134e1329bd48641ba285e3',): 1, ('4cf6a6de996beb9d4b190c7983be98d9',): 1, ('6560fb10610771449cb0463c5ba12199',): 1, ('9d0516ad96d793d308cec3c5929ed649',): 1, ('ca0400dec2c292340c373e63b1c2c597',): 1, ('cc8778d76e567b45082b7f52bce23095',): 1, ('4f3f48cbedce0c316c688af6fc7e9c56',): 1, ('a4e90af1c84c4455c7c4c65293ae2c78',): 1, ('f396e1280028fa9c8c83111abee5f2e9',): 1, ('3c5939ce763419f5942f27acffd072e6',): 1, ('9c9353e8fd52f68f8442e580b5f2bba6',): 1, ('ccec592b58e122dc2bfc2305152d9603',): 1, ('f938fa004452c776198a593e5fb9056d',): 1, ('97e8d3eb8f48e3610beed991e5f32296',): 1, ('73628c6d02ed8f6134d9752cd7b83c2a',): 1, ('113e41a438f06ffae6d1857e01d60c45',): 1, ('919baca007d9525b6668c18f79a33197',): 1, ('6683aa4f73f7869ec65ebeeef53f700b',): 1, ('23c312ca9f0242a48a95e5643bee2645',): 1, ('cf788ee4258fde5130bb5651bda63918',): 1, ('0e4a4de1d15b6df8d4335fb2db61667a',): 1, ('3a20bcc250e5404ca717dfa90e8a9c05',): 1, ('5d9c5817e278892b7498d90bfa28ade8',): 1, ('6c1798a95735e69db81fe92f8c40bdb4',): 1, ('eb09635680fadffb33358e40b05c9029',): 1, ('9b75cdaf2d85857ef023980e15d01546',): 1})
+
+=== G. payment_references length ===
+Counter({1: 70, 2: 30})
+
+=== H. confidence values by topic ===
+  late_delivery_logistics  {0.94: 9, 0.72: 1}
+  valid_split_payment      {0.94: 8, 0.72: 2}
+  payment_mismatch         {0.94: 10}
+  duplicate_charge         {0.94: 10}
+  refund_pending           {0.8: 10}
+  refund_failed            {0.94: 10}
+  unsupported_claim        {0.94: 10}
+  canceled_order_paid      {0.94: 9, 0.72: 1}
+  unavailable_order_paid   {0.94: 10}
+  late_delivery_seller     {0.94: 10}
+
+=== I. claim verdicts by topic ===
+  late_delivery_logistics  (('supported', 0.94), ('supported', 0.9)) x9
+  late_delivery_logistics  (('supported', 0.72), ('supported', 0.9)) x1
+  valid_split_payment      (('supported', 0.94), ('unsupported', 0.85)) x8
+  valid_split_payment      (('supported', 0.72), ('unsupported', 0.85)) x2
+  payment_mismatch         (('supported', 0.94), ('supported', 0.9)) x10
+  duplicate_charge         (('supported', 0.94), ('supported', 0.9)) x10
+  refund_pending           (('supported', 0.8), ('partially_supported', 0.6)) x10
+  refund_failed            (('supported', 0.94), ('supported', 0.9)) x10
+  unsupported_claim        (('supported', 0.94), ('unsupported', 0.85)) x10
+  canceled_order_paid      (('supported', 0.94), ('supported', 0.9)) x9
+  canceled_order_paid      (('supported', 0.72), ('supported', 0.9)) x1
+  unavailable_order_paid   (('supported', 0.94), ('supported', 0.9)) x10
+  late_delivery_seller     (('supported', 0.94), ('supported', 0.9)) x10
+
+=== J. cause codes ===
+Counter({'LOGISTICS_HANDOFF_LATE': 10, 'SPLIT_PAYMENT_RECONCILED': 10, 'PAYMENT_RECONCILIATION_MISMATCH': 10, 'DUPLICATE_CAPTURE': 10, 'REFUND_PENDING': 10, 'REFUND_FAILED': 10, 'NO_ANOMALY_FOUND': 10, 'CANCELED_ORDER_CAPTURED': 10, 'UNAVAILABLE_ORDER_CAPTURED': 10, 'SELLER_HANDOFF_LATE': 10})

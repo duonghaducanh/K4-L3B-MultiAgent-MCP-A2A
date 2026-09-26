@@ -1,0 +1,49 @@
+case  topic                  expected  current           purchase<=t       nearest           deliv|purchase<=t
+1                               16.00   16.00 OK          16.00 OK          16.00 OK          16.00 OK       
+2                               89.00   89.00 OK          89.00 OK          89.00 OK          89.00 OK       
+3                               35.00   35.00 OK          35.00 OK          35.00 OK          35.00 OK       
+4                              128.00  128.00 OK         128.00 OK         128.00 OK         128.00 OK       
+5                               89.00   89.00 OK          89.00 OK          89.00 OK          89.00 OK       
+6                               52.00   52.00 OK          52.00 OK          52.00 OK          52.00 OK       
+7                               89.00   89.00 OK          89.00 OK          89.00 OK          89.00 OK       
+8                               79.00   79.00 OK          79.00 OK          79.00 OK          79.00 OK       
+9                               89.00   89.00 OK          89.00 OK          89.00 OK          89.00 OK       
+10                              18.00   18.00 OK          18.00 OK          18.00 OK          18.00 OK       
+
+correct counts: current=10/10, purchase<=t=10/10, nearest=10/10, deliv|purchase<=t=10/10
+
+--- event detail ---
+1: rows purch=['2018-05-11', '2017-12-20']
+    2018-05-11T10:00:00-03:00 89.00 oth -> cur=oth le=oth
+    2017-12-20T10:00:00-03:00 16.00 TGT -> cur=TGT le=TGT
+2: rows purch=['2018-04-10', '2018-01-21']
+    2018-04-10T10:00:00-03:00 52.00 oth -> cur=oth le=oth
+    2018-01-21T10:00:00-03:00 44.50 TGT -> cur=TGT le=TGT
+    2018-01-21T11:00:00-03:00 44.50 TGT -> cur=TGT le=TGT
+3: rows purch=['2018-03-09', '2018-02-19']
+    2018-03-09T10:00:00-03:00 89.00 oth -> cur=oth le=oth
+    2018-02-19T10:00:00-03:00 35.00 TGT -> cur=TGT le=TGT
+4: rows purch=['2018-02-08', '2018-03-23']
+    2018-02-08T10:00:00-03:00 64.00 oth -> cur=oth le=oth
+    2018-02-08T11:00:00-03:00 64.00 oth -> cur=oth le=oth
+    2018-03-23T10:00:00-03:00 64.00 TGT -> cur=TGT le=TGT
+    2018-03-23T11:00:00-03:00 64.00 TGT -> cur=TGT le=TGT
+5: rows purch=['2018-01-07', '2018-04-23']
+    2018-01-07T10:00:00-03:00 35.00 oth -> cur=oth le=oth
+    2018-04-23T10:00:00-03:00 89.00 TGT -> cur=TGT le=TGT
+6: rows purch=['2018-09-06', '2018-05-25']
+    2018-09-06T10:00:00-03:00 44.50 oth -> cur=oth le=oth
+    2018-09-06T11:00:00-03:00 44.50 oth -> cur=oth le=oth
+    2018-05-25T10:00:00-03:00 52.00 TGT -> cur=TGT le=TGT
+7: rows purch=['2018-08-05', '2018-06-25']
+    2018-08-05T10:00:00-03:00 16.00 oth -> cur=oth le=oth
+    2018-06-25T10:00:00-03:00 89.00 TGT -> cur=TGT le=TGT
+8: rows purch=['2018-07-04', '2018-07-27']
+    2018-07-04T10:00:00-03:00 18.00 oth -> cur=oth le=oth
+    2018-07-27T10:00:00-03:00 79.00 TGT -> cur=TGT le=TGT
+9: rows purch=['2018-06-03', '2018-08-28']
+    2018-06-03T10:00:00-03:00 89.00 oth -> cur=oth le=oth
+    2018-08-28T10:00:00-03:00 89.00 TGT -> cur=TGT le=TGT
+10: rows purch=['2018-05-02', '2017-12-29']
+    2018-05-02T10:00:00-03:00 79.00 oth -> cur=oth le=oth
+    2017-12-29T10:00:00-03:00 18.00 TGT -> cur=TGT le=TGT

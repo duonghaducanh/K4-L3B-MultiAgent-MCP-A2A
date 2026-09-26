@@ -1,0 +1,70 @@
+==============================================================================
+L3B_CASE_001 topics=['late_delivery_logistics', 'requested_full_refund']
+  get_refund_timeline: is_error=True
+     text=Error executing tool get_refund_timeline
+  get_order_payments: is_error=False
+     data=[{"order_id": "af0bbb47f125381ce9f3597dc70ef07b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "af0bbb47f125381ce9f3597dc70ef07b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "16.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-af0bbb47f125", "product_id": "product-af0bbb47f125", "seller_id": "seller-af0bbb47f125", "product": {"product_id": "product-af0bbb47f125", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-af0bbb47f125", "product_id": "product-af0bbb47f125", "seller_id": "seller-af0bbb47f125", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-af0bbb47f125", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_002 topics=['valid_split_payment', 'requested_full_refund']
+  get_refund_timeline: is_error=False
+     data={"order_id": "5b9e9502eca103a28ea22a94c65e3950", "events": [{"order_id": "5b9e9502eca103a28ea22a94c65e3950", "event_at": "2018-04-21T09:00:00-03:00", "event_type": "refund_requested", "amount_brl": "52.00", "status": "failed"}]}
+  get_order_payments: is_error=False
+     data=[{"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "52.00"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "44.50"}, {"order_id": "5b9e9502eca103a28ea22a94c65e3950", "payment_sequential": "2
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-5b9e9502eca1", "product_id": "product-5b9e9502eca1", "seller_id": "seller-5b9e9502eca1", "product": {"product_id": "product-5b9e9502eca1", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-5b9e9502eca1", "product_id": "product-5b9e9502eca1", "seller_id": "seller-5b9e9502eca1", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-5b9e9502eca1", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_003 topics=['payment_mismatch', 'requested_full_refund']
+  get_refund_timeline: is_error=False
+     data={"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "events": [{"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "event_at": "2018-03-20T09:00:00-03:00", "event_type": "refund_requested", "amount_brl": "89.00", "status": "pending"}]}
+  get_order_payments: is_error=False
+     data=[{"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}, {"order_id": "adc253f1977c81c2c29dc7b9dd23d538", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-adc253f1977c", "product_id": "product-adc253f1977c", "seller_id": "seller-adc253f1977c", "product": {"product_id": "product-adc253f1977c", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-adc253f1977c", "product_id": "product-adc253f1977c", "seller_id": "seller-adc253f1977c", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-adc253f1977c", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_005 topics=['refund_pending', 'requested_full_refund']
+  get_refund_timeline: is_error=False
+     data={"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "events": [{"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "event_at": "2018-05-04T09:00:00-03:00", "event_type": "refund_requested", "amount_brl": "89.00", "status": "pending"}]}
+  get_order_payments: is_error=False
+     data=[{"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "35.00"}, {"order_id": "2208f3a59d7067fe62c900692f5fdcaf", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-2208f3a59d70", "product_id": "product-2208f3a59d70", "seller_id": "seller-2208f3a59d70", "product": {"product_id": "product-2208f3a59d70", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-2208f3a59d70", "product_id": "product-2208f3a59d70", "seller_id": "seller-2208f3a59d70", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-2208f3a59d70", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_007 topics=['unsupported_claim', 'requested_full_refund']
+  get_refund_timeline: is_error=True
+     text=Error executing tool get_refund_timeline
+  get_order_payments: is_error=False
+     data=[{"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "16.00"}, {"order_id": "d671370d11048a2dab56335d3d91823e", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "89.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-d671370d1104", "product_id": "product-d671370d1104", "seller_id": "seller-d671370d1104", "product": {"product_id": "product-d671370d1104", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-d671370d1104", "product_id": "product-d671370d1104", "seller_id": "seller-d671370d1104", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-d671370d1104", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_008 topics=['canceled_order_paid', 'requested_full_refund']
+  get_refund_timeline: is_error=True
+     text=Error executing tool get_refund_timeline
+  get_order_payments: is_error=False
+     data=[{"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}, {"order_id": "3ef6bcdda6193f8657168ba7e8b3e948", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-3ef6bcdda619", "product_id": "product-3ef6bcdda619", "seller_id": "seller-3ef6bcdda619", "product": {"product_id": "product-3ef6bcdda619", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-3ef6bcdda619", "product_id": "product-3ef6bcdda619", "seller_id": "seller-3ef6bcdda619", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-3ef6bcdda619", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]
+==============================================================================
+L3B_CASE_010 topics=['late_delivery_seller', 'requested_full_refund']
+  get_refund_timeline: is_error=True
+     text=Error executing tool get_refund_timeline
+  get_order_payments: is_error=False
+     data=[{"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "79.00"}, {"order_id": "64a8b3b4c19751b51d211deb32fdc67b", "payment_sequential": "1", "payment_type": "credit_card", "payment_installments": "1", "payment_value": "18.00"}]
+  get_product_context: is_error=False
+     data=[{"order_item_id": "item-64a8b3b4c197", "product_id": "product-64a8b3b4c197", "seller_id": "seller-64a8b3b4c197", "product": {"product_id": "product-64a8b3b4c197", "product_category_name": "utilidades_domesticas"}, "category_name_english": "housewares"}, {"order_item_id": "item-64a8b3b4c197", "product_id": "product-64a8b3b4c197", "seller_id": "seller-64a8b3b4c197", "product": {"product_id": "produ
+  get_sellers: is_error=False
+     data=[{"seller_id": "seller-64a8b3b4c197", "seller_zip_code_prefix": "01001", "seller_city": "sao_paulo", "seller_state": "SP"}]

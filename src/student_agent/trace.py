@@ -49,3 +49,28 @@ class TraceWriter:
         with self.path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n")
         return event
+
+    def checkpoint(self) -> int:
+        """Byte offset used to discard events from a failed case attempt."""
+        return self.path.stat().st_size if self.path.exists() else 0
+
+    def rollback(self, offset: int) -> None:
+        """Truncate back to a checkpoint so a retried case emits cleanly."""
+        if self.path.exists() and self.path.stat().st_size > offset:
+            with self.path.open("r+b") as handle:
+                handle.truncate(offset)
+
+    def drop_case(self, case_id: str) -> None:
+        """Remove every event of one case so it can be replayed without duplicates."""
+        if not self.path.exists():
+            return
+        kept: list[str] = []
+        for line in self.path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            if json.loads(line).get("case_id") == case_id:
+                continue
+            kept.append(line)
+        self.path.write_text(
+            "".join(f"{line}\n" for line in kept), encoding="utf-8"
+        )

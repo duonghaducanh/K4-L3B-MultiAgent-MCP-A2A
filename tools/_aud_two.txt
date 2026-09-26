@@ -1,0 +1,30 @@
+== L3B_CASE_012
+   4593   issue=valid_split_payment      status=no_action          cap=141.0   refble=52.0    rec=0.0    payv=reconciled       ship=on_time              nconf=1 conf=0.72
+   v1_88  issue=valid_split_payment      status=no_action          cap=141.0   refble=52.0    rec=0.0    payv=reconciled       ship=on_time              nconf=1 conf=0.72
+== L3B_CASE_039
+   4593   issue=unavailable_order_paid   status=action_required    cap=178.0   refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence nconf=0 conf=0.94
+   v1_88  issue=unavailable_order_paid   status=action_required    cap=178.0   refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence nconf=0 conf=0.94
+== L3B_CASE_062
+   4593   issue=valid_split_payment      status=no_action          cap=141.0   refble=52.0    rec=0.0    payv=reconciled       ship=on_time              nconf=1 conf=0.72
+   v1_88  (absent)
+== L3B_CASE_071
+   4593   issue=late_delivery_logistics  status=action_required    cap=89.0    refble=16.0    rec=16.0   payv=reconciled       ship=on_time              nconf=1 conf=0.72
+   v1_88  (absent)
+== L3B_CASE_089
+   4593   issue=unavailable_order_paid   status=action_required    cap=178.0   refble=89.0    rec=89.0   payv=reconciled       ship=insufficient_evidence nconf=0 conf=0.94
+   v1_88  (absent)
+== L3B_CASE_098
+   4593   issue=canceled_order_paid      status=action_required    cap=18.0    refble=79.0    rec=79.0   payv=reconciled       ship=conflicting          nconf=1 conf=0.72
+   v1_88  (absent)
+== L3B_CASE_002
+   4593   issue=valid_split_payment      status=no_action          cap=89.0    refble=0       rec=0.0    payv=reconciled       ship=on_time              nconf=1 conf=0.94
+   v1_88  issue=valid_split_payment      status=no_action          cap=89.0    refble=0       rec=0.0    payv=reconciled       ship=on_time              nconf=1 conf=0.94
+== L3B_CASE_001
+   4593   issue=late_delivery_logistics  status=action_required    cap=16.0    refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      nconf=1 conf=0.94
+   v1_88  issue=late_delivery_logistics  status=action_required    cap=16.0    refble=16.0    rec=16.0   payv=reconciled       ship=logistics_delay      nconf=1 conf=0.94
+== L3B_CASE_005
+   4593   issue=refund_pending           status=needs_investigation cap=89.0    refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              nconf=1 conf=0.8
+   v1_88  issue=refund_pending           status=needs_investigation cap=89.0    refble=89.0    rec=0.0    payv=refund_pending   ship=on_time              nconf=1 conf=0.8
+== L3B_CASE_008
+   4593   issue=canceled_order_paid      status=action_required    cap=79.0    refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence nconf=1 conf=0.94
+   v1_88  issue=canceled_order_paid      status=action_required    cap=79.0    refble=79.0    rec=79.0   payv=reconciled       ship=insufficient_evidence nconf=1 conf=0.94

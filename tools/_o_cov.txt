@@ -1,0 +1,19 @@
+cases missing refund domain: 60
+cases missing >1 domain: []
+cases missing exactly 1 domain: 60
+
+domain-set frequency:
+  missing=['refund']  n=60
+  missing=[]  n=40
+
+by issue, avg domains missing:
+  canceled_order_paid        1.00
+  duplicate_charge           1.00
+  late_delivery_logistics    1.00
+  late_delivery_seller       1.00
+  payment_mismatch           0.00
+  refund_failed              0.00
+  refund_pending             0.00
+  unavailable_order_paid     1.00
+  unsupported_claim          1.00
+  valid_split_payment        0.00

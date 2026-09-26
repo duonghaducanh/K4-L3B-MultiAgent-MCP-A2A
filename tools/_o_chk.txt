@@ -1,0 +1,11 @@
+cached cases: ['L3B_CASE_002', 'L3B_CASE_003', 'L3B_CASE_004', 'L3B_CASE_005', 'L3B_CASE_006', 'L3B_CASE_007', 'L3B_CASE_008', 'L3B_CASE_009', 'L3B_CASE_010']
+tools per case: {'L3B_CASE_002': ['candidate_get_order', 'candidates', 'claimed', 'get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_refund_timeline', 'get_shipment_summary'], 'L3B_CASE_003': ['candidate_get_order', 'candidates', 'claimed', 'get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_refund_timeline', 'get_shipment_summary']}
+
+CASE 010 output: late_delivery_seller
+  responsible: [{"party_type": "seller", "party_id": "seller-64a8b3b4c197"}]
+  affected sellers: ['seller-64a8b3b4c197']
+  refund lines: [{"reason_code": "late_delivery_seller", "amount_brl": 18.0, "entity_id": "seller-64a8b3b4c197"}]
+
+CASE 009 output: unavailable_order_paid
+  responsible: [{"party_type": "seller", "party_id": "seller-8a5fc33c79bf"}]
+  affected sellers: ['seller-8a5fc33c79bf']

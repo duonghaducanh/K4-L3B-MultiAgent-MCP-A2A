@@ -1,0 +1,10 @@
+refs mapped to tools: 840
+tool distribution over all consumed refs: [(None, 840)]
+outputs: 100
+claim evidence_refs size distribution: [(2, 60), (3, 40), (6, 60), (7, 40)]
+distinct claim ref-mixes: 4
+  x60   ((None, 6),)
+  x60   ((None, 2),)
+  x40   ((None, 7),)
+  x40   ((None, 3),)
+distinct refs per case: [(8, 60), (9, 40)]

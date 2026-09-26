@@ -1,0 +1,82 @@
+########## L3B_CASE_012
+  CALL get_customer_history     refs=1 attrs={"domain": "customer", "call_index": 1}
+  CALL get_order                refs=1 attrs={"domain": "order", "call_index": 2}
+  handoff                entity-agent       entity_resolved            {"history_orders": 2}
+  CALL get_order_items          refs=1 attrs={"domain": "item", "call_index": 3}
+  handoff                order-agent        order_context_ready        null
+  handoff                shipment-agent     delivery_timeline_ready    null
+  CALL get_payment_timeline     refs=1 attrs={"domain": "payment", "call_index": 4}
+  CALL get_refund_timeline      refs=1 attrs={"domain": "refund", "call_index": 5}
+  handoff                payment-agent      payment_lifecycle_ready    null
+  CALL get_policy               refs=1 attrs={"domain": "policy", "call_index": 6}
+  handoff                coordinator        specialists_complete       {"calls": 6}
+  policy_decided         conflict-resolver  valid_split_payment        {"selected_source": "get_customer_history"}
+  handoff                coordinator        ready_for_verification     null
+  verification_completed verifier           verification_downgraded    {"checks": 6, "passed": false, "calls": 6}
+  OUT primary=valid_split_payment conf=0.72 status=no_action
+  OUT payment={"verdict": "reconciled", "captured_total_brl": 141.0, "refunded_total_brl": 0, "refundable_total_brl": 52.0}
+  OUT shipment={"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+  OUT conflicts=[{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+  OUT financial={"currency": "BRL", "recommended_refund_brl": 0.0, "refund_lines": []}
+
+########## L3B_CASE_062
+  CALL get_customer_history     refs=1 attrs={"domain": "customer", "call_index": 1}
+  CALL get_order                refs=1 attrs={"domain": "order", "call_index": 2}
+  handoff                entity-agent       entity_resolved            {"history_orders": 2}
+  CALL get_order_items          refs=1 attrs={"domain": "item", "call_index": 3}
+  handoff                order-agent        order_context_ready        null
+  handoff                shipment-agent     delivery_timeline_ready    null
+  CALL get_payment_timeline     refs=1 attrs={"domain": "payment", "call_index": 4}
+  CALL get_refund_timeline      refs=1 attrs={"domain": "refund", "call_index": 5}
+  handoff                payment-agent      payment_lifecycle_ready    null
+  CALL get_policy               refs=1 attrs={"domain": "policy", "call_index": 6}
+  handoff                coordinator        specialists_complete       {"calls": 6}
+  policy_decided         conflict-resolver  valid_split_payment        {"selected_source": "get_customer_history"}
+  handoff                coordinator        ready_for_verification     null
+  verification_completed verifier           verification_downgraded    {"checks": 6, "passed": false, "calls": 6}
+  OUT primary=valid_split_payment conf=0.72 status=no_action
+  OUT payment={"verdict": "reconciled", "captured_total_brl": 141.0, "refunded_total_brl": 0, "refundable_total_brl": 52.0}
+  OUT shipment={"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+  OUT conflicts=[{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+  OUT financial={"currency": "BRL", "recommended_refund_brl": 0.0, "refund_lines": []}
+
+########## L3B_CASE_071
+  CALL get_customer_history     refs=1 attrs={"domain": "customer", "call_index": 1}
+  CALL get_order                refs=1 attrs={"domain": "order", "call_index": 2}
+  handoff                entity-agent       entity_resolved            {"history_orders": 2}
+  CALL get_order_items          refs=1 attrs={"domain": "item", "call_index": 3}
+  handoff                order-agent        order_context_ready        null
+  handoff                shipment-agent     delivery_timeline_ready    null
+  CALL get_payment_timeline     refs=1 attrs={"domain": "payment", "call_index": 4}
+  handoff                payment-agent      payment_lifecycle_ready    null
+  CALL get_policy               refs=1 attrs={"domain": "policy", "call_index": 5}
+  handoff                coordinator        specialists_complete       {"calls": 5}
+  policy_decided         conflict-resolver  late_delivery_logistics    {"selected_source": "get_customer_history"}
+  handoff                coordinator        ready_for_verification     null
+  verification_completed verifier           verification_downgraded    {"checks": 6, "passed": false, "calls": 5}
+  OUT primary=late_delivery_logistics conf=0.72 status=action_required
+  OUT payment={"verdict": "reconciled", "captured_total_brl": 89.0, "refunded_total_brl": 0, "refundable_total_brl": 16.0}
+  OUT shipment={"verdict": "on_time", "late_seller_ids": [], "timeline_complete": true}
+  OUT conflicts=[{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+  OUT financial={"currency": "BRL", "recommended_refund_brl": 16.0, "refund_lines": [{"reason_code": "late_delivery_logistics", "amount_brl": 16.0, "entity_id": null}]}
+
+########## L3B_CASE_098
+  CALL get_customer_history     refs=1 attrs={"domain": "customer", "call_index": 1}
+  CALL get_order                refs=1 attrs={"domain": "order", "call_index": 2}
+  handoff                entity-agent       entity_resolved            {"history_orders": 2}
+  CALL get_order_items          refs=1 attrs={"domain": "item", "call_index": 3}
+  handoff                order-agent        order_context_ready        null
+  CALL get_shipment_summary     refs=1 attrs={"domain": "shipment", "call_index": 4}
+  handoff                shipment-agent     delivery_timeline_ready    null
+  CALL get_payment_timeline     refs=1 attrs={"domain": "payment", "call_index": 5}
+  handoff                payment-agent      payment_lifecycle_ready    null
+  CALL get_policy               refs=1 attrs={"domain": "policy", "call_index": 6}
+  handoff                coordinator        specialists_complete       {"calls": 6}
+  policy_decided         conflict-resolver  canceled_order_paid        {"selected_source": "get_customer_history"}
+  handoff                coordinator        ready_for_verification     null
+  verification_completed verifier           verification_downgraded    {"checks": 6, "passed": false, "calls": 6}
+  OUT primary=canceled_order_paid conf=0.72 status=action_required
+  OUT payment={"verdict": "reconciled", "captured_total_brl": 18.0, "refunded_total_brl": 0, "refundable_total_brl": 79.0}
+  OUT shipment={"verdict": "conflicting", "late_seller_ids": [], "timeline_complete": true}
+  OUT conflicts=[{"field": "assessment.primary_issue", "sources": ["customer_request.claims", "mcp_evidence_signature"], "selected_source": "customer_request.claims", "resolution_code": "policy_rule_precedence"}]
+  OUT financial={"currency": "BRL", "recommended_refund_brl": 79.0, "refund_lines": [{"reason_code": "canceled_order_paid", "amount_brl": 79.0, "entity_id": null}]}

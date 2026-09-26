@@ -1,0 +1,93 @@
+scored=100 current=100
+
+=== per-field differences (scored -> current) ===
+
+-- assessment.primary_issue : 0 diffs
+
+-- assessment.case_status : 0 diffs
+
+-- assessment.confidence : 0 diffs
+
+-- payment.verdict : 0 diffs
+
+-- payment.captured : 0 diffs
+
+-- payment.refunded : 0 diffs
+
+-- payment.refundable : 0 diffs
+
+-- ship.verdict : 0 diffs
+
+-- ship.late_seller_ids : 0 diffs
+
+-- ship.timeline_complete : 0 diffs
+
+-- fin.rec : 0 diffs
+
+-- fin.nlines : 0 diffs
+
+-- fin.line_entity : 0 diffs
+
+-- ent.order_ids : 0 diffs
+
+-- ent.item_ids : 0 diffs
+
+-- ent.seller_ids : 0 diffs
+
+-- ent.payment_refs : 0 diffs
+
+-- ent.shipment_ids : 100 diffs
+     L3B_CASE_001  scored=["af0bbb47f125381ce9f3597dc70ef07b"]  current=[]
+     L3B_CASE_002  scored=["5b9e9502eca103a28ea22a94c65e3950"]  current=[]
+     L3B_CASE_003  scored=["adc253f1977c81c2c29dc7b9dd23d538"]  current=[]
+     L3B_CASE_004  scored=["b04477ada8d2ad7fa9d95358baaa785d"]  current=[]
+     L3B_CASE_005  scored=["2208f3a59d7067fe62c900692f5fdcaf"]  current=[]
+     L3B_CASE_006  scored=["d67b79fea59821fda4d363d337a56c3a"]  current=[]
+     L3B_CASE_007  scored=["d671370d11048a2dab56335d3d91823e"]  current=[]
+     L3B_CASE_008  scored=["3ef6bcdda6193f8657168ba7e8b3e948"]  current=[]
+     L3B_CASE_009  scored=["8a5fc33c79bf3f4d9bbcc3dceb6b67c4"]  current=[]
+     L3B_CASE_010  scored=["64a8b3b4c19751b51d211deb32fdc67b"]  current=[]
+     L3B_CASE_011  scored=["11bc240af3d9e1f77218715480a65b77"]  current=[]
+     L3B_CASE_012  scored=["44a03ff139461361ec4cce7949663c2f"]  current=[]
+     L3B_CASE_013  scored=["6b27933c6a46e3d66203137ad1fdb678"]  current=[]
+     L3B_CASE_014  scored=["b90e46cdc30adec2f0fa041984341170"]  current=[]
+     ... 86 more
+
+-- n_evidence_refs : 100 diffs
+     L3B_CASE_001  scored=8  current=6
+     L3B_CASE_002  scored=9  current=6
+     L3B_CASE_003  scored=9  current=6
+     L3B_CASE_004  scored=8  current=5
+     L3B_CASE_005  scored=9  current=6
+     L3B_CASE_006  scored=9  current=6
+     L3B_CASE_007  scored=8  current=5
+     L3B_CASE_008  scored=8  current=5
+     L3B_CASE_009  scored=8  current=5
+     L3B_CASE_010  scored=8  current=6
+     L3B_CASE_011  scored=8  current=6
+     L3B_CASE_012  scored=9  current=6
+     L3B_CASE_013  scored=9  current=6
+     L3B_CASE_014  scored=8  current=5
+     ... 86 more
+
+-- n_conflicts : 0 diffs
+
+-- n_claims : 0 diffs
+
+-- claim_verdicts : 0 diffs
+
+-- cause_codes : 0 diffs
+
+-- parties : 0 diffs
+
+-- actions : 0 diffs
+
+-- secondary : 0 diffs
+
+-- rejected : 0 diffs
+
+-- related : 0 diffs
+
+=== current trace tool usage ===
+cases=100 total=560 avg=5.60 dist={5: 40, 6: 60}
+toolset counts: {('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_shipment_summary'): 20, ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy', 'get_refund_timeline'): 40, ('get_customer_history', 'get_order', 'get_order_items', 'get_payment_timeline', 'get_policy'): 40}

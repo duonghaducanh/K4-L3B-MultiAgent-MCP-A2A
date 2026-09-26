@@ -1,0 +1,135 @@
+topic cycle mismatch: []
+issue != topic: []
+status counts: Counter({'action_required': 29, 'no_action': 9, 'needs_investigation': 4})
+verdict counts: Counter({'reconciled': 26, 'capture_mismatch': 4, 'duplicate_capture': 4, 'refund_pending': 4, 'refund_failed': 4})
+ship counts: Counter({'on_time': 25, 'insufficient_evidence': 8, 'logistics_delay': 5, 'seller_delay': 4})
+cause counts: Counter({'LOGISTICS_HANDOFF_LATE': 5, 'SPLIT_PAYMENT_RECONCILED': 5, 'PAYMENT_RECONCILIATION_MISMATCH': 4, 'DUPLICATE_CAPTURE': 4, 'REFUND_PENDING': 4, 'REFUND_FAILED': 4, 'NO_ANOMALY_FOUND': 4, 'CANCELED_ORDER_CAPTURED': 4, 'UNAVAILABLE_ORDER_CAPTURED': 4, 'SELLER_HANDOFF_LATE': 4})
+conf counts: Counter({1: 41, 0: 1})
+cases with 0 conflicts: [('L3B_CASE_039', 'unavailable_order_paid', 'unavailable_order_paid')]
+rec refund counts: Counter({0.0: 13, 16.0: 5, 35.0: 4, 64.0: 4, 52.0: 4, 79.0: 4, 89.0: 4, 18.0: 4})
+refundable counts: Counter({0: 8, 89.0: 8, 16.0: 5, 52.0: 5, 35.0: 4, 64.0: 4, 79.0: 4, 18.0: 4})
+conf counts: Counter({0.94: 37, 0.8: 4, 0.72: 1})
+nrefs: Counter({7: 25, 8: 17})
+related len: Counter({1: 42})
+related == [claimed]? True
+
+--- refundable != rec (should be 0 vs pending) ---
+  L3B_CASE_005 topic=refund_pending rec=0.0 refundable=89.0 verdict=refund_pending
+  L3B_CASE_012 topic=valid_split_payment rec=0.0 refundable=52.0 verdict=reconciled
+  L3B_CASE_015 topic=refund_pending rec=0.0 refundable=89.0 verdict=refund_pending
+  L3B_CASE_025 topic=refund_pending rec=0.0 refundable=89.0 verdict=refund_pending
+  L3B_CASE_035 topic=refund_pending rec=0.0 refundable=89.0 verdict=refund_pending
+
+--- refund_lines entity_id by topic ---
+  L3B_CASE_001 topic=late_delivery_logistics amt=16.0 entity_id=None
+  L3B_CASE_003 topic=payment_mismatch amt=35.0 entity_id=None
+  L3B_CASE_004 topic=duplicate_charge amt=64.0 entity_id=None
+  L3B_CASE_006 topic=refund_failed amt=52.0 entity_id=None
+  L3B_CASE_008 topic=canceled_order_paid amt=79.0 entity_id=None
+  L3B_CASE_009 topic=unavailable_order_paid amt=89.0 entity_id=seller-8a5fc33c79bf
+  L3B_CASE_010 topic=late_delivery_seller amt=18.0 entity_id=seller-64a8b3b4c197
+  L3B_CASE_011 topic=late_delivery_logistics amt=16.0 entity_id=None
+  L3B_CASE_013 topic=payment_mismatch amt=35.0 entity_id=None
+  L3B_CASE_014 topic=duplicate_charge amt=64.0 entity_id=None
+  L3B_CASE_016 topic=refund_failed amt=52.0 entity_id=None
+  L3B_CASE_018 topic=canceled_order_paid amt=79.0 entity_id=None
+  L3B_CASE_019 topic=unavailable_order_paid amt=89.0 entity_id=seller-c4dad201936e
+  L3B_CASE_020 topic=late_delivery_seller amt=18.0 entity_id=seller-4274ff4a5df6
+  L3B_CASE_021 topic=late_delivery_logistics amt=16.0 entity_id=None
+  L3B_CASE_023 topic=payment_mismatch amt=35.0 entity_id=None
+  L3B_CASE_024 topic=duplicate_charge amt=64.0 entity_id=None
+  L3B_CASE_026 topic=refund_failed amt=52.0 entity_id=None
+  L3B_CASE_028 topic=canceled_order_paid amt=79.0 entity_id=None
+  L3B_CASE_029 topic=unavailable_order_paid amt=89.0 entity_id=seller-1f7565efbb90
+  L3B_CASE_030 topic=late_delivery_seller amt=18.0 entity_id=seller-13d341318c77
+  L3B_CASE_031 topic=late_delivery_logistics amt=16.0 entity_id=None
+  L3B_CASE_033 topic=payment_mismatch amt=35.0 entity_id=None
+  L3B_CASE_034 topic=duplicate_charge amt=64.0 entity_id=None
+  L3B_CASE_036 topic=refund_failed amt=52.0 entity_id=None
+  L3B_CASE_038 topic=canceled_order_paid amt=79.0 entity_id=None
+  L3B_CASE_039 topic=unavailable_order_paid amt=89.0 entity_id=seller-103de323ece5
+  L3B_CASE_040 topic=late_delivery_seller amt=18.0 entity_id=seller-2636a02ee7de
+  L3B_CASE_041 topic=late_delivery_logistics amt=16.0 entity_id=None
+
+--- all refund_lines ---
+  ('canceled_order_paid', None, 'canceled_order_paid') x4
+  ('duplicate_charge', None, 'duplicate_charge') x4
+  ('late_delivery_logistics', None, 'late_delivery_logistics') x5
+  ('late_delivery_seller', 'seller-13d341318c77', 'late_delivery_seller') x1
+  ('late_delivery_seller', 'seller-2636a02ee7de', 'late_delivery_seller') x1
+  ('late_delivery_seller', 'seller-4274ff4a5df6', 'late_delivery_seller') x1
+  ('late_delivery_seller', 'seller-64a8b3b4c197', 'late_delivery_seller') x1
+  ('payment_mismatch', None, 'payment_mismatch') x4
+  ('refund_failed', None, 'refund_failed') x4
+  ('refund_pending', None, None) x4
+  ('unavailable_order_paid', 'seller-103de323ece5', 'unavailable_order_paid') x1
+  ('unavailable_order_paid', 'seller-1f7565efbb90', 'unavailable_order_paid') x1
+  ('unavailable_order_paid', 'seller-8a5fc33c79bf', 'unavailable_order_paid') x1
+  ('unavailable_order_paid', 'seller-c4dad201936e', 'unavailable_order_paid') x1
+  ('unsupported_claim', None, None) x4
+  ('valid_split_payment', None, None) x5
+
+--- secondary_issues ---
+Counter({('requested_full_refund',): 42})
+
+--- actions ---
+Counter({('refund_freight',): 9, ('document_no_action',): 9, ('issue_refund',): 8, ('reconcile_payment',): 4, ('refund_duplicate_charge',): 4, ('monitor_refund',): 4, ('retry_refund',): 4})
+
+--- parties by topic ---
+  ('canceled_order_paid', (('platform', None),)) x4
+  ('duplicate_charge', (('payment_provider', None),)) x4
+  ('late_delivery_logistics', (('logistics_provider', None),)) x5
+  ('late_delivery_seller', (('seller', 'seller-13d341318c77'),)) x1
+  ('late_delivery_seller', (('seller', 'seller-2636a02ee7de'),)) x1
+  ('late_delivery_seller', (('seller', 'seller-4274ff4a5df6'),)) x1
+  ('late_delivery_seller', (('seller', 'seller-64a8b3b4c197'),)) x1
+  ('payment_mismatch', (('payment_provider', None),)) x4
+  ('refund_failed', (('payment_provider', None),)) x4
+  ('refund_pending', (('payment_provider', None),)) x4
+  ('unavailable_order_paid', (('seller', 'seller-103de323ece5'),)) x1
+  ('unavailable_order_paid', (('seller', 'seller-1f7565efbb90'),)) x1
+  ('unavailable_order_paid', (('seller', 'seller-8a5fc33c79bf'),)) x1
+  ('unavailable_order_paid', (('seller', 'seller-c4dad201936e'),)) x1
+  ('unsupported_claim', (('customer', None),)) x4
+  ('valid_split_payment', (('customer', None),)) x5
+
+--- claim verdicts by topic ---
+  ('canceled_order_paid', (('supported', 0.94), ('supported', 0.9))) x4
+  ('duplicate_charge', (('supported', 0.94), ('supported', 0.9))) x4
+  ('late_delivery_logistics', (('supported', 0.94), ('supported', 0.9))) x5
+  ('late_delivery_seller', (('supported', 0.94), ('supported', 0.9))) x4
+  ('payment_mismatch', (('supported', 0.94), ('supported', 0.9))) x4
+  ('refund_failed', (('supported', 0.94), ('supported', 0.9))) x4
+  ('refund_pending', (('supported', 0.8), ('partially_supported', 0.6))) x4
+  ('unavailable_order_paid', (('supported', 0.94), ('supported', 0.9))) x4
+  ('unsupported_claim', (('supported', 0.94), ('unsupported', 0.85))) x4
+  ('valid_split_payment', (('supported', 0.72), ('unsupported', 0.85))) x1
+  ('valid_split_payment', (('supported', 0.94), ('unsupported', 0.85))) x4
+
+--- payment refs / item ids / sellers sample ---
+  L3B_CASE_001 items=['item-af0bbb47f125'] sellers=['seller-af0bbb47f125'] payrefs=['1'] ship=['af0bbb47f125381ce9f3597dc70ef07b']
+  L3B_CASE_002 items=['item-5b9e9502eca1'] sellers=['seller-5b9e9502eca1'] payrefs=['1', '2'] ship=['5b9e9502eca103a28ea22a94c65e3950']
+  L3B_CASE_003 items=['item-adc253f1977c'] sellers=['seller-adc253f1977c'] payrefs=['1'] ship=['adc253f1977c81c2c29dc7b9dd23d538']
+  L3B_CASE_004 items=['item-b04477ada8d2'] sellers=['seller-b04477ada8d2'] payrefs=['1', '2'] ship=['b04477ada8d2ad7fa9d95358baaa785d']
+  L3B_CASE_005 items=['item-2208f3a59d70'] sellers=['seller-2208f3a59d70'] payrefs=['1'] ship=['2208f3a59d7067fe62c900692f5fdcaf']
+  L3B_CASE_006 items=['item-d67b79fea598'] sellers=['seller-d67b79fea598'] payrefs=['1', '2'] ship=['d67b79fea59821fda4d363d337a56c3a']
+  L3B_CASE_007 items=['item-d671370d1104'] sellers=['seller-d671370d1104'] payrefs=['1'] ship=['d671370d11048a2dab56335d3d91823e']
+  L3B_CASE_008 items=['item-3ef6bcdda619'] sellers=['seller-3ef6bcdda619'] payrefs=['1'] ship=['3ef6bcdda6193f8657168ba7e8b3e948']
+  L3B_CASE_009 items=['item-8a5fc33c79bf'] sellers=['seller-8a5fc33c79bf'] payrefs=['1'] ship=['8a5fc33c79bf3f4d9bbcc3dceb6b67c4']
+  L3B_CASE_010 items=['item-64a8b3b4c197'] sellers=['seller-64a8b3b4c197'] payrefs=['1'] ship=['64a8b3b4c19751b51d211deb32fdc67b']
+  L3B_CASE_011 items=['item-11bc240af3d9'] sellers=['seller-11bc240af3d9'] payrefs=['1'] ship=['11bc240af3d9e1f77218715480a65b77']
+  L3B_CASE_012 items=['item-44a03ff13946'] sellers=['seller-44a03ff13946'] payrefs=['1', '2'] ship=['44a03ff139461361ec4cce7949663c2f']
+  L3B_CASE_013 items=['item-6b27933c6a46'] sellers=['seller-6b27933c6a46'] payrefs=['1'] ship=['6b27933c6a46e3d66203137ad1fdb678']
+  L3B_CASE_014 items=['item-b90e46cdc30a'] sellers=['seller-b90e46cdc30a'] payrefs=['1', '2'] ship=['b90e46cdc30adec2f0fa041984341170']
+  L3B_CASE_015 items=['item-c609f82bcf7a'] sellers=['seller-c609f82bcf7a'] payrefs=['1'] ship=['c609f82bcf7a90292a5940205ebd7e93']
+  L3B_CASE_016 items=['item-2478ddd1d139'] sellers=['seller-2478ddd1d139'] payrefs=['1', '2'] ship=['2478ddd1d1395639b71cf0d498d8dbf6']
+  L3B_CASE_017 items=['item-973acef56bf7'] sellers=['seller-973acef56bf7'] payrefs=['1'] ship=['973acef56bf70feefa8264d4e9f300fc']
+  L3B_CASE_018 items=['item-a5c8f3a11dcb'] sellers=['seller-a5c8f3a11dcb'] payrefs=['1'] ship=['a5c8f3a11dcb9bd9b0acdfb8101dfdc8']
+  L3B_CASE_019 items=['item-c4dad201936e'] sellers=['seller-c4dad201936e'] payrefs=['1'] ship=['c4dad201936ed30eef3c94fafa59ed6e']
+  L3B_CASE_020 items=['item-4274ff4a5df6'] sellers=['seller-4274ff4a5df6'] payrefs=['1'] ship=['4274ff4a5df607e75b32b80e2f8eda3f']
+
+--- late_seller_ids nonempty ---
+  L3B_CASE_010 topic=late_delivery_seller latesell=['seller-64a8b3b4c197'] ship=seller_delay
+  L3B_CASE_020 topic=late_delivery_seller latesell=['seller-4274ff4a5df6'] ship=seller_delay
+  L3B_CASE_030 topic=late_delivery_seller latesell=['seller-13d341318c77'] ship=seller_delay
+  L3B_CASE_040 topic=late_delivery_seller latesell=['seller-2636a02ee7de'] ship=seller_delay

@@ -1,0 +1,4 @@
+isError: True
+structuredContent: None
+meta: None
+block type: TextContent | 'Error executing tool get_order'
